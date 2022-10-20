@@ -1,0 +1,446 @@
+﻿ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="~/css/home/style.css">
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                  
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#featured" class="nav__link">Featured</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#products" class="nav__link">Products</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#new" class="nav__link">New</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class='bx bx-x' ></i>
+                    </div>
+                </div>
+
+                <div class="nav__btns">
+                    <!-- Theme change button -->
+                    <i class='bx bx-moon change-theme' id="theme-button"></i>
+
+                    <div class="nav__shop" id="cart-shop">
+                        <i class='bx bx-shopping-bag' ></i>
+                    </div>
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class='bx bx-grid-alt' ></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!--==================== CART ====================-->
+        <div class="cart" id="cart">
+            <i class='bx bx-x cart__close' id="cart-close"></i>
+
+            <h2 class="cart__title-center">My Cart</h2>
+
+            <div class="cart__container">
+                <article class="cart__card">
+                    <div class="cart__box">
+                    <img src="image/home/featured1.png" alt="" class="cart__img">
+                    </div>
+
+                    <div class="cart__details">
+                        <h3 class="cart__title">Jazzmaster</h3>
+                        <span class="cart__price">$1050</span>
+
+                        <div class="cart__amount">
+                            <div class="cart__amount-content">
+                                <span class="cart__amount-box">
+                                    <i class='bx bx-minus' ></i>
+                                </span>
+
+                                <span class="cart__amount-number">1</span>
+
+                                <span class="cart__amount-box">
+                                    <i class='bx bx-plus' ></i>
+                                </span>
+                            </div>
+
+                            <i class='bx bx-trash-alt cart__amount-trash' ></i>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="cart__card">
+                    <div class="cart__box">
+                    <img src="image/home/featured3.png" alt="" class="cart__img">
+                    </div>
+
+                    <div class="cart__details">
+                        <h3 class="cart__title">Rose Gold</h3>
+                        <span class="cart__price">$850</span>
+
+                        <div class="cart__amount">
+                            <div class="cart__amount-content">
+                                <span class="cart__amount-box">
+                                    <i class='bx bx-minus' ></i>
+                                </span>
+
+                                <span class="cart__amount-number">1</span>
+
+                                <span class="cart__amount-box">
+                                    <i class='bx bx-plus' ></i>
+                                </span>
+                            </div>
+
+                            <i class='bx bx-trash-alt cart__amount-trash' ></i>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="cart__card">
+                    <div class="cart__box">
+                    <img src="image/home/new1.png" alt="" class="cart__img">
+                    </div>
+
+                    <div class="cart__details">
+                        <h3 class="cart__title">Longines Rose</h3>
+                        <span class="cart__price">$980</span>
+
+                        <div class="cart__amount">
+                            <div class="cart__amount-content">
+                                <span class="cart__amount-box">
+                                    <i class='bx bx-minus' ></i>
+                                </span>
+
+                                <span class="cart__amount-number">1</span>
+
+                                <span class="cart__amount-box">
+                                    <i class='bx bx-plus' ></i>
+                                </span>
+                            </div>
+
+                            <i class='bx bx-trash-alt cart__amount-trash' ></i>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+            <div class="cart__prices">
+                <span class="cart__prices-item">3 items</span>
+                <span class="cart__prices-total">$2880</span>
+            </div>
+        </div>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home" id="home">
+                <div class="home__container container grid">
+                    <div class="home__img-bg">
+                    <img src="image/home/corei9.jpg" alt="" class="home__img">
+                    </div>
+
+                    <div class="home__social">
+                        <a href="https://www.facebook.com/" target="_blank" class="home__social-link">
+                            Facebook
+                        </a>
+                        <a href="https://twitter.com/" target="_blank" class="home__social-link">
+                            Twitter
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" class="home__social-link">
+                            Instagram
+                        </a>
+                    </div>
+
+                    <div class="home__data">
+                    <h1 class="home__title">Introducing Our New 13th Gen Intel® Core™ Processor <br> </h1>
+                        <p class="home__description">
+                        Do more with the fastest chip we’ve ever built. Ascend leaderboards, create worlds, and crunch numbers—all at once. Get next-generation performance for everything you do with the 13th Gen Intel Core processors.
+                        </p>
+                        <span class="home__price">$1234</span>
+
+                        <div class="home__btns">
+                            <a href="#" class="button button--gray button--small">
+                                Discover
+                            </a>
+
+                            <button class="button home__button">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== category ====================-->
+            <section class="featured section container" id="featured">
+                <h2 class="section__title">
+                    Category
+                </h2>
+
+                <div class="featured__container grid">
+                <article class="featured__card">
+
+                    <img src="image/home/monitor.jpg" alt="" class="featured__img">
+
+                    <div class="featured__data">
+                        <h3 class="featured__title">Monitor</h3>
+                        <span class="featured__price"></span>
+                    </div>
+
+                    <button class="button featured__button">DISCOVER</button>
+                </article>
+
+                    <article class="featured__card">
+                       
+
+                    <img src="image/home/mouse1.jpg"class="featured__img">
+
+                        <div class="featured__data">
+                            <h3 class="featured__title">Mouse</h3>
+                            <span class="featured__price"></span>
+                        </div>
+
+                        <button class="button featured__button">DISCOVER</button>
+                    </article>
+
+                    <article class="featured__card">
+
+                    <img src="image/home/mainboard.jpg" alt="" class="featured__img">
+
+                        <div class="featured__data">
+                            <h3 class="featured__title">Mainboard</h3>
+                            <span class="featured__price"></span>
+                        </div>
+
+                        <button class="button featured__button">DISCOVER</button>
+                    </article>
+
+                <article class="featured__card">
+
+                    <img src="image/home/headphone.jpg" alt="" class="featured__img">
+
+                    <div class="featured__data">
+                        <h3 class="featured__title">Headphone</h3>
+                        <span class="featured__price"></span>
+                    </div>
+
+                    <button class="button featured__button">DISCOVER</button>
+                </article>
+
+                    <article class="featured__card">
+                        
+
+                    <img src="image/home/ram.jpg " class="featured__img">
+
+                        <div class="featured__data">
+                            <h3 class="featured__title">Ram </h3>
+                            <span class="featured__price"></span>
+                        </div>
+
+                        <button class="button featured__button">DISCOVER </button>
+                    </article>
+
+                    <article class="featured__card">
+                      
+
+                    <img src="image/home/keyboard.jpg" class="featured__img">
+
+                        <div class="featured__data">
+                            <h3 class="featured__title">Keyboard </h3>
+                            <span class="featured__price"></span>
+                        </div>
+
+                        <button class="button featured__button">DISCOVER </button>
+                    </article>
+                </div>
+            </section>
+
+    
+
+            <!--====================PRODUCT HOT DEAL =========-->
+            <section class="products section container" id="products">
+                <h2 class="section__title">
+                    Hot deal
+                </h2>
+
+                <div class="products__container grid">
+                    <article class="products__card">
+                    <img src="image/home/product11.png" alt="" class="products__img">
+
+                    <h3 class="products__title">Bàn phím cơ có dây Corsair K60 PRO</h3>
+                        <span class="products__price">2.000.515 VND</span>
+
+                        <button class="products__button">
+                            <i class='bx bx-shopping-bag'></i>
+                        </button>
+                    </article>
+
+                    <article class="products__card">
+                    <img src="image/home/product11.png" alt="" class="products__img">
+
+                    <h3 class="products__title">Bàn phím cơ có dây Corsair K60 PRO</h3>
+                        <span class="products__price">2.000.515 VND</span>
+
+                        <button class="products__button">
+                            <i class='bx bx-shopping-bag'></i>
+                        </button>
+                    </article>
+
+                    <article class="products__card">
+                    <img src="image/home/product11.png" alt="" class="products__img">
+
+                    <h3 class="products__title">Bàn phím cơ có dây Corsair K60 PRO</h3>
+                        <span class="products__price">2.000.515 VND</span>
+
+                        <button class="products__button">
+                            <i class='bx bx-shopping-bag'></i>
+                        </button>
+                    </article>
+                <article class="products__card">
+                    <img src="image/home/product11.png" alt="" class="products__img">
+
+                    <h3 class="products__title">Bàn phím cơ có dây Corsair K60 PRO</h3>
+                    <span class="products__price">2.000.515 VND</span>
+
+                    <button class="products__button">
+                        <i class='bx bx-shopping-bag'></i>
+                    </button>
+                </article>
+                <article class="products__card">
+                    <img src="image/home/product11.png" alt="" class="products__img">
+
+                    <h3 class="products__title">Bàn phím cơ có dây Corsair K60 PRO</h3>
+                    <span class="products__price">2.000.515 VND</span>
+
+                    <button class="products__button">
+                        <i class='bx bx-shopping-bag'></i>
+                    </button>
+                </article>
+                <article class="products__card">
+                    <img src="image/home/product11.png" alt="" class="products__img">
+
+                    <h3 class="products__title">Bàn phím cơ có dây Corsair K60 PRO</h3>
+                    <span class="products__price">2.000.515 VND</span>
+
+                    <button class="products__button">
+                        <i class='bx bx-shopping-bag'></i>
+                    </button>
+                </article>
+
+
+                   
+                </div>
+            </section>
+
+          
+
+            <!--==================== NEWSLETTER ====================-->
+            <section class="newsletter section container">
+                <div class="newsletter__bg grid">
+                    <div>
+                        <h2 class="newsletter__title">Subscribe Our <br> Newsletter</h2>
+                        <p class="newsletter__description">
+                            Don't miss out on your discounts. Subscribe to our email 
+                            newsletter to get the best offers, discounts, coupons, 
+                            gifts and much more.
+                        </p>
+                    </div>
+
+                    <form action="" class="newsletter__subscribe">
+                        <input type="email" placeholder="Enter your email" class="newsletter__input">
+                        <button class="button">
+                            SUBSCRIBE
+                        </button>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div class="footer__content">
+                    <h3 class="footer__title">Our information</h3>
+
+                    <ul class="footer__list">
+                        <li>279 Nguyen Tri Phuong</li>
+                        <li>Sinh Vien: Trinh Quoc Thang</li>
+                        <li>123-456-789</li>
+                    </ul>
+                </div>
+                <div class="footer__content">
+                    <h3 class="footer__title">About Us</h3>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">Support Center</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Customer Support</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Copy Right</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Product</h3>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">Ram</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Headphone</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Monitor</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">CPU</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Social</h3>
+
+                    <ul class="footer__social">
+                        <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+                            <i class='bx bxl-facebook'></i>
+                        </a>
+
+                        <a href="https://twitter.com/" target="_blank" class="footer__social-link">
+                            <i class='bx bxl-twitter' ></i>
+                        </a>
+
+                        <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+                            <i class='bx bxl-instagram' ></i>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+
+           
+        </footer>
+    </body>
+</html>
