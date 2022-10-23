@@ -1,4 +1,5 @@
 ﻿using Accessories.Domain.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -8,7 +9,8 @@ using System.Threading.Tasks;
 
 namespace Accessories.Data.Context
 {
-    public class AccessoriesDbContext : DbContext
+    public class AccessoriesDbContext : IdentityDbContext<UserEntity>
+
     {
         public AccessoriesDbContext(DbContextOptions<AccessoriesDbContext> options) : base(options)
         {

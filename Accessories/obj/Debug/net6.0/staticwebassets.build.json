@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Cf8zHvQHa8CJ883cjBf5xqYvj/6ZXHkOtiygVsM32tk=",
+  "Hash": "TC4Cr30SOkaPQaTO8UUTdmm9TsOAkEA09SJdN/WE9Ww=",
   "Source": "Accessories",
   "BasePath": "_content/Accessories",
   "Mode": "Default",
@@ -1122,6 +1122,23 @@
       "OriginalItemSpec": "wwwroot\\css\\login\\style.css"
     },
     {
+      "Identity": "C:\\Users\\TrinhDat\\Downloads\\Accessories\\Accessories\\Accessories\\Accessories\\wwwroot\\css\\Productdetail\\style.css",
+      "SourceId": "Accessories",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Downloads\\Accessories\\Accessories\\Accessories\\Accessories\\wwwroot\\",
+      "BasePath": "_content/Accessories",
+      "RelativePath": "css/Productdetail/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Productdetail\\style.css"
+    },
+    {
       "Identity": "C:\\Users\\TrinhDat\\Downloads\\Accessories\\Accessories\\Accessories\\Accessories\\wwwroot\\css\\site.css",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
@@ -1613,6 +1630,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\image\\home\\testimonial3.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\TrinhDat\\Downloads\\Accessories\\Accessories\\Accessories\\Accessories\\wwwroot\\js\\login\\jquery.min.js",
+      "SourceId": "Accessories",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Downloads\\Accessories\\Accessories\\Accessories\\Accessories\\wwwroot\\",
+      "BasePath": "_content/Accessories",
+      "RelativePath": "js/login/jquery.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\login\\jquery.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\TrinhDat\\Downloads\\Accessories\\Accessories\\Accessories\\Accessories\\wwwroot\\js\\login\\jquery-ui.min.js",
+      "SourceId": "Accessories",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Downloads\\Accessories\\Accessories\\Accessories\\Accessories\\wwwroot\\",
+      "BasePath": "_content/Accessories",
+      "RelativePath": "js/login/jquery-ui.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\login\\jquery-ui.min.js"
     },
     {
       "Identity": "C:\\Users\\TrinhDat\\Downloads\\Accessories\\Accessories\\Accessories\\Accessories\\wwwroot\\js\\site.js",
