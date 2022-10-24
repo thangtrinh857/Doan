@@ -79,54 +79,55 @@ signInButton.addEventListener('click', () => {
 
 	<div>
         <section class="sign-in">
-            <div class="container">
-                <div class="signin-content">
-                    <div class="signin-image">
-                        <figure><img src="images/signin-image.jpg" alt="sing up image"></figure>
-                        <a href="#" class="signup-image-link">Create an account</a>
-                    </div>
+            <div class="signin-content">
+                <div class="signin-image">
+                    <figure><img src="~/image/loginpage/signin-image.jpg" alt="sing up image"></figure>
+                    <a href="#" class="signup-image-link">Create an account</a>
+                </div>
 
-                    <div class="signin-form">
-                        <h2 class="form-title">Sign in</h2>
+                <div class="signin-form">
+                    <h2 class="form-title">Sign in</h2>
+                    <form method="POST" class="register-form" id="login-form">
                         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-                        <form method="POST" class="register-form" id="login-form">
-                            <div class="form-group">
-                                <label for="your_name"><i class="zmdi zmdi-account material-icons-name"></i></label>
-                                <input asp-for="Input.Email" type="email" name="your_name" id="your_name" placeholder="Email" />
-                                <span asp-validation-for="Input.Email" class="text-danger"></span>
-                            </div>
-                            <div class="form-group">
-                                <label for="your_pass"><i class="zmdi zmdi-lock"></i></label>
-                                <input asp-for="Input.Password" type="password" name="your_pass" id="your_pass" placeholder="Password" />
-                                <span asp-validation-for="Input.Password" class="text-danger"></span>
-                            </div>
-                            <div class="form-group">
-                                <input type="checkbox" name="remember-me" id="remember-me" class="agree-term" />
-                                <label for="remember-me" class="label-agree-term"><span><span></span></span>Remember me</label>
-                            </div>
-                            <div class="form-group form-button">
-                                <input type="submit" name="signin" id="signin" class="form-submit" value="Log in" />
-                            </div>
-                        </form>
-                        <div class="social-login">
-                            <span class="social-label">Or login with</span>
-                            <ul class="socials">
-                                <li><a href="#"><i class="display-flex-center zmdi zmdi-facebook"></i></a></li>
-                                <li><a href="#"><i class="display-flex-center zmdi zmdi-twitter"></i></a></li>
-                                <li><a href="#"><i class="display-flex-center zmdi zmdi-google"></i></a></li>
-                            </ul>
+                        <div class="form-group">
+                            <label for="your_name"><img style="width: 15px; height:auto; margin-bottom: 25px" src="~/image/icon/email.png"></label>
+                            <input asp-for="Input.Email" type="email" id="your_name" placeholder="Email" />
+                            <span asp-validation-for="Input.Email" class="text-danger"></span>
                         </div>
+                        <div class="form-group">
+                            <label for="your_pass"><img style="width: 15px; height:auto; margin-bottom: 25px" src="~/image/icon/padlock.png" /></label>
+                            <input asp-for="Input.Password" type="password" id="your_pass" placeholder="Password" />
+                            <span asp-validation-for="Input.Password" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <input type="checkbox" name="remember-me" id="remember-me" class="agree-term" />
+                            <label for="remember-me" class="label-agree-term"><span><span></span></span>Remember me</label>
+                        </div>
+                        <div class="form-group form-button">
+                            <input type="submit" name="signin" id="signin" class="form-submit" value="Log in" />
+                        </div>
+                    </form>
+                    <div class="social-login">
+                        <span class="social-label">Or login with</span>
+                        <ul class="socials">
+                            <li><a href="#"><i class="display-flex-center zmdi zmdi-facebook"></i></a></li>
+                            <li><a href="#"><i class="display-flex-center zmdi zmdi-twitter"></i></a></li>
+                            <li><a href="#"><i class="display-flex-center zmdi zmdi-google"></i></a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </section>
 
     </div>
-
-    <!-- JS -->
+    @section Scripts {
+        <partial name="_ValidationScriptsPartial" />
+    }
+            <!-- JS -->
     <script src="js/login/jquery.min.js"></script>
     
 </body>
 </html>
+
 
 

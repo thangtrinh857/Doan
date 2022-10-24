@@ -78,8 +78,18 @@ namespace Accessories.Areas.Identity.Pages.Account
             /// 
             [Required]
             [DataType(DataType.Text)]
-            [Display(Name = "FullName")]
-            public string FullName { get; set; }
+            public string FirstName { get; set; }
+            
+            public string MiddleName { get; set; }
+            [Required]
+            public string LastName { get; set; }
+            [Required]
+            public string Address { get; set; }
+
+            [Required]
+            public string PhoneNumber { get; set; }
+
+
 
             /// <summary>
             ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used

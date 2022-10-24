@@ -23,7 +23,6 @@ namespace Accessories.Data.Context
         public DbSet<BillEntity> Bills { get; set; }
         public DbSet<CartProduct> CartProducts { get; set; }
         public DbSet<CategoryEntity> Categories { get; set; }
-        public DbSet<CustomerEntity> Customers { get; set; }
         public DbSet<UserEntity> Users { get; set; }
         public DbSet<ProductEntity> Products { get; set; }
     }

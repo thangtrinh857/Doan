@@ -10,6 +10,9 @@ namespace Accessories.Domain.Models
     public class UserEntity : IdentityUser
     {
         public bool IsActived { get; set; } = false ;
-        public string FullName { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public string? MiddleName { get; set; }
+        public string Address { get; set; }
     }
 }

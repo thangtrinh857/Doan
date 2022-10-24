@@ -12,10 +12,7 @@ namespace Accessories.Domain.Models
     {
         public int Id { get; set; }
         public int Total { get; set; }
-        [ForeignKey(nameof(Customer))]
-        public int? CustomerId { get; set; }
         public List<ProductEntity> Products { get; set; }
-        public virtual CustomerEntity Customer { get; set; }
         public virtual ICollection<CartProduct> CartProducts { get; set; }
     }
 }

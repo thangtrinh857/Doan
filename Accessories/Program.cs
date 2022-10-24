@@ -4,6 +4,11 @@ using Accessories.Data.Context;
 using Microsoft.AspNetCore.Identity;
 using Accessories.Data;
 using Accessories.Domain.Models;
+using Accessories.Mapper;
+using Accessories.ServicesAgent.Services.CartProductCommand;
+using Accessories.Infrastructure.Interfaces.CartProductCommand;
+using Accessories.Infrastructure.Interfaces.Payment;
+using Accessories.ServicesAgent.Services.Payment;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -16,6 +21,10 @@ builder.Services.AddDbContextFactory<AccessoriesDbContext>(options =>
 builder.Services.AddDefaultIdentity<UserEntity>(options => options.SignIn.RequireConfirmedAccount = true)
     .AddEntityFrameworkStores<AccessoriesDbContext>();
 builder.Services.AddScoped(x => x.GetRequiredService<IDbContextFactory<AccessoriesDbContext>>().CreateDbContext());
+builder.Services.AddAutoMapper(typeof(MappingProfile));
+// Add service, interface
+builder.Services.AddTransient<ICartProductService, CartProductService>();
+builder.Services.AddTransient<IPaymentService, PaymentService>();
 
 builder.Services.AddSession(options =>
 {
