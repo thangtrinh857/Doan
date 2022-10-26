@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Hf+oMZAG/+Bz5K/FoL2yOuviYY2qBsmrMmgdbVAs0MMulK7E9B5nYRA9XFTi20puSSwh8d3KgJhb6wgtfXBaRQ==",
+  "dgSpecHash": "50W9LePU6RgfcEuTW44ykmrH8Jgc2UAWDlTOmfIkZeIKH2PJRGZoGro4lc75o34oYEx8b34PUq2TgrXraaNwAQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\TrinhDat\\Documents\\Doan\\Doan\\Accessories\\Accessories.csproj",
+  "projectFilePath": "C:\\Users\\TrinhDat\\Documents\\GitHub\\Doan\\Accessories\\Accessories.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\TrinhDat\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\TrinhDat\\.nuget\\packages\\automapper.collection\\9.0.0\\automapper.collection.9.0.0.nupkg.sha512",

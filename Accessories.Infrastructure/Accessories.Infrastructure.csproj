@@ -32,4 +32,8 @@
     <PackageReference Include="Microsoft.Extensions.Identity.Stores" Version="6.0.10" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Accessories.Domain\Accessories.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

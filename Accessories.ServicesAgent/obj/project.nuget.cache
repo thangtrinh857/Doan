@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "y7INHJxqiKxwTY7B3zUdf/Ep7eVB+Ky3T0dzDo0JJVRAYwVu2YvLIQ0fi0sQh+RJiBEGMIqfR8HQF4z+DaizNw==",
+  "dgSpecHash": "UIAPjMEb7uE62UUWnGXq538XBeR+NbDjz/vjj5jHLitAaNuB2O7IyYBuXy7pZprRRVB6AieKUcm4htD6WYPMfw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\TrinhDat\\Documents\\Doan\\Doan\\Accessories.ServicesAgent\\Accessories.ServicesAgent.csproj",
+  "projectFilePath": "C:\\Users\\TrinhDat\\Documents\\GitHub\\Doan\\Accessories.ServicesAgent\\Accessories.ServicesAgent.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\TrinhDat\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\TrinhDat\\.nuget\\packages\\automapper.collection\\9.0.0\\automapper.collection.9.0.0.nupkg.sha512",
@@ -47,6 +47,7 @@
     "C:\\Users\\TrinhDat\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\TrinhDat\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\TrinhDat\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\TrinhDat\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\TrinhDat\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\TrinhDat\\.nuget\\packages\\system.configuration.configurationmanager\\4.7.0\\system.configuration.configurationmanager.4.7.0.nupkg.sha512",
     "C:\\Users\\TrinhDat\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",

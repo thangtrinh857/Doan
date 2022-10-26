@@ -1,4 +1,7 @@
-﻿using Accessories.Models;
+﻿using Accessories.Infrastructure.Interfaces.API.RegionCommand;
+using Accessories.Infrastructure.Interfaces.CategoryCommand;
+using Accessories.Infrastructure.Interfaces.ProductCommand;
+using Accessories.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
@@ -7,22 +10,28 @@ namespace Accessories.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-
-        public HomeController(ILogger<HomeController> logger)
+        public readonly IProductService _productService;
+        public readonly ICategoryService _categoryService;
+        public readonly IRegionAPIService _regionAPIService;
+        public HomeController(
+            ILogger<HomeController> logger,
+            ICategoryService categoryService,
+            IRegionAPIService regionAPIService,
+            IProductService productService)
         {
             _logger = logger;
+            _productService = productService;
+            _categoryService = categoryService;
+            _regionAPIService = regionAPIService;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            return View();
+            var categories =await _categoryService.GetCategoriesAsync();
+            var data = await _regionAPIService.GetListWardByDistrictId("271");
+            return View(categories);
         }
-
-        public IActionResult Privacy()
-        {
-            return View();
-        }
-
+       
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

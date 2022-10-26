@@ -1,10 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\Accessories.ServicesAgent",
-    "\\Accessories.ServicesAgent\\Services",
-    "\\Accessories.ServicesAgent\\Services\\CartProductCommand"
+    ""
   ],
-  "SelectedNode": "\\Accessories.ServicesAgent\\Services\\CartProductCommand\\CartProductService.cs",
+  "SelectedNode": "\\Accessories.sln",
   "PreviewInSolutionExplorer": false
 }

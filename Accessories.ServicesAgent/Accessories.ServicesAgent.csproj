@@ -30,16 +30,13 @@
     </PackageReference>
     <PackageReference Include="Microsoft.Extensions.Identity.Core" Version="6.0.10" />
     <PackageReference Include="Microsoft.Extensions.Identity.Stores" Version="6.0.10" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Accessories.Data\Accessories.Data.csproj" />
     <ProjectReference Include="..\Accessories.Domain\Accessories.Domain.csproj" />
     <ProjectReference Include="..\Accessories.Infrastructure\Accessories.Infrastructure.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Services\API\" />
   </ItemGroup>
 
 </Project>

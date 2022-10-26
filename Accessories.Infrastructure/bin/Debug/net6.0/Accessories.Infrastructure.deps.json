@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "Accessories.Infrastructure/1.0.0": {
         "dependencies": {
+          "Accessories.Domain": "1.0.0",
           "AutoMapper": "12.0.0",
           "AutoMapper.Collection": "9.0.0",
           "AutoMapper.Extensions.EnumMapping": "3.0.1",
@@ -652,6 +653,28 @@
             "fileVersion": "4.700.19.56404"
           }
         }
+      },
+      "Accessories.Domain/1.0.0": {
+        "dependencies": {
+          "AutoMapper": "12.0.0",
+          "AutoMapper.Collection": "9.0.0",
+          "AutoMapper.Extensions.EnumMapping": "3.0.1",
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.0",
+          "MediatR": "11.0.0",
+          "MediatR.Extensions.Microsoft.DependencyInjection": "11.0.0",
+          "Microsoft.AspNet.Providers.Core": "2.0.0",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.10",
+          "Microsoft.EntityFrameworkCore": "6.0.10",
+          "Microsoft.EntityFrameworkCore.Abstractions": "6.0.10",
+          "Microsoft.EntityFrameworkCore.Analyzers": "6.0.10",
+          "Microsoft.EntityFrameworkCore.Relational": "6.0.10",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.10",
+          "Microsoft.Extensions.Identity.Core": "6.0.10",
+          "Microsoft.Extensions.Identity.Stores": "6.0.10"
+        },
+        "runtime": {
+          "Accessories.Domain.dll": {}
+        }
       }
     }
   },
@@ -1059,6 +1082,11 @@
       "sha512": "sha512-CeWTdRNfRaSh0pm2gDTJFwVaXfTq6Xwv/sA887iwPTneW7oMtMlpvDIO+U60+3GWTB7Aom6oQwv5VZVUhQRdPQ==",
       "path": "system.windows.extensions/4.7.0",
       "hashPath": "system.windows.extensions.4.7.0.nupkg.sha512"
+    },
+    "Accessories.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

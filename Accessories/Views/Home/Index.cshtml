@@ -1,4 +1,7 @@
-﻿ <!DOCTYPE html>
+﻿@{
+    var categories = Model;
+}
+<!DOCTYPE html>
     <html lang="en">
     <head>
         <meta charset="UTF-8">
@@ -12,7 +15,7 @@
         <!--==================== HEADER ====================-->
         
 
-        <!--==================== CART ====================-->
+        <!--==================== CART ====================-->   
         <div class="cart" id="cart">
             <i class='bx bx-x cart__close' id="cart-close"></i>
 
@@ -153,80 +156,20 @@
                 </h2>
 
                 <div class="featured__container grid">
-                <article class="featured__card">
+                    @foreach (var item in categories)
+                    {
+                        <article class="featured__card">
 
-                    <img src="image/home/monitor.jpg" alt="" class="featured__img">
+                            <img src="@item.Cover" alt="" class="featured__img">
 
-                    <div class="featured__data">
-                        <h3 class="featured__title">Monitor</h3>
-                        <span class="featured__price"></span>
-                    </div>
+                            <div class="featured__data">
+                                <h3 class="featured__title">@item.Type</h3>
+                                <span class="featured__price"></span>
+                            </div>
 
-                    <button class="button featured__button">DISCOVER</button>
-                </article>
-
-                    <article class="featured__card">
-                       
-
-                    <img src="image/home/mouse1.jpg"class="featured__img">
-
-                        <div class="featured__data">
-                            <h3 class="featured__title">Mouse</h3>
-                            <span class="featured__price"></span>
-                        </div>
-
-                        <button class="button featured__button">DISCOVER</button>
-                    </article>
-
-                    <article class="featured__card">
-
-                    <img src="image/home/mainboard.jpg" alt="" class="featured__img">
-
-                        <div class="featured__data">
-                            <h3 class="featured__title">Mainboard</h3>
-                            <span class="featured__price"></span>
-                        </div>
-
-                        <button class="button featured__button">DISCOVER</button>
-                    </article>
-
-                <article class="featured__card">
-
-                    <img src="image/home/headphone.jpg" alt="" class="featured__img">
-
-                    <div class="featured__data">
-                        <h3 class="featured__title">Headphone</h3>
-                        <span class="featured__price"></span>
-                    </div>
-
-                    <button class="button featured__button">DISCOVER</button>
-                </article>
-
-                    <article class="featured__card">
-                        
-
-                    <img src="image/home/ram.jpg " class="featured__img">
-
-                        <div class="featured__data">
-                            <h3 class="featured__title">Ram </h3>
-                            <span class="featured__price"></span>
-                        </div>
-
-                        <button class="button featured__button">DISCOVER </button>
-                    </article>
-
-                    <article class="featured__card">
-                      
-
-                    <img src="image/home/keyboard.jpg" class="featured__img">
-
-                        <div class="featured__data">
-                            <h3 class="featured__title">Keyboard </h3>
-                            <span class="featured__price"></span>
-                        </div>
-
-                        <button class="button featured__button">DISCOVER </button>
-                    </article>
+                            <button class="button featured__button">DISCOVER</button>
+                        </article>
+                    }
                 </div>
             </section>
 
@@ -330,77 +273,5 @@
                 </div>
             </section>
         </main>
-
-        <!--==================== FOOTER ====================-->
-        <footer class="footer section">
-            <div class="footer__container container grid">
-                <div class="footer__content">
-                    <h3 class="footer__title">Our information</h3>
-
-                    <ul class="footer__list">
-                        <li>279 Nguyen Tri Phuong</li>
-                        <li>Sinh Vien: Trinh Quoc Thang</li>
-                        <li>123-456-789</li>
-                    </ul>
-                </div>
-                <div class="footer__content">
-                    <h3 class="footer__title">About Us</h3>
-
-                    <ul class="footer__links">
-                        <li>
-                            <a href="#" class="footer__link">Support Center</a>
-                        </li>
-                        <li>
-                            <a href="#" class="footer__link">Customer Support</a>
-                        </li>
-                        <li>
-                            <a href="#" class="footer__link">About Us</a>
-                        </li>
-                        <li>
-                            <a href="#" class="footer__link">Copy Right</a>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="footer__content">
-                    <h3 class="footer__title">Product</h3>
-
-                    <ul class="footer__links">
-                        <li>
-                            <a href="#" class="footer__link">Ram</a>
-                        </li>
-                        <li>
-                            <a href="#" class="footer__link">Headphone</a>
-                        </li>
-                        <li>
-                            <a href="#" class="footer__link">Monitor</a>
-                        </li>
-                        <li>
-                            <a href="#" class="footer__link">CPU</a>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="footer__content">
-                    <h3 class="footer__title">Social</h3>
-
-                    <ul class="footer__social">
-                        <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
-                            <i class='bx bxl-facebook'></i>
-                        </a>
-
-                        <a href="https://twitter.com/" target="_blank" class="footer__social-link">
-                            <i class='bx bxl-twitter' ></i>
-                        </a>
-
-                        <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
-                            <i class='bx bxl-instagram' ></i>
-                        </a>
-                    </ul>
-                </div>
-            </div>
-
-           
-        </footer>
     </body>
 </html>

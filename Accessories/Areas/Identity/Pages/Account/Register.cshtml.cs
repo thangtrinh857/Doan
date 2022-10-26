@@ -19,6 +19,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.Extensions.Logging;
+using AutoMapper;
 
 namespace Accessories.Areas.Identity.Pages.Account
 {
@@ -30,12 +31,14 @@ namespace Accessories.Areas.Identity.Pages.Account
         private readonly IUserEmailStore<UserEntity> _emailStore;
         private readonly ILogger<RegisterModel> _logger;
         private readonly IEmailSender _emailSender;
+        private readonly IMapper _mapper;
 
         public RegisterModel(
             UserManager<UserEntity> userManager,
             IUserStore<UserEntity> userStore,
             SignInManager<UserEntity> signInManager,
             ILogger<RegisterModel> logger,
+            IMapper mapper,
             IEmailSender emailSender)
         {
             _userManager = userManager;
@@ -44,6 +47,7 @@ namespace Accessories.Areas.Identity.Pages.Account
             _signInManager = signInManager;
             _logger = logger;
             _emailSender = emailSender;
+            _mapper = mapper;
         }
 
         /// <summary>
@@ -77,43 +81,28 @@ namespace Accessories.Areas.Identity.Pages.Account
             /// </summary>
             /// 
             [Required]
-            [DataType(DataType.Text)]
             public string FirstName { get; set; }
             
-            public string MiddleName { get; set; }
             [Required]
             public string LastName { get; set; }
+
             [Required]
             public string Address { get; set; }
 
             [Required]
             public string PhoneNumber { get; set; }
 
-
-
-            /// <summary>
-            ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
-            ///     directly from your code. This API may change or be removed in future releases.
-            /// </summary>
             [Required]
             [EmailAddress]
             [Display(Name = "Email")]
             public string Email { get; set; }
 
-            /// <summary>
-            ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
-            ///     directly from your code. This API may change or be removed in future releases.
-            /// </summary>
             [Required]
             [StringLength(100, ErrorMessage = "The {0} must be at least {2} and at max {1} characters long.", MinimumLength = 6)]
             [DataType(DataType.Password)]
             [Display(Name = "Password")]
             public string Password { get; set; }
 
-            /// <summary>
-            ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
-            ///     directly from your code. This API may change or be removed in future releases.
-            /// </summary>
             [DataType(DataType.Password)]
             [Display(Name = "Confirm password")]
             [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
@@ -126,7 +115,6 @@ namespace Accessories.Areas.Identity.Pages.Account
             ReturnUrl = returnUrl;
             ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
         }
-
         public async Task<IActionResult> OnPostAsync(string returnUrl = null)
         {
             returnUrl ??= Url.Content("~/");
@@ -134,7 +122,12 @@ namespace Accessories.Areas.Identity.Pages.Account
             if (ModelState.IsValid)
             {
                 var user = CreateUser();
-
+                var input = ModelState.Values.ToList();
+                user.Email = input[0].AttemptedValue;
+                user.Address = input[1].AttemptedValue;
+                user.LastName = input[2].AttemptedValue;
+                user.FirstName = input[4].AttemptedValue;
+                user.PhoneNumber = input[5].AttemptedValue;
                 await _userStore.SetUserNameAsync(user, Input.Email, CancellationToken.None);
                 await _emailStore.SetEmailAsync(user, Input.Email, CancellationToken.None);
                 var result = await _userManager.CreateAsync(user, Input.Password);

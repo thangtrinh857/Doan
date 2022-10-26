@@ -11,6 +11,7 @@ namespace Accessories.Domain.Models
     {
         public int Id { get; set; }
         public string Type { get; set; }
+        public string Cover { get; set; }
         public virtual ICollection<ProductEntity> Products { get; set; }
     }
 }

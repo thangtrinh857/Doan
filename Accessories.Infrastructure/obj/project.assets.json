@@ -998,6 +998,33 @@
             "rid": "win"
           }
         }
+      },
+      "Accessories.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "AutoMapper": "12.0.0",
+          "AutoMapper.Collection": "9.0.0",
+          "AutoMapper.Extensions.EnumMapping": "3.0.1",
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.0",
+          "MediatR": "11.0.0",
+          "MediatR.Extensions.Microsoft.DependencyInjection": "11.0.0",
+          "Microsoft.AspNet.Providers.Core": "2.0.0",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.10",
+          "Microsoft.EntityFrameworkCore": "6.0.10",
+          "Microsoft.EntityFrameworkCore.Abstractions": "6.0.10",
+          "Microsoft.EntityFrameworkCore.Analyzers": "6.0.10",
+          "Microsoft.EntityFrameworkCore.Relational": "6.0.10",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.10",
+          "Microsoft.Extensions.Identity.Core": "6.0.10",
+          "Microsoft.Extensions.Identity.Stores": "6.0.10"
+        },
+        "compile": {
+          "bin/placeholder/Accessories.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Accessories.Domain.dll": {}
+        }
       }
     }
   },
@@ -2455,10 +2482,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Accessories.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Accessories.Domain/Accessories.Domain.csproj",
+      "msbuildProject": "../Accessories.Domain/Accessories.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Accessories.Domain >= 1.0.0",
       "AutoMapper >= 12.0.0",
       "AutoMapper.Collection >= 9.0.0",
       "AutoMapper.Extensions.EnumMapping >= 3.0.1",
@@ -2484,11 +2517,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\TrinhDat\\Documents\\Doan\\Doan\\Accessories.Infrastructure\\Accessories.Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\TrinhDat\\Documents\\GitHub\\Doan\\Accessories.Infrastructure\\Accessories.Infrastructure.csproj",
       "projectName": "Accessories.Infrastructure",
-      "projectPath": "C:\\Users\\TrinhDat\\Documents\\Doan\\Doan\\Accessories.Infrastructure\\Accessories.Infrastructure.csproj",
+      "projectPath": "C:\\Users\\TrinhDat\\Documents\\GitHub\\Doan\\Accessories.Infrastructure\\Accessories.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\TrinhDat\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\TrinhDat\\Documents\\Doan\\Doan\\Accessories.Infrastructure\\obj\\",
+      "outputPath": "C:\\Users\\TrinhDat\\Documents\\GitHub\\Doan\\Accessories.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\TrinhDat\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2504,7 +2537,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\TrinhDat\\Documents\\GitHub\\Doan\\Accessories.Domain\\Accessories.Domain.csproj": {
+              "projectPath": "C:\\Users\\TrinhDat\\Documents\\GitHub\\Doan\\Accessories.Domain\\Accessories.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

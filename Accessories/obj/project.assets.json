@@ -3808,6 +3808,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "Accessories.Domain": "1.0.0",
           "AutoMapper": "12.0.0",
           "AutoMapper.Collection": "9.0.0",
           "AutoMapper.Extensions.EnumMapping": "3.0.1",
@@ -3852,7 +3853,8 @@
           "Microsoft.EntityFrameworkCore.Relational": "6.0.10",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.10",
           "Microsoft.Extensions.Identity.Core": "6.0.10",
-          "Microsoft.Extensions.Identity.Stores": "6.0.10"
+          "Microsoft.Extensions.Identity.Stores": "6.0.10",
+          "Newtonsoft.Json": "13.0.1"
         },
         "compile": {
           "bin/placeholder/Accessories.ServicesAgent.dll": {}
@@ -10688,11 +10690,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\TrinhDat\\Documents\\Doan\\Doan\\Accessories\\Accessories.csproj",
+      "projectUniqueName": "C:\\Users\\TrinhDat\\Documents\\GitHub\\Doan\\Accessories\\Accessories.csproj",
       "projectName": "Accessories",
-      "projectPath": "C:\\Users\\TrinhDat\\Documents\\Doan\\Doan\\Accessories\\Accessories.csproj",
+      "projectPath": "C:\\Users\\TrinhDat\\Documents\\GitHub\\Doan\\Accessories\\Accessories.csproj",
       "packagesPath": "C:\\Users\\TrinhDat\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\TrinhDat\\Documents\\Doan\\Doan\\Accessories\\obj\\",
+      "outputPath": "C:\\Users\\TrinhDat\\Documents\\GitHub\\Doan\\Accessories\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\TrinhDat\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -10709,11 +10711,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\TrinhDat\\Documents\\Doan\\Doan\\Accessories.Data\\Accessories.Data.csproj": {
-              "projectPath": "C:\\Users\\TrinhDat\\Documents\\Doan\\Doan\\Accessories.Data\\Accessories.Data.csproj"
+            "C:\\Users\\TrinhDat\\Documents\\GitHub\\Doan\\Accessories.Data\\Accessories.Data.csproj": {
+              "projectPath": "C:\\Users\\TrinhDat\\Documents\\GitHub\\Doan\\Accessories.Data\\Accessories.Data.csproj"
             },
-            "C:\\Users\\TrinhDat\\Documents\\Doan\\Doan\\Accessories.ServicesAgent\\Accessories.ServicesAgent.csproj": {
-              "projectPath": "C:\\Users\\TrinhDat\\Documents\\Doan\\Doan\\Accessories.ServicesAgent\\Accessories.ServicesAgent.csproj"
+            "C:\\Users\\TrinhDat\\Documents\\GitHub\\Doan\\Accessories.ServicesAgent\\Accessories.ServicesAgent.csproj": {
+              "projectPath": "C:\\Users\\TrinhDat\\Documents\\GitHub\\Doan\\Accessories.ServicesAgent\\Accessories.ServicesAgent.csproj"
             }
           }
         }

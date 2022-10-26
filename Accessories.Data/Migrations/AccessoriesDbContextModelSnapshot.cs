@@ -120,6 +120,10 @@ namespace Accessories.Data.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
+                    b.Property<string>("Cover")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("CreatedBy")
                         .HasColumnType("nvarchar(max)");
 
@@ -142,6 +146,56 @@ namespace Accessories.Data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Categories");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Cover = "image/home/ram.jpg",
+                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 26, 12, 21, 59, 791, DateTimeKind.Unspecified).AddTicks(8746), new TimeSpan(0, 7, 0, 0, 0)),
+                            IsActive = true,
+                            Type = "Ram"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Cover = "image/home/headphone.jpg",
+                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 26, 12, 21, 59, 791, DateTimeKind.Unspecified).AddTicks(8767), new TimeSpan(0, 7, 0, 0, 0)),
+                            IsActive = true,
+                            Type = "Headphone"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Cover = "image/home/monitor.jpg",
+                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 26, 12, 21, 59, 791, DateTimeKind.Unspecified).AddTicks(8769), new TimeSpan(0, 7, 0, 0, 0)),
+                            IsActive = true,
+                            Type = "Monitor"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            Cover = "image/home/mouse1.jpg",
+                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 26, 12, 21, 59, 791, DateTimeKind.Unspecified).AddTicks(8771), new TimeSpan(0, 7, 0, 0, 0)),
+                            IsActive = true,
+                            Type = "Mouse"
+                        },
+                        new
+                        {
+                            Id = 5,
+                            Cover = "image/home/keyboard.jpg",
+                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 26, 12, 21, 59, 791, DateTimeKind.Unspecified).AddTicks(8772), new TimeSpan(0, 7, 0, 0, 0)),
+                            IsActive = true,
+                            Type = "KeyBoard"
+                        },
+                        new
+                        {
+                            Id = 6,
+                            Cover = "image/home/mainboard.jpg",
+                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 26, 12, 21, 59, 791, DateTimeKind.Unspecified).AddTicks(8774), new TimeSpan(0, 7, 0, 0, 0)),
+                            IsActive = true,
+                            Type = "MainBoard"
+                        });
                 });
 
             modelBuilder.Entity("Accessories.Domain.Models.ProductEntity", b =>
@@ -164,6 +218,10 @@ namespace Accessories.Data.Migrations
                     b.Property<DateTimeOffset>("CreatedDate")
                         .HasColumnType("datetimeoffset");
 
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Image")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -178,6 +236,10 @@ namespace Accessories.Data.Migrations
                     b.Property<int>("Price")
                         .HasColumnType("int");
 
+                    b.Property<string>("Unit")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("UpdatedBy")
                         .HasColumnType("nvarchar(max)");
 
@@ -191,6 +253,104 @@ namespace Accessories.Data.Migrations
                     b.HasIndex("CategoryId");
 
                     b.ToTable("Products");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            CategoryId = 1,
+                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 26, 12, 21, 59, 791, DateTimeKind.Unspecified).AddTicks(8940), new TimeSpan(0, 7, 0, 0, 0)),
+                            Description = "Loại RAM: DDR4Dung lượng RAM: 8 GB (1 thanh 8 GB)Tốc độ RAM: 3200 MHzĐóng gói: ThanhMàu LED: KhôngThương hiệu: V-colorXuất xứ: Đài LoanThời gian bảo hành (tháng): 60",
+                            Image = "image/prouduct/Ram-Desktop-v-color.jpg",
+                            IsActive = true,
+                            Name = "RAM Desktop V-Color Skywalker Plus 8 GB - DDR4 - 3200 MHz - Purple",
+                            Price = 799000,
+                            Unit = "đ"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            CategoryId = 1,
+                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 26, 12, 21, 59, 791, DateTimeKind.Unspecified).AddTicks(8944), new TimeSpan(0, 7, 0, 0, 0)),
+                            Description = "Loại RAM: DDR4: Dung lượngRAM: 8 GBTốc độ RAM: 3200 MHzĐóng gói: 1 ThanhMàu LED: RGBThương hiệu: AdataXuất xứ: Đài LoanThời gian bảo hành (tháng): 36",
+                            Image = "image/prouduct/ram-adata.jpg",
+                            IsActive = true,
+                            Name = "RAM ADATA XPG Spectrix D41 RGB 8 GB-DDR4-3200 MHz",
+                            Price = 859000,
+                            Unit = "đ"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            CategoryId = 2,
+                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 26, 12, 21, 59, 791, DateTimeKind.Unspecified).AddTicks(8946), new TimeSpan(0, 7, 0, 0, 0)),
+                            Description = "Thương hiệu: CORSAIRXuất xứ: Trung QuốcThời gian bảo hành (tháng): 24Kích thước: 160 x 100 x 205 mmTrọng lượng sản phẩm: 325 gChất liệu: NhựaĐộ dài dây: 1.8 mMàu sắc: Xanh lá",
+                            Image = "image/prouduct/tai-nghe-corsair.jpg",
+                            IsActive = true,
+                            Name = "Tai nghe Corsair HS50 PRO Stereo",
+                            Price = 1278000,
+                            Unit = "đ"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            CategoryId = 2,
+                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 26, 12, 21, 59, 791, DateTimeKind.Unspecified).AddTicks(8948), new TimeSpan(0, 7, 0, 0, 0)),
+                            Description = "Thương hiệu: RapooXuất xứ: Trung QuốcThời gian bảo hành (tháng): 24Trọng lượng sản phẩm: 340 gChất liệu: NhựaChất liệu: DaĐộ dài dây: 220 cmMàu sắc: Đen",
+                            Image = "image/prouduct/tai-nghe-gaming.jpg",
+                            IsActive = true,
+                            Name = "Tai nghe gaming Rapoo VH160 có mic",
+                            Price = 505000,
+                            Unit = "đ"
+                        },
+                        new
+                        {
+                            Id = 5,
+                            CategoryId = 3,
+                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 26, 12, 21, 59, 791, DateTimeKind.Unspecified).AddTicks(8950), new TimeSpan(0, 7, 0, 0, 0)),
+                            Description = "Màn hình: Màn hình phẳng, 23.8 inch, 1920 x 1080 Pixels, FHD, 300 nits, Anti-glare LED-backlitTần số quét: 75 HzGóc nhìn: 178°(Dọc) / 178°(Ngang)Thời gian phản hồi: 5msTiêu thụ năng lượng: 0.3 WCổng kết nối: 1 DisplayPort 1.2, 1 Jack 3.5 mm, 1 HDMI 1.4, 1 VGAĐầu ra âm thanh: LoaThương hiệu: AsusXuất xứ: Trung Quốc",
+                            Image = "image/prouduct/màn-hình-asus.jpg",
+                            IsActive = true,
+                            Name = "Màn hình ASUS VA24DQ/23.8 inch/FHD (1920x1080)/75Hz",
+                            Price = 3790000,
+                            Unit = "đ"
+                        },
+                        new
+                        {
+                            Id = 6,
+                            CategoryId = 3,
+                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 26, 12, 21, 59, 791, DateTimeKind.Unspecified).AddTicks(8952), new TimeSpan(0, 7, 0, 0, 0)),
+                            Description = "Màn hình: 27 inch, 1920 x 1080 Pixels, FHD, 250 nits, IPSTần số quét: 165 HzGóc nhìn: 178°(Dọc) / 178°(Ngang)Thời gian phản hồi: 0.5msCổng kết nối: 1 DisplayPort, 2 HDMIĐầu ra âm thanh: HeadphoneThương hiệu: AcerXuất xứ: Trung Quốc",
+                            Image = "image/prouduct/màn-hình-acer-nitro.jpg",
+                            IsActive = true,
+                            Name = "Màn hình Acer Nitro VG270 S/27inch/FHD (1920x1080)/165Hz",
+                            Price = 5840000,
+                            Unit = "đ"
+                        },
+                        new
+                        {
+                            Id = 7,
+                            CategoryId = 4,
+                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 26, 12, 21, 59, 791, DateTimeKind.Unspecified).AddTicks(8954), new TimeSpan(0, 7, 0, 0, 0)),
+                            Description = "Loại chuột	Chuột Gaming\r\nKiểu kết nối	USB\r\nĐộ phân giải chuột	16000 dpi\r\nThương hiệu	Logitech\r\nXuất xứ	Trung Quốc\r\nThời gian bảo hành (tháng)	12",
+                            Image = "image/prouduct/chuột-gaming-logitech-g502.jpg",
+                            IsActive = true,
+                            Name = "Chuột Gaming Logitech G502 Hero High Performance",
+                            Price = 1750000,
+                            Unit = "đ"
+                        },
+                        new
+                        {
+                            Id = 8,
+                            CategoryId = 4,
+                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 26, 12, 21, 59, 791, DateTimeKind.Unspecified).AddTicks(8956), new TimeSpan(0, 7, 0, 0, 0)),
+                            Description = "Loại chuột	Chuột Gaming\r\nKiểu kết nối	USB\r\nĐộ phân giải chuột	8000 dpi\r\nThương hiệu	Logitech\r\nXuất xứ	Trung Quốc\r\nThời gian bảo hành (tháng)	12",
+                            Image = "image/prouduct/chuột-gaming-logitech-g102.jpg",
+                            IsActive = true,
+                            Name = "Chuột Gaming Logitech G102 Gen2 Lightsync",
+                            Price = 700000,
+                            Unit = "đ"
+                        });
                 });
 
             modelBuilder.Entity("Accessories.Domain.Models.UserEntity", b =>
