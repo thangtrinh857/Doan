@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "KqqFT+odw3Z3SRBimoRPCHsns+OA7axLEcm4QsAEjuE=",
+  "Hash": "NMOwMWpYjAA6j4MergEDBUPL8DtcXC1GZcNiuu7Ac/Q=",
   "Source": "Accessories",
   "BasePath": "_content/Accessories",
   "Mode": "Default",
@@ -1071,6 +1071,23 @@
       "OriginalItemSpec": "C:\\Users\\TrinhDat\\Documents\\GitHub\\Doan\\Accessories\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Accessories.bundle.scp.css"
     },
     {
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\GitHub\\Doan\\Accessories\\wwwroot\\css\\cart\\style.css",
+      "SourceId": "Accessories",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\GitHub\\Doan\\Accessories\\wwwroot\\",
+      "BasePath": "_content/Accessories",
+      "RelativePath": "css/cart/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\cart\\style.css"
+    },
+    {
       "Identity": "C:\\Users\\TrinhDat\\Documents\\GitHub\\Doan\\Accessories\\wwwroot\\css\\checkout\\style.css",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
@@ -1902,6 +1919,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\image\\product\\tai-nghe-gaming.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\GitHub\\Doan\\Accessories\\wwwroot\\js\\cart\\script.js",
+      "SourceId": "Accessories",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\GitHub\\Doan\\Accessories\\wwwroot\\",
+      "BasePath": "_content/Accessories",
+      "RelativePath": "js/cart/script.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\cart\\script.js"
     },
     {
       "Identity": "C:\\Users\\TrinhDat\\Documents\\GitHub\\Doan\\Accessories\\wwwroot\\js\\login\\jquery.min.js",
