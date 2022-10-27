@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "NMOwMWpYjAA6j4MergEDBUPL8DtcXC1GZcNiuu7Ac/Q=",
+  "Hash": "ozWxqzf8IPmVQToFDrvgSmcGHVhrh94Cj9UiryXfsbs=",
   "Source": "Accessories",
   "BasePath": "_content/Accessories",
   "Mode": "Default",
@@ -1972,12 +1972,12 @@
       "OriginalItemSpec": "wwwroot\\js\\login\\jquery-ui.min.js"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\GitHub\\Doan\\Accessories\\wwwroot\\js\\productlist\\script.js",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\GitHub\\Doan\\Accessories\\wwwroot\\js\\productdetail\\script.js",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\GitHub\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
-      "RelativePath": "js/productlist/script.js",
+      "RelativePath": "js/productdetail/script.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1986,7 +1986,24 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\productlist\\script.js"
+      "OriginalItemSpec": "wwwroot\\js\\productdetail\\script.js"
+    },
+    {
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\GitHub\\Doan\\Accessories\\wwwroot\\js\\productlist\\app.js",
+      "SourceId": "Accessories",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\GitHub\\Doan\\Accessories\\wwwroot\\",
+      "BasePath": "_content/Accessories",
+      "RelativePath": "js/productlist/app.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\productlist\\app.js"
     },
     {
       "Identity": "C:\\Users\\TrinhDat\\Documents\\GitHub\\Doan\\Accessories\\wwwroot\\js\\site.js",
