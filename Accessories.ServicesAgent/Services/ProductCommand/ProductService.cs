@@ -29,15 +29,15 @@ namespace Accessories.ServicesAgent.Services.ProductCommand
             return new List<ProductViewModel>();
         }
 
-        public async Task<ProductViewModel> GetProductByCategoryIdAsync(int categoryId)
+        public async Task<List<ProductViewModel>> GetProductsByCategoryIdAsync(int categoryId)
         {
             var context = _dbContextFactory.CreateDbContext();
-            var product = context.Products.Where(t => t.CategoryId == categoryId && t.IsActive).FirstOrDefaultAsync();
-            if (product != null)
+            var products = context.Products.Where(t => t.CategoryId == categoryId && t.IsActive).ToList();
+            if (products != null)
             {
-                return _mapper.Map<ProductViewModel>(product);
+                return _mapper.Map<List<ProductViewModel>>(products);
             }
-            return new ProductViewModel();
+            return new List<ProductViewModel>();
         }
 
         public async Task<ProductViewModel> GetProductByIdAsync(int id)

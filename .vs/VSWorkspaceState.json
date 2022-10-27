@@ -1,7 +1,14 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Accessories",
+    "\\Accessories\\Areas",
+    "\\Accessories\\Areas\\Identity",
+    "\\Accessories\\Areas\\Identity\\Pages",
+    "\\Accessories\\Areas\\Identity\\Pages\\Account",
+    "\\Accessories\\Views",
+    "\\Accessories\\Views\\Cart"
   ],
-  "SelectedNode": "\\Accessories.sln",
+  "SelectedNode": "\\Accessories\\Views\\Cart\\Index.cshtml",
   "PreviewInSolutionExplorer": false
 }

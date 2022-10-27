@@ -6,6 +6,10 @@
     <link rel="stylesheet" href="~/css/productlist/style.css">
 
 </head>
+@{
+    var products = Model;
+    var b = 1;
+}
 <body>
     <!-- partial:index.partial.html -->
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
@@ -43,11 +47,11 @@
                     <li><a href=""><span></span>Headphone</a></li>
                     <li><a href=""><span></span>Monitor</a></li>
                     <li><a href=""><span></span>Mouse</a></li>
-                   
+
                 </ul>
             </div>
 
-           
+
 
             <h3>PRICE RANGE</h3>
             <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/245657/price-range.png" alt="" />
@@ -780,7 +784,6 @@
         </div>
     </div>
 
-    <footer class="credit">Author: shipra - Distributed By: <a title="Awesome web design code & scripts" href="https://www.codehim.com?source=demo-page" target="_blank">CodeHim</a></footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <!-- partial -->
     <script src="~/js/productlist/script.js"></script>

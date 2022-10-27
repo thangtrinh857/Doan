@@ -10,7 +10,7 @@ namespace Accessories.Infrastructure.Interfaces.ProductCommand
     public interface IProductService
     {
         Task<List<ProductViewModel>> GetAllProductsAsync();
-        Task<ProductViewModel> GetProductByIdAsync(int categoryId);
-        Task<ProductViewModel> GetProductByCategoryIdAsync(int categoryId);
+        Task<ProductViewModel> GetProductByIdAsync(int id);
+        Task<List<ProductViewModel>> GetProductsByCategoryIdAsync(int categoryId);
     }
 }

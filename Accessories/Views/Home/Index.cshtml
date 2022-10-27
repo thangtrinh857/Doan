@@ -6,9 +6,10 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
         <!--=============== CSS ===============-->
+        <script type="text/javascript" src="/lib/jquery/dist/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script type="text/javascript" src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
         <link rel="stylesheet" href="~/css/home/style.css">
     </head>
     <body>
@@ -24,7 +25,7 @@
             <div class="cart__container">
                 <article class="cart__card">
                     <div class="cart__box">
-                    <img src="image/home/featured1.png" alt="" class="cart__img">
+                    <img src="" alt="" class="cart__img">
                     </div>
 
                     <div class="cart__details">
@@ -51,7 +52,7 @@
 
                 <article class="cart__card">
                     <div class="cart__box">
-                    <img src="image/home/featured3.png" alt="" class="cart__img">
+                    <img src="" alt="" class="cart__img">
                     </div>
 
                     <div class="cart__details">
@@ -167,7 +168,7 @@
                                 <span class="featured__price"></span>
                             </div>
 
-                            <button class="button featured__button">DISCOVER</button>
+                        <button class="button featured__button" onclick="getListProductsByCategoryId('@item.Id')">DISCOVER</button>
                         </article>
                     }
                 </div>
@@ -275,3 +276,24 @@
         </main>
     </body>
 </html>
+<script>
+    $(document).ready(function(){
+
+    });
+    function getListProductsByCategoryId(categoryId)
+    {
+        $.ajax({
+            cache: true,
+            url: '@Url.Action("GetListProductsByCategoryId", "ProductList")',
+            type: 'GET',
+            data: { categoryId: categoryId },
+            success: function (result) {
+                console.log(result);
+            },
+            error: function (err) {
+                console.log(err);
+            }
+        });
+    }
+</script>
+

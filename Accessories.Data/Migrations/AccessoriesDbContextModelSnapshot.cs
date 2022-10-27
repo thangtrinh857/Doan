@@ -152,7 +152,7 @@ namespace Accessories.Data.Migrations
                         {
                             Id = 1,
                             Cover = "image/home/ram.jpg",
-                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 26, 12, 21, 59, 791, DateTimeKind.Unspecified).AddTicks(8746), new TimeSpan(0, 7, 0, 0, 0)),
+                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 27, 10, 56, 5, 971, DateTimeKind.Unspecified).AddTicks(7285), new TimeSpan(0, 7, 0, 0, 0)),
                             IsActive = true,
                             Type = "Ram"
                         },
@@ -160,7 +160,7 @@ namespace Accessories.Data.Migrations
                         {
                             Id = 2,
                             Cover = "image/home/headphone.jpg",
-                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 26, 12, 21, 59, 791, DateTimeKind.Unspecified).AddTicks(8767), new TimeSpan(0, 7, 0, 0, 0)),
+                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 27, 10, 56, 5, 971, DateTimeKind.Unspecified).AddTicks(7302), new TimeSpan(0, 7, 0, 0, 0)),
                             IsActive = true,
                             Type = "Headphone"
                         },
@@ -168,7 +168,7 @@ namespace Accessories.Data.Migrations
                         {
                             Id = 3,
                             Cover = "image/home/monitor.jpg",
-                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 26, 12, 21, 59, 791, DateTimeKind.Unspecified).AddTicks(8769), new TimeSpan(0, 7, 0, 0, 0)),
+                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 27, 10, 56, 5, 971, DateTimeKind.Unspecified).AddTicks(7303), new TimeSpan(0, 7, 0, 0, 0)),
                             IsActive = true,
                             Type = "Monitor"
                         },
@@ -176,7 +176,7 @@ namespace Accessories.Data.Migrations
                         {
                             Id = 4,
                             Cover = "image/home/mouse1.jpg",
-                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 26, 12, 21, 59, 791, DateTimeKind.Unspecified).AddTicks(8771), new TimeSpan(0, 7, 0, 0, 0)),
+                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 27, 10, 56, 5, 971, DateTimeKind.Unspecified).AddTicks(7304), new TimeSpan(0, 7, 0, 0, 0)),
                             IsActive = true,
                             Type = "Mouse"
                         },
@@ -184,7 +184,7 @@ namespace Accessories.Data.Migrations
                         {
                             Id = 5,
                             Cover = "image/home/keyboard.jpg",
-                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 26, 12, 21, 59, 791, DateTimeKind.Unspecified).AddTicks(8772), new TimeSpan(0, 7, 0, 0, 0)),
+                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 27, 10, 56, 5, 971, DateTimeKind.Unspecified).AddTicks(7305), new TimeSpan(0, 7, 0, 0, 0)),
                             IsActive = true,
                             Type = "KeyBoard"
                         },
@@ -192,7 +192,7 @@ namespace Accessories.Data.Migrations
                         {
                             Id = 6,
                             Cover = "image/home/mainboard.jpg",
-                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 26, 12, 21, 59, 791, DateTimeKind.Unspecified).AddTicks(8774), new TimeSpan(0, 7, 0, 0, 0)),
+                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 27, 10, 56, 5, 971, DateTimeKind.Unspecified).AddTicks(7306), new TimeSpan(0, 7, 0, 0, 0)),
                             IsActive = true,
                             Type = "MainBoard"
                         });
@@ -259,7 +259,7 @@ namespace Accessories.Data.Migrations
                         {
                             Id = 1,
                             CategoryId = 1,
-                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 26, 12, 21, 59, 791, DateTimeKind.Unspecified).AddTicks(8940), new TimeSpan(0, 7, 0, 0, 0)),
+                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 27, 10, 56, 5, 971, DateTimeKind.Unspecified).AddTicks(7414), new TimeSpan(0, 7, 0, 0, 0)),
                             Description = "Loại RAM: DDR4Dung lượng RAM: 8 GB (1 thanh 8 GB)Tốc độ RAM: 3200 MHzĐóng gói: ThanhMàu LED: KhôngThương hiệu: V-colorXuất xứ: Đài LoanThời gian bảo hành (tháng): 60",
                             Image = "image/prouduct/Ram-Desktop-v-color.jpg",
                             IsActive = true,
@@ -271,7 +271,7 @@ namespace Accessories.Data.Migrations
                         {
                             Id = 2,
                             CategoryId = 1,
-                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 26, 12, 21, 59, 791, DateTimeKind.Unspecified).AddTicks(8944), new TimeSpan(0, 7, 0, 0, 0)),
+                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 27, 10, 56, 5, 971, DateTimeKind.Unspecified).AddTicks(7416), new TimeSpan(0, 7, 0, 0, 0)),
                             Description = "Loại RAM: DDR4: Dung lượngRAM: 8 GBTốc độ RAM: 3200 MHzĐóng gói: 1 ThanhMàu LED: RGBThương hiệu: AdataXuất xứ: Đài LoanThời gian bảo hành (tháng): 36",
                             Image = "image/prouduct/ram-adata.jpg",
                             IsActive = true,
@@ -283,7 +283,7 @@ namespace Accessories.Data.Migrations
                         {
                             Id = 3,
                             CategoryId = 2,
-                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 26, 12, 21, 59, 791, DateTimeKind.Unspecified).AddTicks(8946), new TimeSpan(0, 7, 0, 0, 0)),
+                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 27, 10, 56, 5, 971, DateTimeKind.Unspecified).AddTicks(7418), new TimeSpan(0, 7, 0, 0, 0)),
                             Description = "Thương hiệu: CORSAIRXuất xứ: Trung QuốcThời gian bảo hành (tháng): 24Kích thước: 160 x 100 x 205 mmTrọng lượng sản phẩm: 325 gChất liệu: NhựaĐộ dài dây: 1.8 mMàu sắc: Xanh lá",
                             Image = "image/prouduct/tai-nghe-corsair.jpg",
                             IsActive = true,
@@ -295,7 +295,7 @@ namespace Accessories.Data.Migrations
                         {
                             Id = 4,
                             CategoryId = 2,
-                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 26, 12, 21, 59, 791, DateTimeKind.Unspecified).AddTicks(8948), new TimeSpan(0, 7, 0, 0, 0)),
+                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 27, 10, 56, 5, 971, DateTimeKind.Unspecified).AddTicks(7419), new TimeSpan(0, 7, 0, 0, 0)),
                             Description = "Thương hiệu: RapooXuất xứ: Trung QuốcThời gian bảo hành (tháng): 24Trọng lượng sản phẩm: 340 gChất liệu: NhựaChất liệu: DaĐộ dài dây: 220 cmMàu sắc: Đen",
                             Image = "image/prouduct/tai-nghe-gaming.jpg",
                             IsActive = true,
@@ -307,7 +307,7 @@ namespace Accessories.Data.Migrations
                         {
                             Id = 5,
                             CategoryId = 3,
-                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 26, 12, 21, 59, 791, DateTimeKind.Unspecified).AddTicks(8950), new TimeSpan(0, 7, 0, 0, 0)),
+                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 27, 10, 56, 5, 971, DateTimeKind.Unspecified).AddTicks(7420), new TimeSpan(0, 7, 0, 0, 0)),
                             Description = "Màn hình: Màn hình phẳng, 23.8 inch, 1920 x 1080 Pixels, FHD, 300 nits, Anti-glare LED-backlitTần số quét: 75 HzGóc nhìn: 178°(Dọc) / 178°(Ngang)Thời gian phản hồi: 5msTiêu thụ năng lượng: 0.3 WCổng kết nối: 1 DisplayPort 1.2, 1 Jack 3.5 mm, 1 HDMI 1.4, 1 VGAĐầu ra âm thanh: LoaThương hiệu: AsusXuất xứ: Trung Quốc",
                             Image = "image/prouduct/màn-hình-asus.jpg",
                             IsActive = true,
@@ -319,7 +319,7 @@ namespace Accessories.Data.Migrations
                         {
                             Id = 6,
                             CategoryId = 3,
-                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 26, 12, 21, 59, 791, DateTimeKind.Unspecified).AddTicks(8952), new TimeSpan(0, 7, 0, 0, 0)),
+                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 27, 10, 56, 5, 971, DateTimeKind.Unspecified).AddTicks(7422), new TimeSpan(0, 7, 0, 0, 0)),
                             Description = "Màn hình: 27 inch, 1920 x 1080 Pixels, FHD, 250 nits, IPSTần số quét: 165 HzGóc nhìn: 178°(Dọc) / 178°(Ngang)Thời gian phản hồi: 0.5msCổng kết nối: 1 DisplayPort, 2 HDMIĐầu ra âm thanh: HeadphoneThương hiệu: AcerXuất xứ: Trung Quốc",
                             Image = "image/prouduct/màn-hình-acer-nitro.jpg",
                             IsActive = true,
@@ -331,7 +331,7 @@ namespace Accessories.Data.Migrations
                         {
                             Id = 7,
                             CategoryId = 4,
-                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 26, 12, 21, 59, 791, DateTimeKind.Unspecified).AddTicks(8954), new TimeSpan(0, 7, 0, 0, 0)),
+                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 27, 10, 56, 5, 971, DateTimeKind.Unspecified).AddTicks(7423), new TimeSpan(0, 7, 0, 0, 0)),
                             Description = "Loại chuột	Chuột Gaming\r\nKiểu kết nối	USB\r\nĐộ phân giải chuột	16000 dpi\r\nThương hiệu	Logitech\r\nXuất xứ	Trung Quốc\r\nThời gian bảo hành (tháng)	12",
                             Image = "image/prouduct/chuột-gaming-logitech-g502.jpg",
                             IsActive = true,
@@ -343,7 +343,7 @@ namespace Accessories.Data.Migrations
                         {
                             Id = 8,
                             CategoryId = 4,
-                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 26, 12, 21, 59, 791, DateTimeKind.Unspecified).AddTicks(8956), new TimeSpan(0, 7, 0, 0, 0)),
+                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 27, 10, 56, 5, 971, DateTimeKind.Unspecified).AddTicks(7424), new TimeSpan(0, 7, 0, 0, 0)),
                             Description = "Loại chuột	Chuột Gaming\r\nKiểu kết nối	USB\r\nĐộ phân giải chuột	8000 dpi\r\nThương hiệu	Logitech\r\nXuất xứ	Trung Quốc\r\nThời gian bảo hành (tháng)	12",
                             Image = "image/prouduct/chuột-gaming-logitech-g102.jpg",
                             IsActive = true,
