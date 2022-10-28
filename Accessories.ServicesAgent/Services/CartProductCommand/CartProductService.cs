@@ -21,7 +21,7 @@ namespace Accessories.ServicesAgent.Services.CartProductCommand
         public async Task<List<CartProductViewModel>> GetCartProductsByUserIdAsync(string userId)
         {
             var context = _dbContextFactory.CreateDbContext();
-            var carts = context.CartProducts.Where(t => t.IsActive && t.CreatedBy == userId).ToList();
+            var carts = context.CartProducts.Where(t => t.IsActive && t.CreatedBy == userId).Include(t =>t.Product).ToList();
             if (carts == null && carts.Count == 0) return null;
             return _mapper.Map<List<CartProductViewModel>>(carts);
         }
@@ -29,17 +29,36 @@ namespace Accessories.ServicesAgent.Services.CartProductCommand
         {
             var context = _dbContextFactory.CreateDbContext();
             var user = context.Users.Where(u=> u.Id == userId).FirstOrDefault();
-            CartProduct cart = new CartProduct();
-            cart.IsActive = true;
-            cart.Address = user?.Email;
-            cart.CreatedBy = userId;
-            cart.CreatedDate = DateTime.Now;
-            cart.UpdatedDate = DateTime.Now;
-            cart.UpdatedBy = userId;
-            cart.PhoneNumber = user?.PhoneNumber;
-            cart.ProductId = product.Id;
-            cart.Quantity = product.Quantity;
-            await context.CartProducts.AddAsync(cart);
+            var checkExsit = context.CartProducts.Where(h => h.IsActive && h.CreatedBy == userId && h.ProductId == product.Id).FirstOrDefault();
+            if (checkExsit != null)
+            {
+                //Update Product By Card
+                if (checkExsit.IsPaid)
+                {
+                    checkExsit.Quantity = product.Quantity;
+                }
+                else
+                {
+                    checkExsit.Quantity += product.Quantity;
+                }
+                checkExsit.IsPaid = false;
+                context.CartProducts.Update(checkExsit);
+            }
+            else
+            {
+                //Create product into cart
+                CartProduct cart = new CartProduct();
+                cart.IsActive = true;
+                cart.Address = user?.Address;
+                cart.CreatedBy = userId;
+                cart.CreatedDate = DateTime.Now;
+                cart.UpdatedDate = DateTime.Now;
+                cart.UpdatedBy = userId;
+                cart.PhoneNumber = user?.PhoneNumber;
+                cart.ProductId = product.Id;
+                cart.Quantity = product.Quantity;
+                context.CartProducts.Add(cart);
+            }
             await context.SaveChangesAsync();
         }
         public async Task UpdateCart(List<string> cartIds, string userId)

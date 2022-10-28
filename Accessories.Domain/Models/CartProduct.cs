@@ -19,7 +19,7 @@ namespace Accessories.Domain.Models
         public string PhoneNumber { get; set; }
         public string Address { get; set; }
         public bool IsPaid { get; set; } = false;
-        public string Color { get; set; }
+        public string? Color { get; set; }
         public virtual ProductEntity Product { get; set; }
     }
 }

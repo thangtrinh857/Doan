@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿@using System.Globalization
+<!DOCTYPE html>
 <html>
 <head>
 
@@ -15,19 +16,13 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="~/css/productlist/style.css">
-
+	<script type="text/javascript" src="/lib/jquery/dist/jquery.min.js"></script>
 	<title></title>
 </head>
+@{
+	var products = Model;
+}
 <body>
-	<br />
-	<br />
-	<br />
-	<br />
-	<br />
-	<br />
-	<br />
-	<br />
-	<br />
 	<main>
 		<div class="container">
 			<div class="row">
@@ -46,391 +41,42 @@
 			<div class="row">
 				<div class="col-md-12 col-xs-6">
 					<div class="discovers-grid">
-						<a href="#">
-							<figure>
-								<div class="image-icons">
-									<img src="assets/images/cups.jpg" />
-									<i class="far fa-heart heart-icon"></i>
+						@foreach (var item in products)
+						{
+							<a asp-action="GetDetailProduct" asp-controller="ProductDetail" asp-route-id = "@item.Id">
+								<figure class="card-product">
+									<div class="image-icons">
+										<img src="@item.Image" />
+										<i class="far fa-heart heart-icon"></i>
 
 
-									<i class="fas fa-share-alt share-icon"></i>
-									<button class="cart-btn">Add to Cart <i class="fas fa-shopping-cart"></i></button>
-								</div>
-								<figcaption class="discover-caption">
-									<p class="discover-subtitle">Hassan Salem Designs</p>
-									<p class="discover-title">Product Name</p>
-									<div class="price-div">
-
-										<p class="sale-price">200 EGP</p>
-										<div class="stars">
-										</div>
-
+										<i class="fas fa-share-alt share-icon"></i>
+										<button class="cart-btn">Add to Cart <i class="fas fa-shopping-cart"></i></button>
 									</div>
-									<div class="container">
-										<div class="row">
-											<div class="rating">
-												<input type="radio" id="star5" name="rating" value="5" /><label for="star5" title="Meh">5 stars</label>
-												<input type="radio" id="star4" name="rating" value="4" /><label for="star4" title="Kinda bad">4 stars</label>
-												<input type="radio" id="star3" name="rating" value="3" /><label for="star3" title="Kinda bad">3 stars</label>
-												<input type="radio" id="star2" name="rating" value="2" /><label for="star2" title="Sucks big tim">2 stars</label>
-												<input type="radio" id="star1" name="rating" value="1" /><label for="star1" title="Sucks big time">1 star</label>
+									<figcaption class="discover-caption" style="min-height:215px;">
+										<p class="discover-title" style="min-height:72px;">@item.Name</p>
+										<div class="price-div">
+											<p class="sale-price">@(item.Price.ToString("N0", new CultureInfo("is-IS")) + item.Unit)</p>
+											<div class="stars">
+											</div>
+
+										</div>
+										<div class="card-rate">
+											<div class="row">
+												<div class="rating">
+													<input type="radio" id="star5" name="rating" value="5" /><label for="star5" title="Meh">5 stars</label>
+													<input type="radio" id="star4" name="rating" value="4" /><label for="star4" title="Kinda bad">4 stars</label>
+													<input type="radio" id="star3" name="rating" value="3" /><label for="star3" title="Kinda bad">3 stars</label>
+													<input type="radio" id="star2" name="rating" value="2" /><label for="star2" title="Sucks big tim">2 stars</label>
+													<input type="radio" id="star1" name="rating" value="1" /><label for="star1" title="Sucks big time">1 star</label>
+												</div>
 											</div>
 										</div>
-									</div>
-								</figcaption>
+									</figcaption>
 
-							</figure>
-						</a>
-						<a href="#">
-							<figure>
-								<div class="image-icons">
-									<img src="assets/images/clothing.jpeg" />
-									<i class="far fa-heart heart-icon"></i>
-
-									<i class="fas fa-share-alt share-icon"></i>
-									<button class="cart-btn">Add to Cart <i class="fas fa-shopping-cart"></i></button>
-								</div>
-								<figcaption class="discover-caption">
-									<p class="discover-subtitle">Hassan Salem Designs</p>
-									<p class="discover-title">Product Name</p>
-									<div class="price-div">
-										<p class="price">300 EGP</p>
-										<p class="sale-price">200 EGP</p>
-
-									</div>
-									<div class="container">
-										<div class="row">
-											<div class="rating">
-												<input type="radio" id="star5" name="rating" value="5" /><label for="star5" title="Meh">5 stars</label>
-												<input type="radio" id="star4" name="rating" value="4" /><label for="star4" title="Kinda bad">4 stars</label>
-												<input type="radio" id="star3" name="rating" value="3" /><label for="star3" title="Kinda bad">3 stars</label>
-												<input type="radio" id="star2" name="rating" value="2" /><label for="star2" title="Sucks big tim">2 stars</label>
-												<input type="radio" id="star1" name="rating" value="1" /><label for="star1" title="Sucks big time">1 star</label>
-											</div>
-										</div>
-									</div>
-								</figcaption>
-
-							</figure>
-						</a>
-						<a href="#">
-							<figure>
-								<div class="image-icons">
-									<img src="assets/images/gifts.jpeg" />
-									<i class="far fa-heart heart-icon"></i>
-
-									<i class="fas fa-share-alt share-icon"></i>
-									<button class="cart-btn">Add to Cart <i class="fas fa-shopping-cart"></i></button>
-								</div>
-								<figcaption class="discover-caption">
-									<p class="discover-subtitle">Hassan Salem Designs</p>
-									<p class="discover-title">Product Name</p>
-									<div class="price-div">
-										<p class="price">300 EGP</p>
-										<p class="sale-price">200 EGP</p>
-									</div>
-									<div class="container">
-										<div class="row">
-											<div class="rating">
-												<input type="radio" id="star5" name="rating" value="5" /><label for="star5" title="Meh">5 stars</label>
-												<input type="radio" id="star4" name="rating" value="4" /><label for="star4" title="Kinda bad">4 stars</label>
-												<input type="radio" id="star3" name="rating" value="3" /><label for="star3" title="Kinda bad">3 stars</label>
-												<input type="radio" id="star2" name="rating" value="2" /><label for="star2" title="Sucks big tim">2 stars</label>
-												<input type="radio" id="star1" name="rating" value="1" /><label for="star1" title="Sucks big time">1 star</label>
-											</div>
-										</div>
-									</div>
-								</figcaption>
-							</figure>
-						</a>
-						<a href="#">
-							<figure>
-								<div class="image-icons">
-									<img src="assets/images/gel.jpeg" />
-									<i class="far fa-heart heart-icon"></i>
-
-									<i class="fas fa-share-alt share-icon"></i>
-									<button class="cart-btn">Add to Cart <i class="fas fa-shopping-cart"></i></button>
-								</div>
-								<figcaption class="discover-caption">
-									<p class="discover-subtitle">Hassan Salem Designs</p>
-									<p class="discover-title">Product Name</p>
-									<div class="price-div">
-										<p class="price">300 EGP</p>
-										<p class="sale-price">200 EGP</p>
-									</div>
-
-									<div class="container">
-										<div class="row">
-											<div class="rating">
-												<input type="radio" id="star5" name="rating" value="5" /><label for="star5" title="Meh">5 stars</label>
-												<input type="radio" id="star4" name="rating" value="4" /><label for="star4" title="Kinda bad">4 stars</label>
-												<input type="radio" id="star3" name="rating" value="3" /><label for="star3" title="Kinda bad">3 stars</label>
-												<input type="radio" id="star2" name="rating" value="2" /><label for="star2" title="Sucks big tim">2 stars</label>
-												<input type="radio" id="star1" name="rating" value="1" /><label for="star1" title="Sucks big time">1 star</label>
-											</div>
-										</div>
-									</div>
-								</figcaption>
-
-							</figure>
-						</a>
-						<a href="#">
-							<figure>
-								<div class="image-icons">
-									<img src="assets/images/cups2.jpg" />
-									<i class="far fa-heart heart-icon"></i>
-
-									<i class="fas fa-share-alt share-icon"></i>
-									<button class="cart-btn">Add to Cart <i class="fas fa-shopping-cart"></i></button>
-								</div>
-								<figcaption class="discover-caption">
-									<p class="discover-subtitle">Hassan Salem Designs</p>
-									<p class="discover-title">Product Name</p>
-									<div class="price-div">
-										<p class="price">300 EGP</p>
-										<p class="sale-price">200 EGP</p>
-									</div>
-
-									<div class="container">
-										<div class="row">
-											<div class="rating">
-												<input type="radio" id="star5" name="rating" value="5" /><label for="star5" title="Meh">5 stars</label>
-												<input type="radio" id="star4" name="rating" value="4" /><label for="star4" title="Kinda bad">4 stars</label>
-												<input type="radio" id="star3" name="rating" value="3" /><label for="star3" title="Kinda bad">3 stars</label>
-												<input type="radio" id="star2" name="rating" value="2" /><label for="star2" title="Sucks big tim">2 stars</label>
-												<input type="radio" id="star1" name="rating" value="1" /><label for="star1" title="Sucks big time">1 star</label>
-											</div>
-										</div>
-									</div>
-								</figcaption>
-
-							</figure>
-						</a>
-						<a href="#">
-							<figure>
-								<div class="image-icons">
-									<img src="assets/images/cups3.jpg" />
-									<i class="far fa-heart heart-icon"></i>
-
-									<i class="fas fa-share-alt share-icon"></i>
-									<button class="cart-btn">Add to Cart <i class="fas fa-shopping-cart"></i></button>
-								</div>
-								<figcaption class="discover-caption">
-									<p class="discover-subtitle">Hassan Salem Designs</p>
-									<p class="discover-title">Product Name</p>
-									<div class="price-div">
-										<p class="price">300 EGP</p>
-										<p class="sale-price">200 EGP</p>
-									</div>
-
-									<div class="container">
-										<div class="row">
-											<div class="rating">
-												<input type="radio" id="star5" name="rating" value="5" /><label for="star5" title="Meh">5 stars</label>
-												<input type="radio" id="star4" name="rating" value="4" /><label for="star4" title="Kinda bad">4 stars</label>
-												<input type="radio" id="star3" name="rating" value="3" /><label for="star3" title="Kinda bad">3 stars</label>
-												<input type="radio" id="star2" name="rating" value="2" /><label for="star2" title="Sucks big tim">2 stars</label>
-												<input type="radio" id="star1" name="rating" value="1" /><label for="star1" title="Sucks big time">1 star</label>
-											</div>
-										</div>
-									</div>
-								</figcaption>
-
-							</figure>
-						</a>
-						<a href="#">
-							<figure>
-								<div class="image-icons">
-									<img src="assets/images/cups4.jpeg" />
-									<i class="far fa-heart heart-icon"></i>
-
-									<i class="fas fa-share-alt share-icon"></i>
-									<button class="cart-btn">Add to Cart <i class="fas fa-shopping-cart"></i></button>
-								</div>
-								<figcaption class="discover-caption">
-									<p class="discover-subtitle">Hassan Salem Designs</p>
-									<p class="discover-title">Product Name</p>
-									<div class="price-div">
-										<p class="price">300 EGP</p>
-										<p class="sale-price">200 EGP</p>
-
-
-
-									</div>
-
-
-
-									<div class="container">
-										<div class="row">
-											<div class="rating">
-												<input type="radio" id="star5" name="rating" value="5" /><label for="star5" title="Meh">5 stars</label>
-												<input type="radio" id="star4" name="rating" value="4" /><label for="star4" title="Kinda bad">4 stars</label>
-												<input type="radio" id="star3" name="rating" value="3" /><label for="star3" title="Kinda bad">3 stars</label>
-												<input type="radio" id="star2" name="rating" value="2" /><label for="star2" title="Sucks big tim">2 stars</label>
-												<input type="radio" id="star1" name="rating" value="1" /><label for="star1" title="Sucks big time">1 star</label>
-											</div>
-										</div>
-									</div>
-								</figcaption>
-
-							</figure>
-						</a>
-						<a href="#">
-							<figure>
-								<div class="image-icons">
-									<img src="assets/images/cups5.jpeg" />
-									<i class="far fa-heart heart-icon"></i>
-
-									<i class="fas fa-share-alt share-icon"></i>
-									<button class="cart-btn">Add to Cart <i class="fas fa-shopping-cart"></i></button>
-								</div>
-								<figcaption class="discover-caption">
-									<p class="discover-subtitle">Hassan Salem Designs</p>
-									<p class="discover-title">Product Name</p>
-									<div class="price-div">
-										<p class="price">300 EGP</p>
-										<p class="sale-price">200 EGP</p>
-									</div>
-									<div class="container">
-										<div class="row">
-											<div class="rating">
-												<input type="radio" id="star5" name="rating" value="5" /><label for="star5" title="Meh">5 stars</label>
-												<input type="radio" id="star4" name="rating" value="4" /><label for="star4" title="Kinda bad">4 stars</label>
-												<input type="radio" id="star3" name="rating" value="3" /><label for="star3" title="Kinda bad">3 stars</label>
-												<input type="radio" id="star2" name="rating" value="2" /><label for="star2" title="Sucks big tim">2 stars</label>
-												<input type="radio" id="star1" name="rating" value="1" /><label for="star1" title="Sucks big time">1 star</label>
-											</div>
-										</div>
-									</div>
-								</figcaption>
-
-							</figure>
-						</a>
-						<a href="#">
-							<figure>
-								<div class="image-icons">
-									<img src="assets/images/cups.jpg" />
-									<i class="far fa-heart heart-icon"></i>
-
-									<i class="fas fa-share-alt share-icon"></i>
-									<button class="cart-btn">Add to Cart <i class="fas fa-shopping-cart"></i></button>
-								</div>
-								<figcaption class="discover-caption">
-									<p class="discover-subtitle">Hassan Salem Designs</p>
-									<p class="discover-title">Product Name</p>
-									<div class="price-div">
-										<p class="price">300 EGP</p>
-										<p class="sale-price">200 EGP</p>
-									</div>
-									<div class="container">
-										<div class="row">
-											<div class="rating">
-												<input type="radio" id="star5" name="rating" value="5" /><label for="star5" title="Meh">5 stars</label>
-												<input type="radio" id="star4" name="rating" value="4" /><label for="star4" title="Kinda bad">4 stars</label>
-												<input type="radio" id="star3" name="rating" value="3" /><label for="star3" title="Kinda bad">3 stars</label>
-												<input type="radio" id="star2" name="rating" value="2" /><label for="star2" title="Sucks big tim">2 stars</label>
-												<input type="radio" id="star1" name="rating" value="1" /><label for="star1" title="Sucks big time">1 star</label>
-											</div>
-										</div>
-									</div>
-								</figcaption>
-
-							</figure>
-						</a>
-						<a href="#">
-							<figure>
-								<div class="image-icons">
-									<img src="assets/images/clothing.jpeg" />
-									<i class="far fa-heart heart-icon"></i>
-
-									<i class="fas fa-share-alt share-icon"></i>
-									<button class="cart-btn">Add to Cart <i class="fas fa-shopping-cart"></i></button>
-								</div>
-								<figcaption class="discover-caption">
-									<p class="discover-subtitle">Hassan Salem Designs</p>
-									<p class="discover-title">Product Name</p>
-									<div class="price-div">
-										<p class="price">300 EGP</p>
-										<p class="sale-price">200 EGP</p>
-									</div>
-									<div class="container">
-										<div class="row">
-											<div class="rating">
-												<input type="radio" id="star5" name="rating" value="5" /><label for="star5" title="Meh">5 stars</label>
-												<input type="radio" id="star4" name="rating" value="4" /><label for="star4" title="Kinda bad">4 stars</label>
-												<input type="radio" id="star3" name="rating" value="3" /><label for="star3" title="Kinda bad">3 stars</label>
-												<input type="radio" id="star2" name="rating" value="2" /><label for="star2" title="Sucks big tim">2 stars</label>
-												<input type="radio" id="star1" name="rating" value="1" /><label for="star1" title="Sucks big time">1 star</label>
-											</div>
-										</div>
-									</div>
-								</figcaption>
-
-							</figure>
-						</a>
-						<a href="#">
-							<figure>
-								<div class="image-icons">
-									<img src="assets/images/gifts.jpeg" />
-									<i class="far fa-heart heart-icon"></i>
-
-									<i class="fas fa-share-alt share-icon"></i>
-									<button class="cart-btn">Add to Cart <i class="fas fa-shopping-cart"></i></button>
-								</div>
-								<figcaption class="discover-caption">
-									<p class="discover-subtitle">Hassan Salem Designs</p>
-									<p class="discover-title">Product Name</p>
-									<div class="price-div">
-										<p class="price">300 EGP</p>
-										<p class="sale-price">200 EGP</p>
-									</div>
-									<div class="container">
-										<div class="row">
-											<div class="rating">
-												<input type="radio" id="star5" name="rating" value="5" /><label for="star5" title="Meh">5 stars</label>
-												<input type="radio" id="star4" name="rating" value="4" /><label for="star4" title="Kinda bad">4 stars</label>
-												<input type="radio" id="star3" name="rating" value="3" /><label for="star3" title="Kinda bad">3 stars</label>
-												<input type="radio" id="star2" name="rating" value="2" /><label for="star2" title="Sucks big tim">2 stars</label>
-												<input type="radio" id="star1" name="rating" value="1" /><label for="star1" title="Sucks big time">1 star</label>
-											</div>
-										</div>
-									</div>
-								</figcaption>
-
-							</figure>
-						</a>
-						<a href="#">
-							<figure>
-								<div class="image-icons">
-									<img src="assets/images/gel.jpeg" />
-									<i class="far fa-heart heart-icon"></i>
-
-									<i class="fas fa-share-alt share-icon"></i>
-									<button class="cart-btn">Add to Cart <i class="fas fa-shopping-cart"></i></button>
-								</div>
-								<figcaption class="discover-caption">
-									<p class="discover-subtitle">Hassan Salem Designs</p>
-									<p class="discover-title">Product Name</p>
-									<div class="price-div">
-										<p class="price">300 EGP</p>
-										<p class="sale-price">200 EGP</p>
-									</div>
-									<div class="container">
-										<div class="row">
-											<div class="rating">
-												<input type="radio" id="star5" name="rating" value="5" /><label for="star5" title="Meh">5 stars</label>
-												<input type="radio" id="star4" name="rating" value="4" /><label for="star4" title="Kinda bad">4 stars</label>
-												<input type="radio" id="star3" name="rating" value="3" /><label for="star3" title="Kinda bad">3 stars</label>
-												<input type="radio" id="star2" name="rating" value="2" /><label for="star2" title="Sucks big tim">2 stars</label>
-												<input type="radio" id="star1" name="rating" value="1" /><label for="star1" title="Sucks big time">1 star</label>
-											</div>
-										</div>
-									</div>
-								</figcaption>
-
-							</figure>
-						</a>
+								</figure>
+							</a>
+						}
 					</div>
 				</div>
 			</div>
@@ -445,10 +91,5 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
-
-	<script src="assets/js/jquery.easing.min.js"></script>
-	<script src="assets/js/scrolling-nav.js"></script>
-
 </body>
 </html>

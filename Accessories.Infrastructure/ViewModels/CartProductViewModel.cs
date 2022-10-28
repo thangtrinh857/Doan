@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Accessories.Domain.Models;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
@@ -17,6 +18,7 @@ namespace Accessories.Infrastructure.ViewModels
         public string Address { get; set; }
         public string Color { get; set; }
         public int Price { get; set; }
-        public bool IsPaid { get; set; } = false;
+        public bool IsPaid { get; set; }
+        public ProductEntity Product { get; set; }
     }
 }

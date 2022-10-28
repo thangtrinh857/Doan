@@ -11,20 +11,21 @@ namespace Accessories.Controllers
         {
             _productService = productService;
         }
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            return View();
+            var products = await _productService.GetAllProductsAsync();
+            return View(products);
         }
         [HttpGet]
-        public async Task<IActionResult> GetListProductsByCategoryId(int categoryId)
+        public async Task<IActionResult> GetListProductsByCategoryId(int id)
         {
             //var user =await _userManager.GetUserAsync(User);
             //if(user == null)
             //{
             //    return Redirect("Identity/Account/Login");
             //}    
-            var products = await _productService.GetProductsByCategoryIdAsync(categoryId);
-            return View(products);
+            var products = await _productService.GetProductsByCategoryIdAsync(id);
+            return View("Index",products);
         }
     }
 }

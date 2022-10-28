@@ -43,7 +43,7 @@ namespace Accessories.ServicesAgent.Services.ProductCommand
         public async Task<ProductViewModel> GetProductByIdAsync(int id)
         {
             var context = _dbContextFactory.CreateDbContext();
-            var product = context.Products.Where(t => t.Id == id && t.IsActive).FirstOrDefaultAsync();
+            var product =context.Products.Where(t => t.Id == id && t.IsActive).FirstOrDefault();
             if (product != null)
             {
                 return _mapper.Map<ProductViewModel>(product);

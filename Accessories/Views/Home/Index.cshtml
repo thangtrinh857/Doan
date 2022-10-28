@@ -279,7 +279,7 @@
                                 <span class="featured__price"></span>
                             </div>
 
-                        <button class="button featured__button" onclick="getListProductsByCategoryId('@item.Id')">DISCOVER</button>
+                        <a class="button featured__button" asp-action="GetListProductsByCategoryId" asp-controller="ProductList" asp-route-id="@item.Id">DISCOVER</a>
                         </article>
                     }
                 </div>
@@ -345,23 +345,23 @@
     </body>
 </html>
 <script>
-    $(document).ready(function(){
+    //$(document).ready(function(){
 
-    });
-    function getListProductsByCategoryId(categoryId)
-    {
-        $.ajax({
-            cache: true,
-            url: '@Url.Action("GetListProductsByCategoryId", "ProductList")',
-            type: 'GET',
-            data: { categoryId: categoryId },
-            success: function (result) {
-                console.log(result);
-            },
-            error: function (err) {
-                console.log(err);
-            }
-        });
-    }
+    //});
+    //function getListProductsByCategoryId(categoryId)
+    //{
+    //    $.ajax({
+    //        cache: true,
+    //        url: '@Url.Action("GetListProductsByCategoryId", "ProductList")',
+    //        type: 'GET',
+    //        data: { categoryId: categoryId },
+    //        success: function (result) {
+    //            console.log(result);
+    //        },
+    //        error: function (err) {
+    //            console.log(err);
+    //        }
+    //    });
+    //}
 </script>
 

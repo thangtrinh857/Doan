@@ -100,3 +100,20 @@ C:\Users\TrinhDat\Documents\GitHub\Doan\Accessories.Data\obj\Debug\net6.0\refint
 C:\Users\TrinhDat\Documents\GitHub\Doan\Accessories.Data\obj\Debug\net6.0\Accessories.Data.pdb
 C:\Users\TrinhDat\Documents\GitHub\Doan\Accessories.Data\obj\Debug\net6.0\Accessories.Data.genruntimeconfig.cache
 C:\Users\TrinhDat\Documents\GitHub\Doan\Accessories.Data\obj\Debug\net6.0\ref\Accessories.Data.dll
+C:\Users\TrinhDat\Documents\Doan (4)\Doan\Accessories.Data\bin\Debug\net6.0\Accessories.Data.deps.json
+C:\Users\TrinhDat\Documents\Doan (4)\Doan\Accessories.Data\bin\Debug\net6.0\Accessories.Data.runtimeconfig.json
+C:\Users\TrinhDat\Documents\Doan (4)\Doan\Accessories.Data\bin\Debug\net6.0\Accessories.Data.dll
+C:\Users\TrinhDat\Documents\Doan (4)\Doan\Accessories.Data\bin\Debug\net6.0\Accessories.Data.pdb
+C:\Users\TrinhDat\Documents\Doan (4)\Doan\Accessories.Data\bin\Debug\net6.0\Accessories.Domain.dll
+C:\Users\TrinhDat\Documents\Doan (4)\Doan\Accessories.Data\bin\Debug\net6.0\Accessories.Domain.pdb
+C:\Users\TrinhDat\Documents\Doan (4)\Doan\Accessories.Data\obj\Debug\net6.0\Accessories.Data.csproj.AssemblyReference.cache
+C:\Users\TrinhDat\Documents\Doan (4)\Doan\Accessories.Data\obj\Debug\net6.0\Accessories.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TrinhDat\Documents\Doan (4)\Doan\Accessories.Data\obj\Debug\net6.0\Accessories.Data.AssemblyInfoInputs.cache
+C:\Users\TrinhDat\Documents\Doan (4)\Doan\Accessories.Data\obj\Debug\net6.0\Accessories.Data.AssemblyInfo.cs
+C:\Users\TrinhDat\Documents\Doan (4)\Doan\Accessories.Data\obj\Debug\net6.0\Accessories.Data.csproj.CoreCompileInputs.cache
+C:\Users\TrinhDat\Documents\Doan (4)\Doan\Accessories.Data\obj\Debug\net6.0\Accessories.Data.csproj.CopyComplete
+C:\Users\TrinhDat\Documents\Doan (4)\Doan\Accessories.Data\obj\Debug\net6.0\Accessories.Data.dll
+C:\Users\TrinhDat\Documents\Doan (4)\Doan\Accessories.Data\obj\Debug\net6.0\refint\Accessories.Data.dll
+C:\Users\TrinhDat\Documents\Doan (4)\Doan\Accessories.Data\obj\Debug\net6.0\Accessories.Data.pdb
+C:\Users\TrinhDat\Documents\Doan (4)\Doan\Accessories.Data\obj\Debug\net6.0\Accessories.Data.genruntimeconfig.cache
+C:\Users\TrinhDat\Documents\Doan (4)\Doan\Accessories.Data\obj\Debug\net6.0\ref\Accessories.Data.dll

@@ -1,4 +1,6 @@
-﻿<!--Important link from https://bootsnipp.com/snippets/XqvZr-->
+﻿@using System.Globalization
+@using Accessories.Infrastructure.ViewModels
+<!--Important link from https://bootsnipp.com/snippets/XqvZr-->
 <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -6,12 +8,14 @@
 
 <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800&display=swap" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
-<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <link rel="stylesheet" type="text/css" href="~/css/Productdetail/style.css" />
+
+@{
+	var product = Model;
+}
+@model ProductViewModel
 <div class="pd-wrap">
 	<div class="container">
 		<div class="heading-section">
@@ -27,7 +31,7 @@
 					</ol>
 					<div class="carousel-inner">
 						<div class="carousel-item active">
-							<img class="d-block w-100" src="~/image/home/headphone.jpg" alt="First slide">
+							<img class="d-block w-100" src="@product.Image" alt="First slide">
 						</div>
 						<div class="carousel-item">
 							<img class="d-block w-100" src="~/image/home/keyboard.jpg" alt="Second slide">
@@ -49,7 +53,7 @@
 			<div class="col-md-6">
 				<div class="product-dtl">
 					<div class="product-info">
-						<div class="product-name">Variable Product</div>
+						<div class="product-name">@product.Name</div>
 						<div class="reviews-counter">
 							<div class="rate">
 								<input type="radio" id="star5" name="rate" value="5" checked />
@@ -65,9 +69,9 @@
 							</div>
 							<span>3 Reviews</span>
 						</div>
-						<div class="product-price-discount"><span>$39.00</span><span class="line-through">$29.00</span></div>
+						<div class="product-price-discount"><span><span id="price-product">@product.Price.ToString("N0",new CultureInfo("is-IS"))</span>@product.Unit</span><span class="line-through">1.000.000đ</span></div>
 					</div>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					<p>@product.Description</p>
 					<div class="row">
 						<div class="col-md-6">
 							<label for="size">Size</label>
@@ -89,12 +93,12 @@
 					</div>
 					<div class="product-count">
 						<label for="size">Quantity</label>
-						<form action="#" class="display-flex">
-							<div class="qtyminus">-</div>
-							<input type="text" name="quantity" value="1" class="qty">
-							<div class="qtyplus">+</div>
+						<form method="post" class="display-flex">
+							<div class="qtyminus" onclick="MinusQuantityProduct()">-</div>
+							<input asp-for="@product.Quantity" name="quantity" type="text" value="1" class="qty" id="quantity-product">
+							<div class="qtyplus" onclick="PlusQuantityProduct()">+</div>
 						</form>
-						<a href="#" class="round-black-btn">Add to Cart</a>
+						<button type="submit" onclick="AdditionalProductIntoCart('@product.Id')" class="round-black-btn">Add to Cart</button>
 					</div>
 				</div>
 			</div>
@@ -155,37 +159,91 @@
 			</div>
 		</div>
 
-		<div style="text-align:center;font-size:14px;padding-bottom:20px;">Get free icon packs for your next project at <a href="http://iiicons.in/" target="_blank" style="color:#ff5e63;font-weight:bold;">www.iiicons.in</a></div>
+	</div>
+</div>
+<div class="modal-login-request" tabindex="-1" role="dialog">
+	<div class="modal-dialog" role="document" style="position:relative">
+		<div class="modal-content" style="position: absolute;left: 30px;top: 300px;">
+			<div class="modal-header">
+				<h5 class="modal-title">Thông báo</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<p>Vui lòng đăng nhập để tiếp tục mua hàng.</p>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+				<button type="button" class="btn btn-primary">Đăng nhập</button>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="modal-success-order" tabindex="-1" role="dialog">
+	<div class="modal-dialog" role="document" style="position:relative">
+		<div class="modal-content" style="position: absolute;left: 30px;top: 300px;">
+			<div class="modal-header">
+				<h5 class="modal-title">Thông báo</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<p>Thêm sản phẩm thành công.</p>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
+				<button type="button" class="btn btn-primary">Tiếp tục mua sắm</button>
+			</div>
+		</div>
 	</div>
 </div>
 <script>
 	$(document).ready(function () {
-		$('.carousel').carousel();
-		function syncPosition2(el) {
-			if (syncedSecondary) {
-				var number = el.item.index;
-				slider.data('owl.carousel').to(number, 100, true);
-			}
-		}
-		thumb.on("click", ".owl-item", function (e) {
-			e.preventDefault();
-			var number = $(this).index();
-			slider.data('owl.carousel').to(number, 300, true);
-		});
-
-
-		$(".qtyminus").on("click", function () {
-			var now = $(".qty").val();
-			if ($.isNumeric(now)) {
-				if (parseInt(now) - 1 > 0) { now--; }
-				$(".qty").val(now);
-			}
-		})
-		$(".qtyplus").on("click", function () {
-			var now = $(".qty").val();
-			if ($.isNumeric(now)) {
-				$(".qty").val(parseInt(now) + 1);
-			}
-		});
+		$('#myModal').on('shown.bs.modal', function () {
+		  $('#myInput').trigger('focus')
+			})
 	});
+	function MinusQuantityProduct()
+	{
+		var input = $('#quantity-product').val();
+		let myInput = document.querySelector('input[name="quantity"]');	
+		var number = 1;
+		if(input != '1')
+		{
+			var number = parseInt(input) - 1;
+			myInput.value = number.toString();
+		}
+		var price = '@product.Price';
+		var priceInput = document.querySelector('#price-product');
+		priceInput.innerHTML = (parseInt(price) * parseInt(number)).toString();
+	}
+	function PlusQuantityProduct() {
+		var input = $('#quantity-product').val();
+		let myInput = document.querySelector('input[name="quantity"]');
+		var number = parseInt(input) + 1;
+		myInput.value = number.toString();
+		var price = '@product.Price';
+		var priceInput = document.querySelector('#price-product');
+		priceInput.innerHTML = (parseInt(price) * parseInt(number)).toString();
+
+	}
+	function AdditionalProductIntoCart(id)
+	{
+		var quantity = $('#quantity-product').val();
+		$.ajax({
+			cache: true,
+			url: '@Url.Action("AdditionalCart", "Cart")',
+			type: 'POST',
+			data: { id: id, quantity: parseInt(quantity) },
+			success: function (result) {
+			    console.log(result);
+			},
+			error: function (err) {
+			    console.log(err);
+			}
+		});
+		$('.modal').show();
+	}
 </script>

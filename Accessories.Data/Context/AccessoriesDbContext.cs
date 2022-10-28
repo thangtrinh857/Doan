@@ -20,12 +20,12 @@ namespace Accessories.Data.Context
         {
             base.OnModelCreating(builder);
             builder.Entity<CategoryEntity>().HasData(
-                new CategoryEntity { Id = 1, Type = "Ram", Cover = "image/home/ram.jpg", CreatedDate = DateTimeOffset.Now, IsActive = true },
-                new CategoryEntity { Id = 2, Type = "Headphone", Cover = "image/home/headphone.jpg", CreatedDate = DateTimeOffset.Now, IsActive = true },
-                new CategoryEntity { Id = 3, Type = "Monitor", Cover = "image/home/monitor.jpg", CreatedDate = DateTimeOffset.Now, IsActive = true },
-                new CategoryEntity { Id = 4, Type = "Mouse", Cover = "image/home/mouse1.jpg", CreatedDate = DateTimeOffset.Now, IsActive = true },
-                new CategoryEntity { Id = 5, Type = "KeyBoard", Cover = "image/home/keyboard.jpg", CreatedDate = DateTimeOffset.Now, IsActive = true },
-                new CategoryEntity { Id = 6, Type = "MainBoard", Cover = "image/home/mainboard.jpg", CreatedDate = DateTimeOffset.Now, IsActive = true }
+                new CategoryEntity { Id = 1, Type = "Ram", Cover = "/image/home/ram.jpg", CreatedDate = DateTimeOffset.Now, IsActive = true },
+                new CategoryEntity { Id = 2, Type = "Headphone", Cover = "/image/home/headphone.jpg", CreatedDate = DateTimeOffset.Now, IsActive = true },
+                new CategoryEntity { Id = 3, Type = "Monitor", Cover = "/image/home/monitor.jpg", CreatedDate = DateTimeOffset.Now, IsActive = true },
+                new CategoryEntity { Id = 4, Type = "Mouse", Cover = "/image/home/mouse1.jpg", CreatedDate = DateTimeOffset.Now, IsActive = true },
+                new CategoryEntity { Id = 5, Type = "KeyBoard", Cover = "/image/home/keyboard.jpg", CreatedDate = DateTimeOffset.Now, IsActive = true },
+                new CategoryEntity { Id = 6, Type = "MainBoard", Cover = "/image/home/mainboard.jpg", CreatedDate = DateTimeOffset.Now, IsActive = true }
             );
             builder.Entity<ProductEntity>().HasData(
                 new ProductEntity 
@@ -36,7 +36,7 @@ namespace Accessories.Data.Context
                     Unit = "đ",
                     CreatedDate = DateTimeOffset.Now, 
                     CategoryId = 1,
-                    Image = "image/prouduct/Ram-Desktop-v-color.jpg",
+                    Image = "/image/product/Ram-Desktop-v-color.jpg",
                     Description = "Loại RAM: DDR4" +
                     "Dung lượng RAM: 8 GB (1 thanh 8 GB)" +
                     "Tốc độ RAM: 3200 MHz" +
@@ -55,7 +55,7 @@ namespace Accessories.Data.Context
                     Unit = "đ",
                     CreatedDate = DateTimeOffset.Now,
                     CategoryId = 1,
-                    Image = "image/prouduct/ram-adata.jpg",
+                    Image = "/image/product/ram-adata.jpg",
                     Description = "Loại RAM: " +
                     "DDR4: Dung lượng" +
                     "RAM: 8 GB" +
@@ -75,7 +75,7 @@ namespace Accessories.Data.Context
                     Unit = "đ",
                     CreatedDate = DateTimeOffset.Now,
                     CategoryId = 2,
-                    Image = "image/prouduct/tai-nghe-corsair.jpg",
+                    Image = "/image/product/tai-nghe-corsair.jpg",
                     Description = "Thương hiệu: CORSAIR" +
                     "Xuất xứ: Trung Quốc" +
                     "Thời gian bảo hành (tháng): 24" +
@@ -94,7 +94,7 @@ namespace Accessories.Data.Context
                     Unit = "đ",
                     CreatedDate = DateTimeOffset.Now,
                     CategoryId = 2,
-                    Image = "image/prouduct/tai-nghe-gaming.jpg",
+                    Image = "/image/product/tai-nghe-gaming.jpg",
                     Description = "Thương hiệu: Rapoo" +
                     "Xuất xứ: Trung Quốc" +
                     "Thời gian bảo hành (tháng): 24" +
@@ -113,7 +113,7 @@ namespace Accessories.Data.Context
                     Unit = "đ",
                     CreatedDate = DateTimeOffset.Now,
                     CategoryId = 3,
-                    Image = "image/prouduct/màn-hình-asus.jpg",
+                    Image = "/image/product/màn-hình-asus.jpg",
                     Description = "Màn hình: Màn hình phẳng, 23.8 inch, 1920 x 1080 Pixels, FHD, 300 nits, Anti-glare LED-backlit" +
                     "Tần số quét: 75 Hz" +
                     "Góc nhìn: 178°(Dọc) / 178°(Ngang)" +
@@ -133,7 +133,7 @@ namespace Accessories.Data.Context
                     Unit = "đ",
                     CreatedDate = DateTimeOffset.Now,
                     CategoryId = 3,
-                    Image = "image/prouduct/màn-hình-acer-nitro.jpg",
+                    Image = "/image/product/màn-hình-acer-nitro.jpg",
                     Description = "Màn hình: 27 inch, 1920 x 1080 Pixels, FHD, 250 nits, IPS" +
                     "Tần số quét: 165 Hz" +
                     "Góc nhìn: 178°(Dọc) / 178°(Ngang)" +
@@ -152,7 +152,7 @@ namespace Accessories.Data.Context
                     Unit = "đ",
                     CreatedDate = DateTimeOffset.Now,
                     CategoryId = 4,
-                    Image = "image/prouduct/chuột-gaming-logitech-g502.jpg",
+                    Image = "/image/product/chuột-gaming-logitech-g502.jpg",
                     Description = "Loại chuột\tChuột Gaming\r\nKiểu kết nối\tUSB\r\nĐộ phân giải chuột\t16000 dpi\r\nThương hiệu\tLogitech\r\nXuất xứ\tTrung Quốc\r\nThời gian bảo hành (tháng)\t12",
                     IsActive = true
                 },
@@ -164,7 +164,7 @@ namespace Accessories.Data.Context
                     Unit = "đ",
                     CreatedDate = DateTimeOffset.Now,
                     CategoryId = 4,
-                    Image = "image/prouduct/chuột-gaming-logitech-g102.jpg",
+                    Image = "/image/product/chuột-gaming-logitech-g102.jpg",
                     Description = "Loại chuột\tChuột Gaming\r\nKiểu kết nối\tUSB\r\nĐộ phân giải chuột\t8000 dpi\r\nThương hiệu\tLogitech\r\nXuất xứ\tTrung Quốc\r\nThời gian bảo hành (tháng)\t12",
                     IsActive = true
                 }

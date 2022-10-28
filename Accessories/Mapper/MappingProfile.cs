@@ -12,6 +12,9 @@ namespace Accessories.Mapper
             CreateMap<CategoryEntity, CategoryViewModel>();
             CreateMap<ProductViewModel, ProductEntity>();
             CreateMap<ProductEntity, ProductViewModel>();
+            CreateMap<CartProduct, CartProductViewModel>();
+            CreateMap<CartProductViewModel, CartProduct>();
+
 
         }
     }

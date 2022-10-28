@@ -40,17 +40,9 @@ builder.Services.AddSession(options =>
 });
 builder.Services.ConfigureApplicationCookie(options =>
 {
-    // Cookie settings
-    //options.Cookie.HttpOnly = true;
-    //options.ExpireTimeSpan = TimeSpan.FromMinutes(5);
-
     options.LoginPath = "/Identity/Account/Login";
-    //options.AccessDeniedPath = "/Identity/Account/AccessDenied";
-    //options.SlidingExpiration = true;
 });
-//builder.Services.AddControllersWithViews().AddRazorPagesOptions(options => {
-//    options.Conventions.AddAreaPageRoute("Identity", "/Account/Login", "");
-//});
+builder.Services.AddRazorPages();
 // Add services to the container.
 builder.Services.AddMediatR(typeof(Program));
 var app = builder.Build();
@@ -67,6 +59,7 @@ app.UseSession();
 app.UseAuthentication();
 app.UseAuthorization();
 app.UseRequestLocalization();
+app.UseHttpsRedirection();
 app.UseEndpoints(c =>
 {
     c.MapRazorPages();

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\TrinhDat\\Documents\\GitHub\\Doan\\Accessories.Infrastructure\\Accessories.Infrastructure.csproj": {}
+    "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories.Infrastructure\\Accessories.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\TrinhDat\\Documents\\GitHub\\Doan\\Accessories.Domain\\Accessories.Domain.csproj": {
+    "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories.Domain\\Accessories.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TrinhDat\\Documents\\GitHub\\Doan\\Accessories.Domain\\Accessories.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories.Domain\\Accessories.Domain.csproj",
         "projectName": "Accessories.Domain",
-        "projectPath": "C:\\Users\\TrinhDat\\Documents\\GitHub\\Doan\\Accessories.Domain\\Accessories.Domain.csproj",
+        "projectPath": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories.Domain\\Accessories.Domain.csproj",
         "packagesPath": "C:\\Users\\TrinhDat\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TrinhDat\\Documents\\GitHub\\Doan\\Accessories.Domain\\obj\\",
+        "outputPath": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\TrinhDat\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -133,14 +133,14 @@
         }
       }
     },
-    "C:\\Users\\TrinhDat\\Documents\\GitHub\\Doan\\Accessories.Infrastructure\\Accessories.Infrastructure.csproj": {
+    "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories.Infrastructure\\Accessories.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TrinhDat\\Documents\\GitHub\\Doan\\Accessories.Infrastructure\\Accessories.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories.Infrastructure\\Accessories.Infrastructure.csproj",
         "projectName": "Accessories.Infrastructure",
-        "projectPath": "C:\\Users\\TrinhDat\\Documents\\GitHub\\Doan\\Accessories.Infrastructure\\Accessories.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories.Infrastructure\\Accessories.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\TrinhDat\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TrinhDat\\Documents\\GitHub\\Doan\\Accessories.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\TrinhDat\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -157,8 +157,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\TrinhDat\\Documents\\GitHub\\Doan\\Accessories.Domain\\Accessories.Domain.csproj": {
-                "projectPath": "C:\\Users\\TrinhDat\\Documents\\GitHub\\Doan\\Accessories.Domain\\Accessories.Domain.csproj"
+              "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories.Domain\\Accessories.Domain.csproj": {
+                "projectPath": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories.Domain\\Accessories.Domain.csproj"
               }
             }
           }
