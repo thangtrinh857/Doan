@@ -96,3 +96,17 @@ C:\Users\TrinhDat\Documents\Doan (4)\Doan\Accessories.Domain\obj\Debug\net6.0\re
 C:\Users\TrinhDat\Documents\Doan (4)\Doan\Accessories.Domain\obj\Debug\net6.0\Accessories.Domain.pdb
 C:\Users\TrinhDat\Documents\Doan (4)\Doan\Accessories.Domain\obj\Debug\net6.0\Accessories.Domain.genruntimeconfig.cache
 C:\Users\TrinhDat\Documents\Doan (4)\Doan\Accessories.Domain\obj\Debug\net6.0\ref\Accessories.Domain.dll
+C:\Users\TrinhDat\Documents\Doan (5)\Doan\Accessories.Domain\bin\Debug\net6.0\Accessories.Domain.deps.json
+C:\Users\TrinhDat\Documents\Doan (5)\Doan\Accessories.Domain\bin\Debug\net6.0\Accessories.Domain.runtimeconfig.json
+C:\Users\TrinhDat\Documents\Doan (5)\Doan\Accessories.Domain\bin\Debug\net6.0\Accessories.Domain.dll
+C:\Users\TrinhDat\Documents\Doan (5)\Doan\Accessories.Domain\bin\Debug\net6.0\Accessories.Domain.pdb
+C:\Users\TrinhDat\Documents\Doan (5)\Doan\Accessories.Domain\obj\Debug\net6.0\Accessories.Domain.csproj.AssemblyReference.cache
+C:\Users\TrinhDat\Documents\Doan (5)\Doan\Accessories.Domain\obj\Debug\net6.0\Accessories.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TrinhDat\Documents\Doan (5)\Doan\Accessories.Domain\obj\Debug\net6.0\Accessories.Domain.AssemblyInfoInputs.cache
+C:\Users\TrinhDat\Documents\Doan (5)\Doan\Accessories.Domain\obj\Debug\net6.0\Accessories.Domain.AssemblyInfo.cs
+C:\Users\TrinhDat\Documents\Doan (5)\Doan\Accessories.Domain\obj\Debug\net6.0\Accessories.Domain.csproj.CoreCompileInputs.cache
+C:\Users\TrinhDat\Documents\Doan (5)\Doan\Accessories.Domain\obj\Debug\net6.0\Accessories.Domain.dll
+C:\Users\TrinhDat\Documents\Doan (5)\Doan\Accessories.Domain\obj\Debug\net6.0\refint\Accessories.Domain.dll
+C:\Users\TrinhDat\Documents\Doan (5)\Doan\Accessories.Domain\obj\Debug\net6.0\Accessories.Domain.pdb
+C:\Users\TrinhDat\Documents\Doan (5)\Doan\Accessories.Domain\obj\Debug\net6.0\Accessories.Domain.genruntimeconfig.cache
+C:\Users\TrinhDat\Documents\Doan (5)\Doan\Accessories.Domain\obj\Debug\net6.0\ref\Accessories.Domain.dll

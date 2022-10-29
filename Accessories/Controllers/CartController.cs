@@ -1,10 +1,11 @@
 ﻿using Accessories.Domain.Models;
-using Accessories.Infrastructure.Contents.MessegeEnum;
+using Accessories.Infrastructure.Contents.MessageEnum;
 using Accessories.Infrastructure.Interfaces.CartProductCommand;
 using Accessories.Infrastructure.Interfaces.ProductCommand;
 using Accessories.Infrastructure.ViewModels;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
 namespace Accessories.Controllers
 {
@@ -32,7 +33,7 @@ namespace Accessories.Controllers
             var user = await _userManager.GetUserAsync(User);
             if (user == null)
             {
-                return Redirect("~/Identity/Account/Login");
+                return View("Index",MessageConst.Not_Found_User);
             }
             var productCarts = await _cartProductService.GetCartProductsByUserIdAsync(user.Id);
             return View(productCarts);
@@ -45,20 +46,31 @@ namespace Accessories.Controllers
                 var user = await _userManager.GetUserAsync(User);
                 if (user == null)
                 {
-                    return Redirect("~/Identity/Account/Login");
+                    return Json(MessageConst.Not_Found_User);
                 }
                 var product = await _productService.GetProductByIdAsync(id);
                 product.Quantity = quantity;
-                await _cartProductService.AdditionalProductIntoCartByUserId(product, user.Id);
-                var productCarts = await _cartProductService.GetCartProductsByUserIdAsync(user.Id);
-                return View("Index", productCarts);
+                var result = await _cartProductService.AdditionalProductIntoCartByUserId(product, user.Id);
+                return result ? Json(MessageConst.Message_Notice_Add_Success) : Json(MessageConst.Message_Notice_Add_Fail);
             }
             catch(Exception ex)
             {
                 _logger.LogInformation("AdditionalCart " + ex.StackTrace);
                 _logger.LogInformation("AdditionalCart msg" + ex.Message);
-                throw ex;
+                return Json(ex.Message);
             }
+        }
+        [HttpPost]
+        public async Task<IActionResult> RemoveProductFromCartByUser(int cartProductId)
+        {
+            var user = await _userManager.GetUserAsync(User);
+            if (user == null)
+            {
+                return Json(MessageConst.Not_Found_User);
+            }
+            await _cartProductService.RemoveProductFromCart(cartProductId);
+            var productCarts = await _cartProductService.GetCartProductsByUserIdAsync(user.Id);
+            return Json(MessageConst.Message_Notice_Add_Success);
         }
     }
 }

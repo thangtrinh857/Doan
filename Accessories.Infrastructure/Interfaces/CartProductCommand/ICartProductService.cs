@@ -10,8 +10,8 @@ namespace Accessories.Infrastructure.Interfaces.CartProductCommand
     public interface ICartProductService
     {
         Task<List<CartProductViewModel>> GetCartProductsByUserIdAsync(string userId);
-        Task AdditionalProductIntoCartByUserId(ProductViewModel product, string userId);
-        Task UpdateCart(List<string> cartIds, string userId);
+        Task<bool> AdditionalProductIntoCartByUserId(ProductViewModel product, string userId);
+        Task RemoveProductFromCart(int cartProductId);
 
     }
 }

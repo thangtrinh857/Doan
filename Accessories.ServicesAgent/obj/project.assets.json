@@ -2626,11 +2626,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories.ServicesAgent\\Accessories.ServicesAgent.csproj",
+      "projectUniqueName": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories.ServicesAgent\\Accessories.ServicesAgent.csproj",
       "projectName": "Accessories.ServicesAgent",
-      "projectPath": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories.ServicesAgent\\Accessories.ServicesAgent.csproj",
+      "projectPath": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories.ServicesAgent\\Accessories.ServicesAgent.csproj",
       "packagesPath": "C:\\Users\\TrinhDat\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories.ServicesAgent\\obj\\",
+      "outputPath": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories.ServicesAgent\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\TrinhDat\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2647,14 +2647,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories.Data\\Accessories.Data.csproj": {
-              "projectPath": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories.Data\\Accessories.Data.csproj"
+            "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories.Data\\Accessories.Data.csproj": {
+              "projectPath": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories.Data\\Accessories.Data.csproj"
             },
-            "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories.Domain\\Accessories.Domain.csproj": {
-              "projectPath": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories.Domain\\Accessories.Domain.csproj"
+            "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories.Domain\\Accessories.Domain.csproj": {
+              "projectPath": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories.Domain\\Accessories.Domain.csproj"
             },
-            "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories.Infrastructure\\Accessories.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories.Infrastructure\\Accessories.Infrastructure.csproj"
+            "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories.Infrastructure\\Accessories.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories.Infrastructure\\Accessories.Infrastructure.csproj"
             }
           }
         }

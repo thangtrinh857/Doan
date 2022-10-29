@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "2bbKoqBokrEwk0Tnc1hMgLsmfMB+i7+SGzFqetR9HC0=",
+  "Hash": "n0i3b2m5bUyw1cHEUbRn1vMJSxHa8ov5C5sxYOgyleQ=",
   "Source": "Accessories",
   "BasePath": "_content/Accessories",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "Accessories\\wwwroot",
       "Source": "Accessories",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "Pattern": "**"
     }
@@ -1037,10 +1037,10 @@
       "OriginalItemSpec": "C:\\Users\\TrinhDat\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.10\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Accessories.styles.css",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Accessories.styles.css",
       "SourceId": "Accessories",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "Accessories.styles.css",
       "AssetKind": "All",
@@ -1051,13 +1051,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Accessories.styles.css"
+      "OriginalItemSpec": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\obj\\Debug\\net6.0\\scopedcss\\bundle\\Accessories.styles.css"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Accessories.bundle.scp.css",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Accessories.bundle.scp.css",
       "SourceId": "Accessories",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "Accessories.bundle.scp.css",
       "AssetKind": "All",
@@ -1068,13 +1068,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Accessories.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Accessories.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\css\\cart\\style.css",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\css\\cart\\style.css",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "css/cart/style.css",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\css\\cart\\style.css"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\css\\checkout\\style.css",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\css\\checkout\\style.css",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "css/checkout/style.css",
       "AssetKind": "All",
@@ -1105,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\css\\checkout\\style.css"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\css\\home\\style.css",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\css\\home\\style.css",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "css/home/style.css",
       "AssetKind": "All",
@@ -1122,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\css\\home\\style.css"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\css\\home\\swiper-bundle.min.css",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\css\\home\\swiper-bundle.min.css",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "css/home/swiper-bundle.min.css",
       "AssetKind": "All",
@@ -1139,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\css\\home\\swiper-bundle.min.css"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\css\\login\\style.css",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\css\\login\\style.css",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "css/login/style.css",
       "AssetKind": "All",
@@ -1156,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\css\\login\\style.css"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\css\\Productdetail\\style.css",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\css\\Productdetail\\style.css",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "css/Productdetail/style.css",
       "AssetKind": "All",
@@ -1173,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\css\\Productdetail\\style.css"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\css\\productlist\\style.css",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\css\\productlist\\style.css",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "css/productlist/style.css",
       "AssetKind": "All",
@@ -1190,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\css\\productlist\\style.css"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\css\\site.css",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -1207,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\favicon.ico",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -1224,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\image\\home\\corei9.jpg",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\image\\home\\corei9.jpg",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "image/home/corei9.jpg",
       "AssetKind": "All",
@@ -1241,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\image\\home\\corei9.jpg"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\image\\home\\cpu.jpg",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\image\\home\\cpu.jpg",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "image/home/cpu.jpg",
       "AssetKind": "All",
@@ -1258,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\image\\home\\cpu.jpg"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\image\\home\\favicon.png",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\image\\home\\favicon.png",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "image/home/favicon.png",
       "AssetKind": "All",
@@ -1275,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\image\\home\\favicon.png"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\image\\home\\headphone.jpg",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\image\\home\\headphone.jpg",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "image/home/headphone.jpg",
       "AssetKind": "All",
@@ -1292,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot\\image\\home\\headphone.jpg"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\image\\home\\home.png",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\image\\home\\home.png",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "image/home/home.png",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\image\\home\\home.png"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\image\\home\\keyboard.jpg",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\image\\home\\keyboard.jpg",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "image/home/keyboard.jpg",
       "AssetKind": "All",
@@ -1326,10 +1326,10 @@
       "OriginalItemSpec": "wwwroot\\image\\home\\keyboard.jpg"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\image\\home\\mainboard.jpg",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\image\\home\\mainboard.jpg",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "image/home/mainboard.jpg",
       "AssetKind": "All",
@@ -1343,10 +1343,10 @@
       "OriginalItemSpec": "wwwroot\\image\\home\\mainboard.jpg"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\image\\home\\monitor.jpg",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\image\\home\\monitor.jpg",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "image/home/monitor.jpg",
       "AssetKind": "All",
@@ -1360,10 +1360,10 @@
       "OriginalItemSpec": "wwwroot\\image\\home\\monitor.jpg"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\image\\home\\mouse.jpg",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\image\\home\\mouse.jpg",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "image/home/mouse.jpg",
       "AssetKind": "All",
@@ -1377,10 +1377,10 @@
       "OriginalItemSpec": "wwwroot\\image\\home\\mouse.jpg"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\image\\home\\mouse1.jpg",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\image\\home\\mouse1.jpg",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "image/home/mouse1.jpg",
       "AssetKind": "All",
@@ -1394,10 +1394,10 @@
       "OriginalItemSpec": "wwwroot\\image\\home\\mouse1.jpg"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\image\\home\\new1.png",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\image\\home\\new1.png",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "image/home/new1.png",
       "AssetKind": "All",
@@ -1411,10 +1411,10 @@
       "OriginalItemSpec": "wwwroot\\image\\home\\new1.png"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\image\\home\\new2.png",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\image\\home\\new2.png",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "image/home/new2.png",
       "AssetKind": "All",
@@ -1428,10 +1428,10 @@
       "OriginalItemSpec": "wwwroot\\image\\home\\new2.png"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\image\\home\\new3.png",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\image\\home\\new3.png",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "image/home/new3.png",
       "AssetKind": "All",
@@ -1445,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\image\\home\\new3.png"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\image\\home\\new4.png",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\image\\home\\new4.png",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "image/home/new4.png",
       "AssetKind": "All",
@@ -1462,10 +1462,10 @@
       "OriginalItemSpec": "wwwroot\\image\\home\\new4.png"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\image\\home\\product1.png",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\image\\home\\product1.png",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "image/home/product1.png",
       "AssetKind": "All",
@@ -1479,10 +1479,10 @@
       "OriginalItemSpec": "wwwroot\\image\\home\\product1.png"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\image\\home\\product11.png",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\image\\home\\product11.png",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "image/home/product11.png",
       "AssetKind": "All",
@@ -1496,10 +1496,10 @@
       "OriginalItemSpec": "wwwroot\\image\\home\\product11.png"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\image\\home\\product2.png",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\image\\home\\product2.png",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "image/home/product2.png",
       "AssetKind": "All",
@@ -1513,10 +1513,10 @@
       "OriginalItemSpec": "wwwroot\\image\\home\\product2.png"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\image\\home\\product3.png",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\image\\home\\product3.png",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "image/home/product3.png",
       "AssetKind": "All",
@@ -1530,10 +1530,10 @@
       "OriginalItemSpec": "wwwroot\\image\\home\\product3.png"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\image\\home\\product4.png",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\image\\home\\product4.png",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "image/home/product4.png",
       "AssetKind": "All",
@@ -1547,10 +1547,10 @@
       "OriginalItemSpec": "wwwroot\\image\\home\\product4.png"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\image\\home\\product5.png",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\image\\home\\product5.png",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "image/home/product5.png",
       "AssetKind": "All",
@@ -1564,10 +1564,10 @@
       "OriginalItemSpec": "wwwroot\\image\\home\\product5.png"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\image\\home\\ram.jpg",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\image\\home\\ram.jpg",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "image/home/ram.jpg",
       "AssetKind": "All",
@@ -1581,10 +1581,10 @@
       "OriginalItemSpec": "wwwroot\\image\\home\\ram.jpg"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\image\\home\\robot.png",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\image\\home\\robot.png",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "image/home/robot.png",
       "AssetKind": "All",
@@ -1598,10 +1598,10 @@
       "OriginalItemSpec": "wwwroot\\image\\home\\robot.png"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\image\\home\\story.png",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\image\\home\\story.png",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "image/home/story.png",
       "AssetKind": "All",
@@ -1615,10 +1615,10 @@
       "OriginalItemSpec": "wwwroot\\image\\home\\story.png"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\image\\home\\testimonial.png",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\image\\home\\testimonial.png",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "image/home/testimonial.png",
       "AssetKind": "All",
@@ -1632,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\image\\home\\testimonial.png"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\image\\home\\testimonial1.jpg",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\image\\home\\testimonial1.jpg",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "image/home/testimonial1.jpg",
       "AssetKind": "All",
@@ -1649,10 +1649,10 @@
       "OriginalItemSpec": "wwwroot\\image\\home\\testimonial1.jpg"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\image\\home\\testimonial2.jpg",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\image\\home\\testimonial2.jpg",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "image/home/testimonial2.jpg",
       "AssetKind": "All",
@@ -1666,10 +1666,10 @@
       "OriginalItemSpec": "wwwroot\\image\\home\\testimonial2.jpg"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\image\\home\\testimonial3.jpg",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\image\\home\\testimonial3.jpg",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "image/home/testimonial3.jpg",
       "AssetKind": "All",
@@ -1683,10 +1683,10 @@
       "OriginalItemSpec": "wwwroot\\image\\home\\testimonial3.jpg"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\image\\icon\\email.png",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\image\\icon\\email.png",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "image/icon/email.png",
       "AssetKind": "All",
@@ -1700,10 +1700,10 @@
       "OriginalItemSpec": "wwwroot\\image\\icon\\email.png"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\image\\icon\\padlock.png",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\image\\icon\\padlock.png",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "image/icon/padlock.png",
       "AssetKind": "All",
@@ -1717,10 +1717,10 @@
       "OriginalItemSpec": "wwwroot\\image\\icon\\padlock.png"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\image\\icon\\trolley-cart.png",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\image\\icon\\trolley-cart.png",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "image/icon/trolley-cart.png",
       "AssetKind": "All",
@@ -1734,10 +1734,10 @@
       "OriginalItemSpec": "wwwroot\\image\\icon\\trolley-cart.png"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\image\\loginpage\\signin-image.jpg",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\image\\loginpage\\signin-image.jpg",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "image/loginpage/signin-image.jpg",
       "AssetKind": "All",
@@ -1751,10 +1751,10 @@
       "OriginalItemSpec": "wwwroot\\image\\loginpage\\signin-image.jpg"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\image\\loginpage\\signup-image.jpg",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\image\\loginpage\\signup-image.jpg",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "image/loginpage/signup-image.jpg",
       "AssetKind": "All",
@@ -1768,10 +1768,10 @@
       "OriginalItemSpec": "wwwroot\\image\\loginpage\\signup-image.jpg"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\image\\navbar\\alcologo.png",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\image\\navbar\\alcologo.png",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "image/navbar/alcologo.png",
       "AssetKind": "All",
@@ -1785,10 +1785,10 @@
       "OriginalItemSpec": "wwwroot\\image\\navbar\\alcologo.png"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\image\\navbar\\Alcoo.png",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\image\\navbar\\Alcoo.png",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "image/navbar/Alcoo.png",
       "AssetKind": "All",
@@ -1802,10 +1802,10 @@
       "OriginalItemSpec": "wwwroot\\image\\navbar\\Alcoo.png"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\image\\product\\chuột-gaming-logitech-g102.jpg",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\image\\product\\chuột-gaming-logitech-g102.jpg",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "image/product/chuột-gaming-logitech-g102.jpg",
       "AssetKind": "All",
@@ -1819,10 +1819,10 @@
       "OriginalItemSpec": "wwwroot\\image\\product\\chuột-gaming-logitech-g102.jpg"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\image\\product\\chuột-gaming-logitech-g502.jpg",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\image\\product\\chuột-gaming-logitech-g502.jpg",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "image/product/chuột-gaming-logitech-g502.jpg",
       "AssetKind": "All",
@@ -1836,10 +1836,78 @@
       "OriginalItemSpec": "wwwroot\\image\\product\\chuột-gaming-logitech-g502.jpg"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\image\\product\\màn-hình-acer-nitro.jpg",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\image\\product\\hp1.png",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
+      "BasePath": "_content/Accessories",
+      "RelativePath": "image/product/hp1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\product\\hp1.png"
+    },
+    {
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\image\\product\\hp2.png",
+      "SourceId": "Accessories",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
+      "BasePath": "_content/Accessories",
+      "RelativePath": "image/product/hp2.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\product\\hp2.png"
+    },
+    {
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\image\\product\\hp3.png",
+      "SourceId": "Accessories",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
+      "BasePath": "_content/Accessories",
+      "RelativePath": "image/product/hp3.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\product\\hp3.png"
+    },
+    {
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\image\\product\\hp4.png",
+      "SourceId": "Accessories",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
+      "BasePath": "_content/Accessories",
+      "RelativePath": "image/product/hp4.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\product\\hp4.png"
+    },
+    {
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\image\\product\\màn-hình-acer-nitro.jpg",
+      "SourceId": "Accessories",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "image/product/màn-hình-acer-nitro.jpg",
       "AssetKind": "All",
@@ -1853,10 +1921,10 @@
       "OriginalItemSpec": "wwwroot\\image\\product\\màn-hình-acer-nitro.jpg"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\image\\product\\màn-hình-asus.jpg",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\image\\product\\màn-hình-asus.jpg",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "image/product/màn-hình-asus.jpg",
       "AssetKind": "All",
@@ -1870,10 +1938,197 @@
       "OriginalItemSpec": "wwwroot\\image\\product\\màn-hình-asus.jpg"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\image\\product\\ram-adata.jpg",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\image\\product\\moni1.png",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
+      "BasePath": "_content/Accessories",
+      "RelativePath": "image/product/moni1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\product\\moni1.png"
+    },
+    {
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\image\\product\\moni2.png",
+      "SourceId": "Accessories",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
+      "BasePath": "_content/Accessories",
+      "RelativePath": "image/product/moni2.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\product\\moni2.png"
+    },
+    {
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\image\\product\\Mouse1.png",
+      "SourceId": "Accessories",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
+      "BasePath": "_content/Accessories",
+      "RelativePath": "image/product/Mouse1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\product\\Mouse1.png"
+    },
+    {
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\image\\product\\mouse2.png",
+      "SourceId": "Accessories",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
+      "BasePath": "_content/Accessories",
+      "RelativePath": "image/product/mouse2.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\product\\mouse2.png"
+    },
+    {
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\image\\product\\mouse3.png",
+      "SourceId": "Accessories",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
+      "BasePath": "_content/Accessories",
+      "RelativePath": "image/product/mouse3.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\product\\mouse3.png"
+    },
+    {
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\image\\product\\mouse4.png",
+      "SourceId": "Accessories",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
+      "BasePath": "_content/Accessories",
+      "RelativePath": "image/product/mouse4.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\product\\mouse4.png"
+    },
+    {
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\image\\product\\mouse5.png",
+      "SourceId": "Accessories",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
+      "BasePath": "_content/Accessories",
+      "RelativePath": "image/product/mouse5.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\product\\mouse5.png"
+    },
+    {
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\image\\product\\ram1.png",
+      "SourceId": "Accessories",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
+      "BasePath": "_content/Accessories",
+      "RelativePath": "image/product/ram1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\product\\ram1.png"
+    },
+    {
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\image\\product\\ram2.png",
+      "SourceId": "Accessories",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
+      "BasePath": "_content/Accessories",
+      "RelativePath": "image/product/ram2.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\product\\ram2.png"
+    },
+    {
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\image\\product\\ram3.png",
+      "SourceId": "Accessories",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
+      "BasePath": "_content/Accessories",
+      "RelativePath": "image/product/ram3.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\product\\ram3.png"
+    },
+    {
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\image\\product\\ram4.png",
+      "SourceId": "Accessories",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
+      "BasePath": "_content/Accessories",
+      "RelativePath": "image/product/ram4.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\product\\ram4.png"
+    },
+    {
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\image\\product\\ram-adata.jpg",
+      "SourceId": "Accessories",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "image/product/ram-adata.jpg",
       "AssetKind": "All",
@@ -1887,10 +2142,10 @@
       "OriginalItemSpec": "wwwroot\\image\\product\\ram-adata.jpg"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\image\\product\\Ram-Desktop-v-color.jpg",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\image\\product\\Ram-Desktop-v-color.jpg",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "image/product/Ram-Desktop-v-color.jpg",
       "AssetKind": "All",
@@ -1904,10 +2159,10 @@
       "OriginalItemSpec": "wwwroot\\image\\product\\Ram-Desktop-v-color.jpg"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\image\\product\\tai-nghe-corsair.jpg",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\image\\product\\tai-nghe-corsair.jpg",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "image/product/tai-nghe-corsair.jpg",
       "AssetKind": "All",
@@ -1921,10 +2176,10 @@
       "OriginalItemSpec": "wwwroot\\image\\product\\tai-nghe-corsair.jpg"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\image\\product\\tai-nghe-gaming.jpg",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\image\\product\\tai-nghe-gaming.jpg",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "image/product/tai-nghe-gaming.jpg",
       "AssetKind": "All",
@@ -1938,10 +2193,10 @@
       "OriginalItemSpec": "wwwroot\\image\\product\\tai-nghe-gaming.jpg"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\js\\cart\\script.js",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\js\\cart\\script.js",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "js/cart/script.js",
       "AssetKind": "All",
@@ -1955,10 +2210,10 @@
       "OriginalItemSpec": "wwwroot\\js\\cart\\script.js"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\js\\login\\jquery.min.js",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\js\\login\\jquery.min.js",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "js/login/jquery.min.js",
       "AssetKind": "All",
@@ -1972,10 +2227,10 @@
       "OriginalItemSpec": "wwwroot\\js\\login\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\js\\login\\jquery-ui.min.js",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\js\\login\\jquery-ui.min.js",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "js/login/jquery-ui.min.js",
       "AssetKind": "All",
@@ -1989,10 +2244,10 @@
       "OriginalItemSpec": "wwwroot\\js\\login\\jquery-ui.min.js"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\js\\productlist\\app.js",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\js\\productlist\\app.js",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "js/productlist/app.js",
       "AssetKind": "All",
@@ -2006,10 +2261,10 @@
       "OriginalItemSpec": "wwwroot\\js\\productlist\\app.js"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\js\\site.js",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -2023,10 +2278,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -2040,10 +2295,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -2057,10 +2312,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -2074,10 +2329,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -2091,10 +2346,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -2108,10 +2363,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -2125,10 +2380,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -2142,10 +2397,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -2159,10 +2414,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -2176,10 +2431,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -2193,10 +2448,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -2210,10 +2465,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -2227,10 +2482,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -2244,10 +2499,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -2261,10 +2516,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -2278,10 +2533,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -2295,10 +2550,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -2312,10 +2567,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -2329,10 +2584,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -2346,10 +2601,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -2363,10 +2618,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -2380,10 +2635,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -2397,10 +2652,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -2414,10 +2669,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -2431,10 +2686,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -2448,10 +2703,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -2465,10 +2720,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -2482,10 +2737,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -2499,10 +2754,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -2516,10 +2771,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -2533,10 +2788,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -2550,10 +2805,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -2567,10 +2822,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -2584,10 +2839,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -2601,10 +2856,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -2618,10 +2873,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -2635,10 +2890,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -2652,10 +2907,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -2669,10 +2924,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -2686,10 +2941,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -2703,10 +2958,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -2720,10 +2975,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -2737,10 +2992,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -2754,10 +3009,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -2771,10 +3026,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -2788,10 +3043,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -2805,10 +3060,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -2822,10 +3077,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -2839,10 +3094,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -2856,10 +3111,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -2873,10 +3128,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -2890,10 +3145,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -2907,10 +3162,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -2924,10 +3179,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -2941,10 +3196,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -2958,10 +3213,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -2975,10 +3230,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "Accessories",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (4)\\Doan\\Accessories\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories\\wwwroot\\",
       "BasePath": "_content/Accessories",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",

@@ -1,5 +1,6 @@
 ﻿@using System.Globalization
 @using Accessories.Infrastructure.ViewModels
+@using Accessories.Infrastructure.Contents.MessageEnum
 <!--Important link from https://bootsnipp.com/snippets/XqvZr-->
 <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
@@ -16,7 +17,7 @@
 	var product = Model;
 }
 @model ProductViewModel
-<div class="pd-wrap">
+<div class="pd-wrap" style="position:relative;">
 	<div class="container">
 		<div class="heading-section">
 			<h2>Product Details</h2>
@@ -72,25 +73,7 @@
 						<div class="product-price-discount"><span><span id="price-product">@product.Price.ToString("N0",new CultureInfo("is-IS"))</span>@product.Unit</span><span class="line-through">1.000.000đ</span></div>
 					</div>
 					<p>@product.Description</p>
-					<div class="row">
-						<div class="col-md-6">
-							<label for="size">Size</label>
-							<select id="size" name="size" class="form-control">
-								<option>S</option>
-								<option>M</option>
-								<option>L</option>
-								<option>XL</option>
-							</select>
-						</div>
-						<div class="col-md-6">
-							<label for="color">Color</label>
-							<select id="color" name="color" class="form-control">
-								<option>Blue</option>
-								<option>Green</option>
-								<option>Red</option>
-							</select>
-						</div>
-					</div>
+					
 					<div class="product-count">
 						<label for="size">Quantity</label>
 						<form method="post" class="display-flex">
@@ -160,50 +143,52 @@
 		</div>
 
 	</div>
-</div>
-<div class="modal-login-request" tabindex="-1" role="dialog">
-	<div class="modal-dialog" role="document" style="position:relative">
-		<div class="modal-content" style="position: absolute;left: 30px;top: 300px;">
-			<div class="modal-header">
-				<h5 class="modal-title">Thông báo</h5>
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					<span aria-hidden="true">&times;</span>
-				</button>
-			</div>
-			<div class="modal-body">
-				<p>Vui lòng đăng nhập để tiếp tục mua hàng.</p>
-			</div>
-			<div class="modal-footer">
-				<button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
-				<button type="button" class="btn btn-primary">Đăng nhập</button>
-			</div>
-		</div>
-	</div>
-</div>
-<div class="modal-success-order" tabindex="-1" role="dialog">
-	<div class="modal-dialog" role="document" style="position:relative">
-		<div class="modal-content" style="position: absolute;left: 30px;top: 300px;">
-			<div class="modal-header">
-				<h5 class="modal-title">Thông báo</h5>
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					<span aria-hidden="true">&times;</span>
-				</button>
-			</div>
-			<div class="modal-body">
-				<p>Thêm sản phẩm thành công.</p>
-			</div>
-			<div class="modal-footer">
-				<button type="button" class="btn btn-secondary" data-dismiss="modal">Đóng</button>
-				<button type="button" class="btn btn-primary">Tiếp tục mua sắm</button>
+	<div class="modal-login-request" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document" style="position: absolute;left: 30%;top: 150px;">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title">Thông báo</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<p>Vui lòng đăng nhập để tiếp tục mua hàng.</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="CloseModalRequestLogin()">Đóng</button>
+					<a type="button" class="btn btn-primary" asp-area="Identity" asp-page="/Account/Login">Đăng nhập ngay</a>
+				</div>
 			</div>
 		</div>
 	</div>
+	<div class="modal-success-order" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document" style="position: absolute;left: 30%;top: 150px;">
+			<div class="modal-content" >
+				<div class="modal-header">
+					<h5 class="modal-title">Thông báo</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<p>Thêm sản phẩm thành công.</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal" onclick="CloseModalOrderProduct()">Đóng</button>
+					<a type="button" class="btn btn-primary" asp-action="Index" asp-controller="Cart">Chuyển đến giỏ hàng</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
 </div>
 <script>
 	$(document).ready(function () {
-		$('#myModal').on('shown.bs.modal', function () {
-		  $('#myInput').trigger('focus')
-			})
+		$('.modal-login-request').modal({ backdrop: 'static', keyboard: false })
+		$('.modal-success-order').modal({ backdrop: 'static', keyboard: false })
+		$('.modal-success-order').hide();
+		$('.modal-login-request').hide();
 	});
 	function MinusQuantityProduct()
 	{
@@ -238,12 +223,37 @@
 			type: 'POST',
 			data: { id: id, quantity: parseInt(quantity) },
 			success: function (result) {
-			    console.log(result);
+				switch(result)
+				{
+					case '@MessageConst.Not_Found_User':
+					{
+						$('.modal-login-request').show();
+						break;
+					}
+					case '@MessageConst.Message_Notice_Add_Success':
+					{
+						$('.modal-success-order').show();
+						break;
+					}
+					default:
+					{
+						$('.modal-success-order').hide();
+						$('.modal-login-request').hide();
+						break;
+					}
+				}
 			},
 			error: function (err) {
 			    console.log(err);
 			}
 		});
-		$('.modal').show();
+	}
+	function CloseModalRequestLogin()
+	{
+		$('.modal-login-request').hide();
+	}
+	function CloseModalOrderProduct()
+	{
+		$('.modal-success-order').hide();
 	}
 </script>

@@ -1,8 +1,8 @@
 ﻿@using Accessories.Controllers;
 @using System.Globalization
+@using Accessories.Infrastructure.Contents.MessageEnum
 @{
-    var productCarts = Model;
-    var b = 1;
+    var productCarts = !Model.Equals(MessageConst.Not_Found_User) ? Model : null;
 }
 <!DOCTYPE html>
 <html lang="en">
@@ -13,67 +13,78 @@
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <link href="https://netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://netdna.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
 </head>
 <body>
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
-    <div class="container">
+    <div class="container" style="position:relative;">
         <div class="wrapper wrapper-content animated fadeInRight">
             <div class="row">
                 <div class="col-md-9">
                     <div class="ibox">
                         <div class="ibox-title">
-                            <span class="pull-right">(<strong>@productCarts.Count</strong>) items</span>
+                            <span class="pull-right">(<strong>@productCarts?.Count</strong>) items</span>
                             <h5>Items in your cart</h5>
                         </div>
-                        @foreach (var item in productCarts)
+                        @if (productCarts != null)
                         {
-                            <div class="ibox-content">
-                                <div class="table-responsive">
-                                    <table class="table shoping-cart-table">
-                                        <tbody>
-                                            <tr>
-                                                <td width="90">
-                                                    <image class="cart-product-imitation" src="@item.Product.Image"/>
-                                                </td>
-                                                <td class="desc">
-                                                    <h3>
-                                                        <a href="#" class="text-navy">
-                                                            @item.Product.Name
-                                                        </a>
-                                                    </h3>
-                                                    <p class="small">
-                                                        @item.Product.Description
-                                                    </p>
-                                                    <dl class="small m-b-none">
-                                                        <dt>Description lists</dt>
-                                                        <dd>@item.Product.Description</dd>
-                                                    </dl>
+                            @foreach (var item in productCarts)
+                            {
+                                <div class="ibox-content">
+                                    <div class="table-responsive">
+                                        <table class="table shoping-cart-table">
+                                            <tbody>
+                                                <tr>
+                                                    <td width="90">
+                                                        <image class="cart-product-imitation" src="@item.Product.Image"/>
+                                                    </td>
+                                                    <td class="desc">
+                                                        <h3>
+                                                            <a href="#" class="text-navy">
+                                                                @item.Product.Name
+                                                            </a>
+                                                        </h3>
+                                                        <p class="small">
+                                                            @item.Product.Description
+                                                        </p>
+                                                        <dl class="small m-b-none">
+                                                            <dt>Description lists</dt>
+                                                            <dd>@item.Product.Description</dd>
+                                                        </dl>
 
-                                                    <div class="m-t-sm">
-                                                        <a href="#" class="text-muted"><i class="fa fa-gift"></i> Add gift package</a>
-                                                        |
-                                                        <a href="#" class="text-muted"><i class="fa fa-trash"></i> Remove item</a>
-                                                    </div>
-                                                </td>
+                                                        <div class="m-t-sm">
+                                                            <a class="text-muted" onclick="RemoveProductFromCartByUser('@item.Id')" style="cursor:pointer;"><i class="fa fa-trash"></i> Xóa khỏi giỏ hàng</a>
+                                                        </div>
+                                                    </td>
 
-                                                <td>
-                                                    @(item.Product.Price.ToString("N0",new CultureInfo("is-IS")) + item.Product.Unit)
-                                                    <s class="small text-muted">1.000.000đ</s>
-                                                </td>
-                                                <td width="65">
-                                                    <input type="text" class="form-control" value="@item.Quantity">
-                                                </td>
-                                                <td>
-                                                    <h4>
-                                                        @((item.Product.Price * item.Quantity).ToString("N0", new CultureInfo("is-IS")) + item.Product.Unit)
-                                                    </h4>
-                                                </td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
+                                                    <td>
+                                                        @(
+                                                        item.Product.Price.ToString("N0", new CultureInfo("is-IS")) + item.Product.Unit
+                                                        )
+                                                        <s class="small text-muted">1.000.000đ</s>
+                                                    </td>
+                                                    <td width="65">
+                                                        <input type="text" class="form-control" value="@item.Quantity">
+                                                    </td>
+                                                    <td>
+                                                        <h4>
+                                                            @(
+                                                            (item.Product.Price * item.Quantity).ToString("N0", new CultureInfo("is-IS")) + item.Product.Unit
+                                                            )
+                                                        </h4>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+
                                 </div>
-
-                            </div>
+                            }
                         }
                         <button class="btn btn-primary pull-right" style="margin:20px 0;"><i class="fa fa fa-shopping-cart"></i> Checkout</button>
                         <button class="btn btn-white" style="margin:20px 0;"><i class="fa fa-arrow-left"></i> Continue shopping</button>
@@ -90,13 +101,10 @@
                                 Total
                             </span>
                             <h2 class="font-bold">
-                                $390,00
+                               
                             </h2>
 
                             <hr>
-                            <span class="text-muted small">
-                                *For United States, France and Germany applicable sales tax will be applied
-                            </span>
                             <div class="m-t-sm">
                                 <div class="btn-group">
                                     <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-shopping-cart"></i> Checkout</a>
@@ -118,35 +126,17 @@
                         </div>
                     </div>
 
-                    <div class="ibox">
-                        <div class="ibox-content">
-
-                            <p class="font-bold">
-                                Other products you may be interested
-                            </p>
-                            <hr>
-                            <div>
-                                <a href="#" class="product-name"> Product 1</a>
-                                <div class="small m-t-xs">
-                                    Many desktop publishing packages and web page editors now.
-                                </div>
-                                <div class="m-t text-righ">
-
-                                    <a href="#" class="btn btn-xs btn-outline btn-primary">Info <i class="fa fa-long-arrow-right"></i> </a>
-                                </div>
-                            </div>
-                            <hr>
-                            <div>
-                                <a href="#" class="product-name"> Product 2</a>
-                                <div class="small m-t-xs">
-                                    Many desktop publishing packages and web page editors now.
-                                </div>
-                                <div class="m-t text-righ">
-
-                                    <a href="#" class="btn btn-xs btn-outline btn-primary">Info <i class="fa fa-long-arrow-right"></i> </a>
-                                </div>
-                            </div>
-                        </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal-login-request" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document" style="position: absolute;left: 30%;top: 150px;">
+                <div class="modal-content" style="max-width:260px;">
+                    <div class="modal-body">
+                        <h3>Vui lòng đăng nhập để tiếp tục</h3>
+                    </div>
+                    <div class="modal-footer" style="justify-content:center;">
+                        <a type="button" class="btn btn-primary" asp-area="Identity" asp-page="/Account/Login">Đăng nhập ngay</a>
                     </div>
                 </div>
             </div>
@@ -269,8 +259,36 @@
         }
     </style>
 
-    <script type="text/javascript">
-
+    <script>
+        $(document).ready(function () {
+            $('.modal-login-request').modal({ backdrop: 'static', keyboard: false })
+            if('@Model' == '@MessageConst.Not_Found_User')
+            {
+                $('.modal-login-request').show();
+            }
+            else
+            {
+                $('.modal-login-request').hide();
+            }
+        });
+        function RemoveProductFromCartByUser(cartProductId)
+        {
+            $.ajax({
+                cache: true,
+                url: '@Url.Action("RemoveProductFromCartByUser", "Cart")',
+                type: 'POST',
+                data: { cartProductId: cartProductId },
+                success: function (result) {
+                    if(result=='@MessageConst.Message_Notice_Add_Success')
+                    {
+                        window.location.href='./Cart';
+                    }
+                },
+                error: function (err) {
+                    console.log(err);
+                }
+            });
+        }
     </script>
 </body>
 </html>

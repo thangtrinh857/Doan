@@ -25,7 +25,7 @@ namespace Accessories.ServicesAgent.Services.CartProductCommand
             if (carts == null && carts.Count == 0) return null;
             return _mapper.Map<List<CartProductViewModel>>(carts);
         }
-        public async Task AdditionalProductIntoCartByUserId(ProductViewModel product, string userId)
+        public async Task<bool> AdditionalProductIntoCartByUserId(ProductViewModel product, string userId)
         {
             var context = _dbContextFactory.CreateDbContext();
             var user = context.Users.Where(u=> u.Id == userId).FirstOrDefault();
@@ -42,7 +42,11 @@ namespace Accessories.ServicesAgent.Services.CartProductCommand
                     checkExsit.Quantity += product.Quantity;
                 }
                 checkExsit.IsPaid = false;
-                context.CartProducts.Update(checkExsit);
+                var result = context.CartProducts.Update(checkExsit);
+                if(result == null)
+                {
+                    return false;
+                }    
             }
             else
             {
@@ -57,13 +61,22 @@ namespace Accessories.ServicesAgent.Services.CartProductCommand
                 cart.PhoneNumber = user?.PhoneNumber;
                 cart.ProductId = product.Id;
                 cart.Quantity = product.Quantity;
-                context.CartProducts.Add(cart);
+                var result = context.CartProducts.Add(cart);
+                if (result == null)
+                {
+                    return false;
+                }
             }
             await context.SaveChangesAsync();
+            return true;
         }
-        public async Task UpdateCart(List<string> cartIds, string userId)
+        public async Task RemoveProductFromCart(int cartProductId)
         {
-
+            var context = _dbContextFactory.CreateDbContext();
+            var cartProduct = context.CartProducts.Where(p => p.Id == cartProductId && p.IsActive).FirstOrDefault();
+            cartProduct.IsActive = false;
+            context.CartProducts.Update(cartProduct);
+            await context.SaveChangesAsync();
         }    
     }
 }

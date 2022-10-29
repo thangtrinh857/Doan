@@ -12,9 +12,11 @@ namespace Accessories.Domain.Models
     {
         public int Id { get; set; }
         public string Name { get; set; }
+        public string? Information { get; set; }
         public string Image { get; set; }
         public string Description { get; set; }
         public int Price { get; set; }
+        public int? PriceOrigin { get; set; }
         public string Unit { get; set; }
         [ForeignKey(nameof(Category))]
         public int CategoryId { get; set; }
