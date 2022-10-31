@@ -27,7 +27,7 @@ builder.Services.AddControllersWithViews();
 var connectionString = builder.Configuration.GetConnectionString("ConnectionStrings") ?? throw new InvalidOperationException("Connection string 'MyDbContextConnection' not found.");
 builder.Services.AddDbContextFactory<AccessoriesDbContext>(options =>
                 options.UseSqlServer(connectionString));
-
+// 
 builder.Services.AddDefaultIdentity<UserEntity>(options => options.SignIn.RequireConfirmedAccount = true)
     .AddEntityFrameworkStores<AccessoriesDbContext>();
 builder.Services.AddScoped(x => x.GetRequiredService<IDbContextFactory<AccessoriesDbContext>>().CreateDbContext());

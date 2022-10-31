@@ -16,8 +16,8 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow">
-            <div class="container">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow" style="justify-content: center">
+            <div class="d-flex">
                 <a asp-area="" asp-controller="Home" asp-action="Index">
                     <img style="width:100px; height: auto; margin-left: 40px; margin-right: 20px" src="~/image/navbar/Alcoo.png" />
                 </a>
@@ -37,8 +37,11 @@
                             <a class="nav-link text-dark" asp-action="HistoryOrder" asp-controller="Cart" asp-route-userId="@UserManager.GetUserAsync(User).Result?.Id" title="Manage">Lịch sử</a>
                         </li>
                     </ul>
+                </div >
+                <div style="margin-left:200px">
+                    <partial name="_LoginPartial.cshtml" />
                 </div>
-                <partial name="_LoginPartial.cshtml" />
+               
 
             </div>
         </nav>
@@ -65,9 +68,9 @@
 
         <footer class="new_footer_area bg_color">
             <div class="new_footer_top">
-                <div class="container">
+                <div class="d-flex">
                     <div class="row">
-                        <div class="col-lg-3 col-md-6">
+                        <div class="col-lg-3 col-md-6" style="margin-left: 120px">
                             <div class="f_widget company_widget wow fadeInLeft" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInLeft;">
                                 <a> <img src="~/image/navbar/Alcoo.png" /> </a>
                                 <p>Alco mang đến cho bạn những sản phẩm chất lượng tốt nhất với cả giả hợp lý nhất</p>

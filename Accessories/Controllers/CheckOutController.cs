@@ -40,7 +40,7 @@ namespace Accessories.Controllers
         public async Task<IActionResult> Index(int total, string provinceId, string districtId)
         {
             CheckOutViewModel checkOutViewModel = new CheckOutViewModel();
-            var user = await _userManager.GetUserAsync(User);
+            var user = await _userManager.GetUserAsync(User);   
             if (user == null)
             {
                 checkOutViewModel.ErrorMessage = MessageConst.Not_Found_User;
