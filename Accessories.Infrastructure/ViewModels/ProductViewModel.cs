@@ -15,6 +15,9 @@ namespace Accessories.Infrastructure.ViewModels
         public int Price { get; set; }
         public string Unit { get; set; }
         public string Image { get; set; }
+        public string Information { get; set; }
+        public string CreatedDate { get; set; }
+        public int? PriceOrigin { get; set; }
         public string Description { get; set; }
         public int CategoryId { get; set; }
     }

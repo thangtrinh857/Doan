@@ -6,6 +6,7 @@ using Accessories.Infrastructure.ViewModels;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
+using System.Web.Providers.Entities;
 
 namespace Accessories.Controllers
 {
@@ -36,7 +37,10 @@ namespace Accessories.Controllers
                 return View("Index",MessageConst.Not_Found_User);
             }
             var productCarts = await _cartProductService.GetCartProductsByUserIdAsync(user.Id);
-            return View(productCarts);
+            BillViewModel bill = new BillViewModel();
+            bill.Total = productCarts.Select(t => t.Product.Price * t.Quantity).Sum();
+            bill.CartProducts = productCarts.ToList();
+            return View(bill);
         }
         [HttpPost]
         public async Task<IActionResult> AdditionalCart(int id, int quantity)
@@ -71,6 +75,15 @@ namespace Accessories.Controllers
             await _cartProductService.RemoveProductFromCart(cartProductId);
             var productCarts = await _cartProductService.GetCartProductsByUserIdAsync(user.Id);
             return Json(MessageConst.Message_Notice_Add_Success);
+        }
+        [HttpGet]
+        public async Task<IActionResult> HistoryOrder(string userId)
+        {
+            var productCarts = await _cartProductService.GetHistoryOrderByUserId(userId);
+            BillViewModel bill = new BillViewModel();
+            bill.Total = productCarts.Select(t => t.Product.Price * t.Quantity).Sum();
+            bill.CartProducts = productCarts.ToList();
+            return View("Index", bill);
         }
     }
 }

@@ -21,7 +21,16 @@ namespace Accessories.ServicesAgent.Services.CartProductCommand
         public async Task<List<CartProductViewModel>> GetCartProductsByUserIdAsync(string userId)
         {
             var context = _dbContextFactory.CreateDbContext();
-            var carts = context.CartProducts.Where(t => t.IsActive && t.CreatedBy == userId).Include(t =>t.Product).ToList();
+            var carts = context.CartProducts.Where(t => t.IsActive && t.CreatedBy == userId && !t.IsPaid).Include(t =>t.Product).ToList();
+            carts = carts.OrderByDescending(t => t.CreatedDate).ToList();
+            if (carts == null && carts.Count == 0) return null;
+            return _mapper.Map<List<CartProductViewModel>>(carts);
+        }
+        public async Task<List<CartProductViewModel>> GetHistoryOrderByUserId(string userId)
+        {
+            var context = _dbContextFactory.CreateDbContext();
+            var carts = context.CartProducts.Where(t => !t.IsActive && t.CreatedBy == userId).Include(t => t.Product).ToList();
+            carts = carts.OrderByDescending(t => t.CreatedDate).ToList();
             if (carts == null && carts.Count == 0) return null;
             return _mapper.Map<List<CartProductViewModel>>(carts);
         }
@@ -77,6 +86,17 @@ namespace Accessories.ServicesAgent.Services.CartProductCommand
             cartProduct.IsActive = false;
             context.CartProducts.Update(cartProduct);
             await context.SaveChangesAsync();
-        }    
+        }
+        public void ChangeStatusPaidProductByCart(List<CartProductViewModel> cartProducts)
+        {
+            var context = _dbContextFactory.CreateDbContext();
+            foreach(var cartProduct in cartProducts)
+            {
+                cartProduct.IsPaid = true;
+                CartProduct cart = _mapper.Map<CartProduct>(cartProduct);
+                context.CartProducts.Update(cart);
+                context.SaveChanges();
+            }
+        }
     }
 }

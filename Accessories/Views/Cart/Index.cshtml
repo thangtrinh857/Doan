@@ -2,7 +2,9 @@
 @using System.Globalization
 @using Accessories.Infrastructure.Contents.MessageEnum
 @{
-    var productCarts = !Model.Equals(MessageConst.Not_Found_User) ? Model : null;
+    var productCarts = !Model.Equals(MessageConst.Not_Found_User) ? Model.CartProducts : null;
+    var bill = !Model.Equals(MessageConst.Not_Found_User) ? Model : null;
+    var check = true;
 }
 <!DOCTYPE html>
 <html lang="en">
@@ -28,8 +30,8 @@
                 <div class="col-md-9">
                     <div class="ibox">
                         <div class="ibox-title">
-                            <span class="pull-right">(<strong>@productCarts?.Count</strong>) items</span>
-                            <h5>Items in your cart</h5>
+                            <span class="pull-right">(<strong>@productCarts?.Count</strong>) sản phẩm</span>
+                            <h5>@(check ? "Sản phẩm trong giỏ hàng" : "Lịch sử đặt hàng")</h5>
                         </div>
                         @if (productCarts != null)
                         {
@@ -45,31 +47,36 @@
                                                     </td>
                                                     <td class="desc">
                                                         <h3>
-                                                            <a href="#" class="text-navy">
+                                                            <a class="text-navy" asp-action="GetDetailProduct" asp-controller="ProductDetail" asp-route-id="@item.Product.Id">
                                                                 @item.Product.Name
                                                             </a>
                                                         </h3>
-                                                        <p class="small">
-                                                            @item.Product.Description
-                                                        </p>
+                                                        
                                                         <dl class="small m-b-none">
-                                                            <dt>Description lists</dt>
-                                                            <dd>@item.Product.Description</dd>
+                                                            <dt>Thông tin sản phẩm</dt>
+                                                            <dd>@item.Product.Information</dd>
                                                         </dl>
-
-                                                        <div class="m-t-sm">
-                                                            <a class="text-muted" onclick="RemoveProductFromCartByUser('@item.Id')" style="cursor:pointer;"><i class="fa fa-trash"></i> Xóa khỏi giỏ hàng</a>
+                                                        @if(item.IsActive && !item.IsPaid)
+                                                        {
+                                                            <div class="m-t-sm">
+                                                                <a class="text-muted" onclick="RemoveProductFromCartByUser('@item.Id')" style="cursor:pointer;"><i class="fa fa-trash"></i> Xóa khỏi giỏ hàng</a>
+                                                            </div>
+                                                        }
+                                                        else
+                                                        {
+                                                            check = false;
+                                                        }
+                                                        <div class="">
+                                                            <div class="badge" style="color:white;margin-top:5px;">@(item.IsActive ? item.IsPaid ? "ĐÃ THANH TOÁN" : "CHƯA THANH TOÁN" : "ĐÃ HUỶ")</div>
                                                         </div>
                                                     </td>
 
                                                     <td>
-                                                        @(
-                                                        item.Product.Price.ToString("N0", new CultureInfo("is-IS")) + item.Product.Unit
-                                                        )
-                                                        <s class="small text-muted">1.000.000đ</s>
+                                                        @(item.Product.Price.ToString("N0", new CultureInfo("is-IS")) + item.Product.Unit)
+                                                        <s class="small text-muted">@(item.Product.PriceOrigin !=null ? item.Product.PriceOrigin +"đ" : "")</s>
                                                     </td>
                                                     <td width="65">
-                                                        <input type="text" class="form-control" value="@item.Quantity">
+                                                        <input type="text" class="form-control" value="@item.Quantity" readonly>
                                                     </td>
                                                     <td>
                                                         <h4>
@@ -86,42 +93,47 @@
                                 </div>
                             }
                         }
-                        <button class="btn btn-primary pull-right" style="margin:20px 0;"><i class="fa fa fa-shopping-cart"></i> Checkout</button>
-                        <button class="btn btn-white" style="margin:20px 0;"><i class="fa fa-arrow-left"></i> Continue shopping</button>
+                        @if (check)
+                        {
+                            <a asp-action="Index" asp-controller="ProductList" class="btn btn-white" style="margin:20px 0;"><i class="fa fa-arrow-left"></i> Tiếp tục mua sắm</a>
+                        }
                     </div>
 
                 </div>
                 <div class="col-md-3">
                     <div class="ibox">
                         <div class="ibox-title">
-                            <h5>Cart Summary</h5>
+                            <h5>Tổng giá trị giỏ hàng</h5>
                         </div>
                         <div class="ibox-content">
                             <span>
                                 Total
                             </span>
                             <h2 class="font-bold">
-                               
+                               @bill?.Total.ToString("N0", new CultureInfo("is-Is"))đ
                             </h2>
 
                             <hr>
-                            <div class="m-t-sm">
-                                <div class="btn-group">
-                                    <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-shopping-cart"></i> Checkout</a>
-                                    <a href="#" class="btn btn-white btn-sm"> Cancel</a>
+                            @if (check)
+                            {
+                                <div class="m-t-sm">
+                                    <div class="btn-group">
+                                        <a asp-action="Index" asp-controller="CheckOut" asp-route-total='@bill?.Total' class="btn btn-primary btn-sm"><i class="fa fa-shopping-cart"></i> Thanh toán</a>
+                                        <a href="#" class="btn btn-white btn-sm"> Cancel</a>
+                                    </div>
                                 </div>
-                            </div>
+                            }
                         </div>
                     </div>
 
                     <div class="ibox">
                         <div class="ibox-title">
-                            <h5>Support</h5>
+                            <h5>Hỗ trợ</h5>
                         </div>
                         <div class="ibox-content text-center">
-                            <h3><i class="fa fa-phone"></i> +43 100 783 001</h3>
+                            <h3><i class="fa fa-phone"></i> +84 935 791 857</h3>
                             <span class="small">
-                                Please contact with us if you have any questions. We are avalible 24h.
+                                Nếu bạn có bất kỳ vấn đề gì cần hỗ trợ hãy liên hệ với chúng tôi thông qua số điện thoại trên.
                             </span>
                         </div>
                     </div>

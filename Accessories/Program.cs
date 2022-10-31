@@ -7,14 +7,18 @@ using Accessories.Domain.Models;
 using Accessories.Mapper;
 using Accessories.ServicesAgent.Services.CartProductCommand;
 using Accessories.Infrastructure.Interfaces.CartProductCommand;
-using Accessories.Infrastructure.Interfaces.Payment;
-using Accessories.ServicesAgent.Services.Payment;
+using Accessories.Infrastructure.Interfaces.PaymentCommand;
+using Accessories.ServicesAgent.Services.PaymentCommand;
 using Accessories.Infrastructure.Interfaces.ProductCommand;
 using Accessories.ServicesAgent.Services.ProductCommand;
 using Accessories.Infrastructure.Interfaces.CategoryCommand;
 using Accessories.ServicesAgent.Services.CategoryCommand;
 using Accessories.Infrastructure.Interfaces.API.RegionCommand;
 using Accessories.ServicesAgent.Services.API.RegionCommand;
+using Microsoft.AspNetCore.Mvc.Infrastructure;
+using Microsoft.Extensions.DependencyInjection.Extensions;
+using Accessories.Infrastructure.Interfaces.BillCommand;
+using Accessories.ServicesAgent.Services.BillCommand;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -30,10 +34,13 @@ builder.Services.AddScoped(x => x.GetRequiredService<IDbContextFactory<Accessori
 builder.Services.AddAutoMapper(typeof(MappingProfile));
 // Add service, interface
 builder.Services.AddTransient<ICartProductService, CartProductService>();
+builder.Services.AddHttpContextAccessor();
+builder.Services.TryAddSingleton<IActionContextAccessor, ActionContextAccessor>();
 builder.Services.AddTransient<IPaymentService, PaymentService>();
 builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddScoped<ICategoryService, CategoryService>();
 builder.Services.AddScoped<IRegionAPIService, RegionAPIService>();
+builder.Services.AddScoped<IBillService, BillService>();
 builder.Services.AddSession(options =>
 {
     options.IdleTimeout = TimeSpan.FromMinutes(30);

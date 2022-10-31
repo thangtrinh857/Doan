@@ -67,7 +67,6 @@ signInButton.addEventListener('click', () => {
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Sign Up Form by Colorlib</title>
     <link rel="stylesheet" href="~/css/login/style.css"/>
 	<!-- Font Icon -->
 	<link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
@@ -82,21 +81,20 @@ signInButton.addEventListener('click', () => {
             <div class="signin-content">
                 <div class="signin-image">
                     <figure><img src="~/image/loginpage/signin-image.jpg" alt="sing up image"></figure>
-                    <a href="#" class="signup-image-link">Create an account</a>
+                    <a href="#" class="signup-image-link">Tạo tài khoản</a>
                 </div>
 
                 <div class="signin-form">
-                    <h2 class="form-title">Sign in</h2>
+                    <h2 class="form-title">Đăng nhập</h2>
                     <form method="POST" class="register-form" id="login-form">
                         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                         <div class="form-group">
-                            <label for="your_name"><img style="width: 15px; height:auto; margin-bottom: 25px" src="~/image/icon/email.png"></label>
+                           
                             <input asp-for="Input.Email" type="email" id="your_name" placeholder="Email" />
                             <span asp-validation-for="Input.Email" class="text-danger"></span>
                         </div>
                         <div class="form-group">
-                            <label for="your_pass"><img style="width: 15px; height:auto; margin-bottom: 25px" src="~/image/icon/padlock.png" /></label>
-                            <input asp-for="Input.Password" type="password" id="your_pass" placeholder="Password" />
+                            <input asp-for="Input.Password" type="password" id="your_pass" placeholder="Mật khẩu" />
                             <span asp-validation-for="Input.Password" class="text-danger"></span>
                         </div>
                         <div class="form-group">
@@ -107,14 +105,7 @@ signInButton.addEventListener('click', () => {
                             <input type="submit" name="signin" id="signin" class="form-submit" value="Log in" />
                         </div>
                     </form>
-                    <div class="social-login">
-                        <span class="social-label">Or login with</span>
-                        <ul class="socials">
-                            <li><a href="#"><i class="display-flex-center zmdi zmdi-facebook"></i></a></li>
-                            <li><a href="#"><i class="display-flex-center zmdi zmdi-twitter"></i></a></li>
-                            <li><a href="#"><i class="display-flex-center zmdi zmdi-google"></i></a></li>
-                        </ul>
-                    </div>
+                    
                 </div>
             </div>
         </section>

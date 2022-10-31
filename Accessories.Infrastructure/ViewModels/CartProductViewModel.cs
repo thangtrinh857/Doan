@@ -18,7 +18,12 @@ namespace Accessories.Infrastructure.ViewModels
         public string Address { get; set; }
         public string Color { get; set; }
         public int Price { get; set; }
+        public DateTimeOffset CreatedDate { get; set; }
+        public string? CreatedBy { get; set; }
+        public DateTimeOffset? UpdatedDate { get; set; }
+        public string? UpdatedBy { get; set; }
         public bool IsPaid { get; set; }
+        public bool IsActive { get; set; }
         public ProductEntity Product { get; set; }
     }
 }

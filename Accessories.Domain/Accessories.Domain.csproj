@@ -30,6 +30,8 @@
     </PackageReference>
     <PackageReference Include="Microsoft.Extensions.Identity.Core" Version="6.0.10" />
     <PackageReference Include="Microsoft.Extensions.Identity.Stores" Version="6.0.10" />
+    <PackageReference Include="PagedList" Version="1.17.0" />
+    <PackageReference Include="PagedList.Mvc" Version="4.0.0" />
   </ItemGroup>
 
 </Project>

@@ -1,4 +1,7 @@
-﻿@using System.Globalization
+﻿@using System.Globalization;
+@using Accessories.Infrastructure.ViewModels;
+@using PagedList.Mvc;
+@model PagedList.IPagedList<ProductViewModel>
 <!DOCTYPE html>
 <html>
 <head>
@@ -25,15 +28,11 @@
 <body>
 	<main>
 		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<button class="help-btn"><i class="far fa-question-circle"></i><br />Help</button>
-				</div>
-			</div>
+			
 			<div>
 				<div class="row align-items-center">
 					<div class="col-md-4">
-						<p class="section-title2">Daily Discovery</p>
+						<p class="section-title2">Các sản phẩm</p>
 					</div>
 				</div>
 			</div>
@@ -56,22 +55,12 @@
 									<figcaption class="discover-caption" style="min-height:215px;">
 										<p class="discover-title" style="min-height:72px;">@item.Name</p>
 										<div class="price-div">
-											<p class="sale-price">@(item.Price.ToString("N0", new CultureInfo("is-IS")) + item.Unit)</p>
+											<p class="sale-price">@(item.Price.ToString("N0", new CultureInfo("is-IS")) + item.Unit)</p><p class="" style="text-decoration:line-through;color:black;">@(item.PriceOrigin != null ? item.PriceOrigin.Value.ToString("N0", new CultureInfo("is-IS")) + "đ" : "")</p>
 											<div class="stars">
 											</div>
 
 										</div>
-										<div class="card-rate">
-											<div class="row">
-												<div class="rating">
-													<input type="radio" id="star5" name="rating" value="5" /><label for="star5" title="Meh">5 stars</label>
-													<input type="radio" id="star4" name="rating" value="4" /><label for="star4" title="Kinda bad">4 stars</label>
-													<input type="radio" id="star3" name="rating" value="3" /><label for="star3" title="Kinda bad">3 stars</label>
-													<input type="radio" id="star2" name="rating" value="2" /><label for="star2" title="Sucks big tim">2 stars</label>
-													<input type="radio" id="star1" name="rating" value="1" /><label for="star1" title="Sucks big time">1 star</label>
-												</div>
-											</div>
-										</div>
+										
 									</figcaption>
 
 								</figure>
@@ -87,6 +76,9 @@
 	</main>
 	<br />
 	<br />
+	<div class="col-md-6 col-lg-6 col-xs-6 col-sm-6 text-right">
+        Trang: @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) / @Model.PageCount
+    </div>
 	<script src="~/js/productlist/app.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>

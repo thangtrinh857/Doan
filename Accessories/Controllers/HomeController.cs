@@ -34,7 +34,8 @@ namespace Accessories.Controllers
         public async Task<IActionResult> Index()
         {
             var categories =await _categoryService.GetCategoriesAsync();
-            var data = await _regionAPIService.GetListWardByDistrictId("271");
+            var products = await _productService.GetAllProductsAsync();
+            ViewData["Products"] = products.OrderByDescending(t => t.CreatedDate).ToList();
             return View(categories);
         }
         

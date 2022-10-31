@@ -1,6 +1,18 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Accessories",
+    "\\Accessories.Infrastructure",
+    "\\Accessories.Infrastructure\\OthersContract",
+    "\\Accessories.Infrastructure\\OthersContract\\VNPayData",
+    "\\Accessories\\Areas",
+    "\\Accessories\\Areas\\Identity",
+    "\\Accessories\\Areas\\Identity\\Pages",
+    "\\Accessories\\Areas\\Identity\\Pages\\Account",
+    "\\Accessories\\Controllers",
+    "\\Accessories\\Views",
+    "\\Accessories\\Views\\CheckOut"
   ],
+  "SelectedNode": "\\Accessories.Infrastructure\\OthersContract\\VNPayData\\Util.cs",
   "PreviewInSolutionExplorer": false
 }

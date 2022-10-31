@@ -12,6 +12,7 @@ namespace Accessories.Domain.Models
     {
         public int Id { get; set; }
         public int Total { get; set; }
+        public string? ResponseAPI { get; set; }
         public List<ProductEntity> Products { get; set; }
         public virtual ICollection<CartProduct> CartProducts { get; set; }
     }

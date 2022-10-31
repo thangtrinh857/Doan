@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories.Data\\Accessories.Data.csproj": {}
+    "C:\\Users\\TrinhDat\\Documents\\Doan (6)\\Doan\\Accessories.Data\\Accessories.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories.Data\\Accessories.Data.csproj": {
+    "C:\\Users\\TrinhDat\\Documents\\Doan (6)\\Doan\\Accessories.Data\\Accessories.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories.Data\\Accessories.Data.csproj",
+        "projectUniqueName": "C:\\Users\\TrinhDat\\Documents\\Doan (6)\\Doan\\Accessories.Data\\Accessories.Data.csproj",
         "projectName": "Accessories.Data",
-        "projectPath": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories.Data\\Accessories.Data.csproj",
+        "projectPath": "C:\\Users\\TrinhDat\\Documents\\Doan (6)\\Doan\\Accessories.Data\\Accessories.Data.csproj",
         "packagesPath": "C:\\Users\\TrinhDat\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories.Data\\obj\\",
+        "outputPath": "C:\\Users\\TrinhDat\\Documents\\Doan (6)\\Doan\\Accessories.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\TrinhDat\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories.Domain\\Accessories.Domain.csproj": {
-                "projectPath": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories.Domain\\Accessories.Domain.csproj"
+              "C:\\Users\\TrinhDat\\Documents\\Doan (6)\\Doan\\Accessories.Domain\\Accessories.Domain.csproj": {
+                "projectPath": "C:\\Users\\TrinhDat\\Documents\\Doan (6)\\Doan\\Accessories.Domain\\Accessories.Domain.csproj"
               }
             }
           }
@@ -115,6 +115,14 @@
             "Microsoft.Extensions.Identity.Stores": {
               "target": "Package",
               "version": "[6.0.10, )"
+            },
+            "PagedList": {
+              "target": "Package",
+              "version": "[1.17.0, )"
+            },
+            "PagedList.Mvc": {
+              "target": "Package",
+              "version": "[4.0.0, )"
             }
           },
           "imports": [
@@ -137,14 +145,14 @@
         }
       }
     },
-    "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories.Domain\\Accessories.Domain.csproj": {
+    "C:\\Users\\TrinhDat\\Documents\\Doan (6)\\Doan\\Accessories.Domain\\Accessories.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories.Domain\\Accessories.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\TrinhDat\\Documents\\Doan (6)\\Doan\\Accessories.Domain\\Accessories.Domain.csproj",
         "projectName": "Accessories.Domain",
-        "projectPath": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories.Domain\\Accessories.Domain.csproj",
+        "projectPath": "C:\\Users\\TrinhDat\\Documents\\Doan (6)\\Doan\\Accessories.Domain\\Accessories.Domain.csproj",
         "packagesPath": "C:\\Users\\TrinhDat\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TrinhDat\\Documents\\Doan (5)\\Doan\\Accessories.Domain\\obj\\",
+        "outputPath": "C:\\Users\\TrinhDat\\Documents\\Doan (6)\\Doan\\Accessories.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\TrinhDat\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -244,6 +252,14 @@
             "Microsoft.Extensions.Identity.Stores": {
               "target": "Package",
               "version": "[6.0.10, )"
+            },
+            "PagedList": {
+              "target": "Package",
+              "version": "[1.17.0, )"
+            },
+            "PagedList.Mvc": {
+              "target": "Package",
+              "version": "[4.0.0, )"
             }
           },
           "imports": [

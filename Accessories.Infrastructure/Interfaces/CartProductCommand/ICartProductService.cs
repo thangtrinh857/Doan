@@ -11,7 +11,8 @@ namespace Accessories.Infrastructure.Interfaces.CartProductCommand
     {
         Task<List<CartProductViewModel>> GetCartProductsByUserIdAsync(string userId);
         Task<bool> AdditionalProductIntoCartByUserId(ProductViewModel product, string userId);
+        Task<List<CartProductViewModel>> GetHistoryOrderByUserId(string userId);
         Task RemoveProductFromCart(int cartProductId);
-
+        void ChangeStatusPaidProductByCart(List<CartProductViewModel> cartProducts);
     }
 }

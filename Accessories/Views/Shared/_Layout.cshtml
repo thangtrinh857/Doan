@@ -1,4 +1,9 @@
-﻿<!DOCTYPE html>
+﻿@using Accessories.Domain.Models
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<UserEntity> SignInManager
+@inject UserManager<UserEntity> UserManager
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -11,7 +16,7 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow">
             <div class="container">
                 <a asp-area="" asp-controller="Home" asp-action="Index">
                     <img style="width:100px; height: auto; margin-left: 40px; margin-right: 20px" src="~/image/navbar/Alcoo.png" />
@@ -26,6 +31,10 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Cart" asp-action="Index">Giỏ hàng</a>
+
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-action="HistoryOrder" asp-controller="Cart" asp-route-userId="@UserManager.GetUserAsync(User).Result?.Id" title="Manage">Lịch sử</a>
                         </li>
                     </ul>
                 </div>
@@ -34,12 +43,11 @@
             </div>
         </nav>
     </header>
-    <div class="container">
+    <div class="container" style="padding:0px;" id="main-layout">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
-
     <!-- Footer -->
 <footer class="text-center text-lg-start text-muted">
   <!-- Section: Social media -->
@@ -53,83 +61,63 @@
   <!-- Section: Social media -->
 
   <!-- Section: Links  -->
-  <section class="">
-    <div class="container text-center text-md-start mt-5">
-      <!-- Grid row -->
-      <div class="row mt-3">
-        <!-- Grid column -->
-        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-          <!-- Content -->
-          <h6 class="text-uppercase fw-bold mb-4">
-              <img style="width: 300px; height:auto" src="~/image/navbar/Alcoo.png" />
-            <i class="fas fa-gem me-3 text-secondary"></i>Company name
-          </h6>
-          <p>
-            Here you can use rows and columns to organize your footer content. Lorem ipsum
-            dolor sit amet, consectetur adipisicing elit.
-          </p>
-        </div>
-        <!-- Grid column -->
 
-        <!-- Grid column -->
-        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-          <!-- Links -->
-          <h6 class="text-uppercase fw-bold mb-4">
-            Products
-          </h6>
-          <p>
-            <a href="#!" class="text-reset">Angular</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">React</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Vue</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Laravel</a>
-          </p>
-        </div>
-        <!-- Grid column -->
 
-        <!-- Grid column -->
-        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-          <!-- Links -->
-          <h6 class="text-uppercase fw-bold mb-4">
-            Useful links
-          </h6>
-          <p>
-            <a href="#!" class="text-reset">Pricing</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Settings</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Orders</a>
-          </p>
-          <p>
-            <a href="#!" class="text-reset">Help</a>
-          </p>
-        </div>
-        <!-- Grid column -->
-
-        <!-- Grid column -->
-        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-          <!-- Links -->
-          <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
-          <p><i class="fas fa-home me-3 text-secondary"></i> New York, NY 10012, US</p>
-          <p>
-            <i class="fas fa-envelope me-3 text-secondary"></i>
-            info@example.com
-          </p>
-          <p><i class="fas fa-phone me-3 text-secondary"></i> + 01 234 567 88</p>
-          <p><i class="fas fa-print me-3 text-secondary"></i> + 01 234 567 89</p>
-        </div>
-        <!-- Grid column -->
-      </div>
-      <!-- Grid row -->
-    </div>
-  </section>
+        <footer class="new_footer_area bg_color">
+            <div class="new_footer_top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6">
+                            <div class="f_widget company_widget wow fadeInLeft" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInLeft;">
+                                <a> <img src="~/image/navbar/Alcoo.png" /> </a>
+                                <p>Alco mang đến cho bạn những sản phẩm chất lượng tốt nhất với cả giả hợp lý nhất</p>
+                                <form action="#" class="f_subscribe_two mailchimp" method="post" novalidate="true" _lpchecked="1">
+                                    
+                                    <p class="mchimp-errmessage" style="display: none;"></p>
+                                    <p class="mchimp-sucmessage" style="display: none;"></p>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6" style="margin-left:80px">
+                            <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInLeft;">
+                                <h3 class="f-title f_600 t_color f_size_18">Danh mục</h3>
+                                <ul class="list-unstyled f_list">
+                                    <li><a href="#">RAM</a></li>
+                                    <li><a href="#">Headphone</a></li>
+                                    <li><a href="#">Monitor</a></li>
+                                    <li><a href="#">Keyboard</a></li>
+                                    <li><a href="#">CPU</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6" style="margin-left:80px">
+                            <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInLeft;">
+                                <h3 class="f-title f_600 t_color f_size_18">Liên hệ</h3>
+                                <ul class="list-unstyled f_list">
+                                    <li><span>Email: alco.co@gamil.com</span></li>
+                                    <li><span>SĐT: +84 935 798 584</span></li>
+                                    <li><span>Địa chỉ: 279 Nguyễn Tri Phương</span></li>
+                                    <li><span>FB: /alco.accessories</span></li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="footer_bg">
+                    
+                </div>
+            </div>
+            <div class="footer_bottom">
+                <div class="container">
+                    <div class="row align-items-center">
+                       
+                        
+                    </div>
+                </div>
+            </div>
+        </footer>
   <!-- Section: Links  -->
 
 </footer>
@@ -140,3 +128,16 @@
     @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>
+    <script>
+        function getUrl()
+        {
+            return window.location.href;
+        }
+        window.onload = function(){
+            if (getUrl().toLowerCase() != 'https://localhost:7107/identity/account/login' && getUrl().toLowerCase() != 'https://localhost:7107/identity/account/register') {
+                document.getElementById('main-layout').classList.remove('container');
+                document.getElementById('main-layout').classList.add('container-fluid');
+            }
+        };
+    </script>
+

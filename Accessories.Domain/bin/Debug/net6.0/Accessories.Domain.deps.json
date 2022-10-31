@@ -24,7 +24,9 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.10",
           "Microsoft.EntityFrameworkCore.Tools": "6.0.10",
           "Microsoft.Extensions.Identity.Core": "6.0.10",
-          "Microsoft.Extensions.Identity.Stores": "6.0.10"
+          "Microsoft.Extensions.Identity.Stores": "6.0.10",
+          "PagedList": "1.17.0",
+          "PagedList.Mvc": "4.0.0"
         },
         "runtime": {
           "Accessories.Domain.dll": {}
@@ -513,6 +515,25 @@
           }
         }
       },
+      "PagedList/1.17.0": {
+        "runtime": {
+          "lib/net40/PagedList.dll": {
+            "assemblyVersion": "1.17.0.0",
+            "fileVersion": "1.17.0.0"
+          }
+        }
+      },
+      "PagedList.Mvc/4.0.0": {
+        "dependencies": {
+          "PagedList": "1.17.0"
+        },
+        "runtime": {
+          "lib/net40/PagedList.Mvc.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
       "System.Collections.Immutable/6.0.0": {
         "dependencies": {
           "System.Runtime.CompilerServices.Unsafe": "6.0.0"
@@ -961,6 +982,20 @@
       "sha512": "sha512-mtVirZr++rq+XCDITMUdnETD59XoeMxSpLRIII7JRI6Yj0LEDiO1pPn0ktlnIj12Ix8bfvQqQDMMIF9wC98oCA==",
       "path": "microsoft.win32.systemevents/4.7.0",
       "hashPath": "microsoft.win32.systemevents.4.7.0.nupkg.sha512"
+    },
+    "PagedList/1.17.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Ou6F3WKXh49hOo0TxWM+SkIGuKllYPuPPvnSYOlQ1sTrtuEyuDUhYbSJd5Sdb06i/sWUJZTjiUecEs3Ht/Hx3g==",
+      "path": "pagedlist/1.17.0",
+      "hashPath": "pagedlist.1.17.0.nupkg.sha512"
+    },
+    "PagedList.Mvc/4.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7iIj4EBtcE0b6o5cMfxtU+60GjJZsxlT1MLwcv1WFI7SLkugKMfiVYnVshEQ+YWGgJA6TTQJElRSGlpDIe/Xyg==",
+      "path": "pagedlist.mvc/4.0.0",
+      "hashPath": "pagedlist.mvc.4.0.0.nupkg.sha512"
     },
     "System.Collections.Immutable/6.0.0": {
       "type": "package",
