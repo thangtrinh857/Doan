@@ -154,7 +154,7 @@ namespace Accessories.Data.Migrations
                         {
                             Id = 1,
                             Cover = "/image/home/ram.jpg",
-                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 31, 4, 2, 37, 624, DateTimeKind.Unspecified).AddTicks(8294), new TimeSpan(0, 7, 0, 0, 0)),
+                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 31, 23, 5, 0, 252, DateTimeKind.Unspecified).AddTicks(4530), new TimeSpan(0, 7, 0, 0, 0)),
                             IsActive = true,
                             Type = "Ram"
                         },
@@ -162,7 +162,7 @@ namespace Accessories.Data.Migrations
                         {
                             Id = 2,
                             Cover = "/image/home/headphone.jpg",
-                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 31, 4, 2, 37, 624, DateTimeKind.Unspecified).AddTicks(8318), new TimeSpan(0, 7, 0, 0, 0)),
+                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 31, 23, 5, 0, 252, DateTimeKind.Unspecified).AddTicks(4559), new TimeSpan(0, 7, 0, 0, 0)),
                             IsActive = true,
                             Type = "Headphone"
                         },
@@ -170,7 +170,7 @@ namespace Accessories.Data.Migrations
                         {
                             Id = 3,
                             Cover = "/image/home/monitor.jpg",
-                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 31, 4, 2, 37, 624, DateTimeKind.Unspecified).AddTicks(8319), new TimeSpan(0, 7, 0, 0, 0)),
+                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 31, 23, 5, 0, 252, DateTimeKind.Unspecified).AddTicks(4563), new TimeSpan(0, 7, 0, 0, 0)),
                             IsActive = true,
                             Type = "Monitor"
                         },
@@ -178,7 +178,7 @@ namespace Accessories.Data.Migrations
                         {
                             Id = 4,
                             Cover = "/image/home/mouse1.jpg",
-                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 31, 4, 2, 37, 624, DateTimeKind.Unspecified).AddTicks(8320), new TimeSpan(0, 7, 0, 0, 0)),
+                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 31, 23, 5, 0, 252, DateTimeKind.Unspecified).AddTicks(4565), new TimeSpan(0, 7, 0, 0, 0)),
                             IsActive = true,
                             Type = "Mouse"
                         },
@@ -186,7 +186,7 @@ namespace Accessories.Data.Migrations
                         {
                             Id = 5,
                             Cover = "/image/home/keyboard.jpg",
-                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 31, 4, 2, 37, 624, DateTimeKind.Unspecified).AddTicks(8321), new TimeSpan(0, 7, 0, 0, 0)),
+                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 31, 23, 5, 0, 252, DateTimeKind.Unspecified).AddTicks(4568), new TimeSpan(0, 7, 0, 0, 0)),
                             IsActive = true,
                             Type = "KeyBoard"
                         },
@@ -194,7 +194,7 @@ namespace Accessories.Data.Migrations
                         {
                             Id = 6,
                             Cover = "/image/home/mainboard.jpg",
-                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 31, 4, 2, 37, 624, DateTimeKind.Unspecified).AddTicks(8323), new TimeSpan(0, 7, 0, 0, 0)),
+                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 31, 23, 5, 0, 252, DateTimeKind.Unspecified).AddTicks(4571), new TimeSpan(0, 7, 0, 0, 0)),
                             IsActive = true,
                             Type = "MainBoard"
                         });
@@ -267,7 +267,7 @@ namespace Accessories.Data.Migrations
                         {
                             Id = 1,
                             CategoryId = 1,
-                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 31, 4, 2, 37, 624, DateTimeKind.Unspecified).AddTicks(8519), new TimeSpan(0, 7, 0, 0, 0)),
+                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 31, 23, 5, 0, 252, DateTimeKind.Unspecified).AddTicks(4831), new TimeSpan(0, 7, 0, 0, 0)),
                             Description = "",
                             Image = "/image/product/ram1.png",
                             Information = "Loại RAM: DDR4Dung lượng RAM: 8 GB (1 thanh 8 GB)Tốc độ RAM: 3200 MHzĐóng gói: ThanhMàu LED: KhôngThương hiệu: V-colorXuất xứ: Đài LoanThời gian bảo hành (tháng): 60",
@@ -280,7 +280,7 @@ namespace Accessories.Data.Migrations
                         {
                             Id = 2,
                             CategoryId = 1,
-                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 31, 4, 2, 37, 624, DateTimeKind.Unspecified).AddTicks(8523), new TimeSpan(0, 7, 0, 0, 0)),
+                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 31, 23, 5, 0, 252, DateTimeKind.Unspecified).AddTicks(4837), new TimeSpan(0, 7, 0, 0, 0)),
                             Description = "",
                             Image = "/image/product/ram4.png",
                             Information = "Loại RAM: DDR4: Dung lượngRAM: 8 GBTốc độ RAM: 3200 MHzĐóng gói: 1 ThanhMàu LED: RGBThương hiệu: AdataXuất xứ: Đài LoanThời gian bảo hành (tháng): 36",
@@ -293,7 +293,7 @@ namespace Accessories.Data.Migrations
                         {
                             Id = 3,
                             CategoryId = 2,
-                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 31, 4, 2, 37, 624, DateTimeKind.Unspecified).AddTicks(8525), new TimeSpan(0, 7, 0, 0, 0)),
+                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 31, 23, 5, 0, 252, DateTimeKind.Unspecified).AddTicks(4841), new TimeSpan(0, 7, 0, 0, 0)),
                             Description = "",
                             Image = "/image/product/hp1.png",
                             Information = "Thương hiệu: CORSAIRXuất xứ: Trung QuốcThời gian bảo hành (tháng): 24Kích thước: 160 x 100 x 205 mmTrọng lượng sản phẩm: 325 gChất liệu: NhựaĐộ dài dây: 1.8 mMàu sắc: Xanh lá",
@@ -306,7 +306,7 @@ namespace Accessories.Data.Migrations
                         {
                             Id = 4,
                             CategoryId = 2,
-                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 31, 4, 2, 37, 624, DateTimeKind.Unspecified).AddTicks(8526), new TimeSpan(0, 7, 0, 0, 0)),
+                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 31, 23, 5, 0, 252, DateTimeKind.Unspecified).AddTicks(4844), new TimeSpan(0, 7, 0, 0, 0)),
                             Description = "",
                             Image = "/image/product/hp3.png",
                             Information = "Thương hiệu: RapooXuất xứ: Trung QuốcThời gian bảo hành (tháng): 24Trọng lượng sản phẩm: 340 gChất liệu: NhựaChất liệu: DaĐộ dài dây: 220 cmMàu sắc: Đen",
@@ -319,7 +319,7 @@ namespace Accessories.Data.Migrations
                         {
                             Id = 5,
                             CategoryId = 3,
-                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 31, 4, 2, 37, 624, DateTimeKind.Unspecified).AddTicks(8527), new TimeSpan(0, 7, 0, 0, 0)),
+                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 31, 23, 5, 0, 252, DateTimeKind.Unspecified).AddTicks(4848), new TimeSpan(0, 7, 0, 0, 0)),
                             Description = "",
                             Image = "/image/product/moni1.png",
                             Information = "Màn hình: Màn hình phẳng, 23.8 inch, 1920 x 1080 Pixels, FHD, 300 nits, Anti-glare LED-backlitTần số quét: 75 HzGóc nhìn: 178°(Dọc) / 178°(Ngang)Thời gian phản hồi: 5msTiêu thụ năng lượng: 0.3 WCổng kết nối: 1 DisplayPort 1.2, 1 Jack 3.5 mm, 1 HDMI 1.4, 1 VGAĐầu ra âm thanh: LoaThương hiệu: AsusXuất xứ: Trung Quốc",
@@ -332,7 +332,7 @@ namespace Accessories.Data.Migrations
                         {
                             Id = 6,
                             CategoryId = 3,
-                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 31, 4, 2, 37, 624, DateTimeKind.Unspecified).AddTicks(8529), new TimeSpan(0, 7, 0, 0, 0)),
+                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 31, 23, 5, 0, 252, DateTimeKind.Unspecified).AddTicks(4953), new TimeSpan(0, 7, 0, 0, 0)),
                             Description = "",
                             Image = "/image/product/moni2.png",
                             Information = "Màn hình: 27 inch, 1920 x 1080 Pixels, FHD, 250 nits, IPSTần số quét: 165 HzGóc nhìn: 178°(Dọc) / 178°(Ngang)Thời gian phản hồi: 0.5msCổng kết nối: 1 DisplayPort, 2 HDMIĐầu ra âm thanh: HeadphoneThương hiệu: AcerXuất xứ: Trung Quốc",
@@ -345,7 +345,7 @@ namespace Accessories.Data.Migrations
                         {
                             Id = 7,
                             CategoryId = 4,
-                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 31, 4, 2, 37, 624, DateTimeKind.Unspecified).AddTicks(8530), new TimeSpan(0, 7, 0, 0, 0)),
+                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 31, 23, 5, 0, 252, DateTimeKind.Unspecified).AddTicks(4957), new TimeSpan(0, 7, 0, 0, 0)),
                             Description = "",
                             Image = "/image/product/mouse2.png",
                             Information = "Loại chuột	Chuột Gaming\r\nKiểu kết nối	USB\r\nĐộ phân giải chuột	16000 dpi\r\nThương hiệu	Logitech\r\nXuất xứ	Trung Quốc\r\nThời gian bảo hành (tháng)	12",
@@ -358,7 +358,7 @@ namespace Accessories.Data.Migrations
                         {
                             Id = 8,
                             CategoryId = 4,
-                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 31, 4, 2, 37, 624, DateTimeKind.Unspecified).AddTicks(8532), new TimeSpan(0, 7, 0, 0, 0)),
+                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 31, 23, 5, 0, 252, DateTimeKind.Unspecified).AddTicks(4961), new TimeSpan(0, 7, 0, 0, 0)),
                             Description = "",
                             Image = "/image/product/chuột-gaming-logitech-g102.jpg",
                             Information = "Loại chuột	Chuột Gaming\r\nKiểu kết nối	USB\r\nĐộ phân giải chuột	8000 dpi\r\nThương hiệu	Logitech\r\nXuất xứ	Trung Quốc\r\nThời gian bảo hành (tháng)	12",
@@ -371,7 +371,7 @@ namespace Accessories.Data.Migrations
                         {
                             Id = 9,
                             CategoryId = 4,
-                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 31, 4, 2, 37, 624, DateTimeKind.Unspecified).AddTicks(8533), new TimeSpan(0, 7, 0, 0, 0)),
+                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 31, 23, 5, 0, 252, DateTimeKind.Unspecified).AddTicks(4964), new TimeSpan(0, 7, 0, 0, 0)),
                             Description = "",
                             Image = "/image/product/Mouse1.png",
                             Information = "Loại chuột: Chuột gamingKiểu kết nối: USBĐộ phân giải chuột: 4000 dpiThương hiệu: ZadezXuất xứ: Trung QuốcThời gian bảo hành (tháng): 12",
@@ -384,7 +384,7 @@ namespace Accessories.Data.Migrations
                         {
                             Id = 10,
                             CategoryId = 4,
-                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 31, 4, 2, 37, 624, DateTimeKind.Unspecified).AddTicks(8535), new TimeSpan(0, 7, 0, 0, 0)),
+                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 31, 23, 5, 0, 252, DateTimeKind.Unspecified).AddTicks(4968), new TimeSpan(0, 7, 0, 0, 0)),
                             Description = "",
                             Image = "/image/product/mouse2.png",
                             Information = "Loại chuột: Chuột gamingKiểu kết nối: USBĐộ phân giải chuột: 12000 dpiThương hiệu: CorsairXuất xứ: Trung QuốcThời gian bảo hành (tháng): 24",
@@ -398,7 +398,7 @@ namespace Accessories.Data.Migrations
                         {
                             Id = 11,
                             CategoryId = 4,
-                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 31, 4, 2, 37, 624, DateTimeKind.Unspecified).AddTicks(8537), new TimeSpan(0, 7, 0, 0, 0)),
+                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 31, 23, 5, 0, 252, DateTimeKind.Unspecified).AddTicks(4971), new TimeSpan(0, 7, 0, 0, 0)),
                             Description = "",
                             Image = "/image/product/mouse3.png",
                             Information = "Loại chuột: Chuột gamingKiểu kết nối: USBĐộ phân giải chuột: 10000 dpiThương hiệu: ZadezXuất xứ: Trung QuốcThời gian bảo hành (tháng): 12Màu sắc: Đen",
@@ -412,7 +412,7 @@ namespace Accessories.Data.Migrations
                         {
                             Id = 12,
                             CategoryId = 4,
-                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 31, 4, 2, 37, 624, DateTimeKind.Unspecified).AddTicks(8538), new TimeSpan(0, 7, 0, 0, 0)),
+                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 31, 23, 5, 0, 252, DateTimeKind.Unspecified).AddTicks(4976), new TimeSpan(0, 7, 0, 0, 0)),
                             Description = "",
                             Image = "/image/product/mouse4.png",
                             Information = "Loại chuột: Chuột không dâyKiểu kết nối: USBĐộ phân giải chuột: 1600 dpiThương hiệu: LogitechXuất xứ: Trung QuốcThời gian bảo hành (tháng): 24Màu sắc: Đen",
@@ -426,7 +426,7 @@ namespace Accessories.Data.Migrations
                         {
                             Id = 13,
                             CategoryId = 4,
-                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 31, 4, 2, 37, 624, DateTimeKind.Unspecified).AddTicks(8540), new TimeSpan(0, 7, 0, 0, 0)),
+                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 31, 23, 5, 0, 252, DateTimeKind.Unspecified).AddTicks(4979), new TimeSpan(0, 7, 0, 0, 0)),
                             Description = "",
                             Image = "/image/product/mouse5.png",
                             Information = "Loại chuột: Chuột gamingKiểu kết nối: USBĐộ phân giải chuột: 12000 dpiThương hiệu: AsusXuất xứ: Trung QuốcThời gian bảo hành (tháng): 24Màu sắc: Đen, đỏ",
@@ -440,7 +440,7 @@ namespace Accessories.Data.Migrations
                         {
                             Id = 14,
                             CategoryId = 1,
-                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 31, 4, 2, 37, 624, DateTimeKind.Unspecified).AddTicks(8541), new TimeSpan(0, 7, 0, 0, 0)),
+                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 31, 23, 5, 0, 252, DateTimeKind.Unspecified).AddTicks(4983), new TimeSpan(0, 7, 0, 0, 0)),
                             Description = "",
                             Image = "/image/product/ram1.png",
                             Information = "Loại RAM: DDR4Dung lượng RAM: 8GBTốc độ RAM: 3000 MHzThương hiệu: V-colorXuất xứ: Đài LoanThời gian bảo hành (tháng): 24Màu LED: Không",
@@ -454,7 +454,7 @@ namespace Accessories.Data.Migrations
                         {
                             Id = 15,
                             CategoryId = 1,
-                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 31, 4, 2, 37, 624, DateTimeKind.Unspecified).AddTicks(8543), new TimeSpan(0, 7, 0, 0, 0)),
+                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 31, 23, 5, 0, 252, DateTimeKind.Unspecified).AddTicks(4986), new TimeSpan(0, 7, 0, 0, 0)),
                             Description = "",
                             Image = "/image/product/ram2.png",
                             Information = "Loại RAM: DDR4Dung lượng RAM: 8GBTốc độ RAM: 2666 MHzThương hiệu: KingstonXuất xứ: Trung QuốcThời gian bảo hành (tháng): 36Màu LED: Không",
@@ -468,7 +468,7 @@ namespace Accessories.Data.Migrations
                         {
                             Id = 16,
                             CategoryId = 1,
-                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 31, 4, 2, 37, 624, DateTimeKind.Unspecified).AddTicks(8546), new TimeSpan(0, 7, 0, 0, 0)),
+                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 31, 23, 5, 0, 252, DateTimeKind.Unspecified).AddTicks(4990), new TimeSpan(0, 7, 0, 0, 0)),
                             Description = "",
                             Image = "/image/product/ram3.png",
                             Information = "Loại RAM: DDR4Dung lượng RAM: 8GBTốc độ RAM: 2666 MHzThương hiệu: LexarXuất xứ: Trung QuốcThời gian bảo hành (tháng): 36Màu LED: Không",
@@ -482,7 +482,7 @@ namespace Accessories.Data.Migrations
                         {
                             Id = 17,
                             CategoryId = 1,
-                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 31, 4, 2, 37, 624, DateTimeKind.Unspecified).AddTicks(8548), new TimeSpan(0, 7, 0, 0, 0)),
+                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 31, 23, 5, 0, 252, DateTimeKind.Unspecified).AddTicks(4993), new TimeSpan(0, 7, 0, 0, 0)),
                             Description = "",
                             Image = "/image/product/ram4.png",
                             Information = "Loại RAM: DDR4Dung lượng RAM: 8GBTốc độ RAM: 3200 MHzThương hiệu: CorsairXuất xứ: Trung QuốcThời gian bảo hành (tháng): 36Màu LED: RGB",
@@ -496,7 +496,7 @@ namespace Accessories.Data.Migrations
                         {
                             Id = 18,
                             CategoryId = 2,
-                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 31, 4, 2, 37, 624, DateTimeKind.Unspecified).AddTicks(8549), new TimeSpan(0, 7, 0, 0, 0)),
+                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 31, 23, 5, 0, 252, DateTimeKind.Unspecified).AddTicks(4996), new TimeSpan(0, 7, 0, 0, 0)),
                             Description = "Cảm giác đeo vô cùng tốt. Về cơ bản, HyperX Cloud Alpha thừa hưởng tới 90% thiết kế từ những thế hệ trước như HyperX Cloud 2 và HyperX Cloud Silver. Điều đó có nghĩa là người dùng sẽ tiếp tục có được cảm giác đeo vô cùng thoải mái và đặc trưng của dòng Cloud.",
                             Image = "/image/product/hp1.png",
                             Information = "Loại tai nghe: Tai nghe gaming, tai nghe chụpXuất xứ: MỹThương hiệu: HyperX",
@@ -509,7 +509,7 @@ namespace Accessories.Data.Migrations
                         {
                             Id = 19,
                             CategoryId = 2,
-                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 31, 4, 2, 37, 624, DateTimeKind.Unspecified).AddTicks(8550), new TimeSpan(0, 7, 0, 0, 0)),
+                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 31, 23, 5, 0, 252, DateTimeKind.Unspecified).AddTicks(5000), new TimeSpan(0, 7, 0, 0, 0)),
                             Description = "Giống như mọi chiếc tai nghe gaming chơi game khác của HyperX, Cloud Stinger Core sẽ mang lại một trải nghiệm đeo vô cùng thoải mái cho người dùng trong thời gian dài. Thanh trượt của khung của tai nghe được làm từ thép cứng cáp và nó cho phép điều chỉnh để mang lại cảm giác vừa vặn cho bất kỳ kích thước đầu nào.",
                             Image = "/image/product/hp2.png",
                             Information = "Loại tai nghe: Tai nghe gaming, tai nghe chụpXuất xứ: MỹThương hiệu: HyperXTính năng: Chống ồn",
@@ -522,7 +522,7 @@ namespace Accessories.Data.Migrations
                         {
                             Id = 20,
                             CategoryId = 2,
-                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 31, 4, 2, 37, 624, DateTimeKind.Unspecified).AddTicks(8552), new TimeSpan(0, 7, 0, 0, 0)),
+                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 31, 23, 5, 0, 252, DateTimeKind.Unspecified).AddTicks(5003), new TimeSpan(0, 7, 0, 0, 0)),
                             Description = "Tai nghe chơi game không dây Corsair HS70 PRO SE Cream được nâng cấp nhiều so với HS60 Pro khi đây là tai nghe không dây 2.4GHz cao cấp hơn với độ trễ thấp và dung lượng pin lớn. HS70 Pro SE Cream mang lại cả sự thoải mái và chất lượng với miếng đệm tai bằng mút hoạt tính, trình điều khiển âm thanh neodymium 50mm tùy chỉnh.",
                             Image = "/image/product/hp3.png",
                             Information = "Loại tai nghe: Tai nghe gaming, tai nghe chụpXuất xứ: MỹThương hiệu: CorsairTính năng: Chống ồnKết nối: Bluetooth",
@@ -535,7 +535,7 @@ namespace Accessories.Data.Migrations
                         {
                             Id = 21,
                             CategoryId = 2,
-                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 31, 4, 2, 37, 624, DateTimeKind.Unspecified).AddTicks(8553), new TimeSpan(0, 7, 0, 0, 0)),
+                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 31, 23, 5, 0, 252, DateTimeKind.Unspecified).AddTicks(5007), new TimeSpan(0, 7, 0, 0, 0)),
                             Description = "Không chỉ đẹp với thiết kế đèn LED RGB rực rỡ, tai nghe chơi game SoundMax AH-335 còn có kiểu dáng hiện đại, đeo lâu không mệt và chất âm đỉnh cao để cung cấp một không gian giải trí riêng cho mỗi game thủ.",
                             Image = "/image/product/hp4.png",
                             Information = "Loại tai nghe: Tai nghe gaming, tai nghe chụpXuất xứ: Trung QuốcThương hiệu: SoundMaxTính năng: Extra Bass™, Tương thích hoàn hảo với nhiều thiết bị, Chơi game, Chống ồn, Tích hợp Micro, Mic đàm thoạiKết nối: 3,5 mm",
@@ -548,7 +548,7 @@ namespace Accessories.Data.Migrations
                         {
                             Id = 22,
                             CategoryId = 3,
-                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 31, 4, 2, 37, 624, DateTimeKind.Unspecified).AddTicks(8555), new TimeSpan(0, 7, 0, 0, 0)),
+                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 31, 23, 5, 0, 252, DateTimeKind.Unspecified).AddTicks(5010), new TimeSpan(0, 7, 0, 0, 0)),
                             Description = "Hãy mở ra tầm nhìn chuyên nghiệp trên bàn làm việc của bạn với sự hỗ trợ của màn hình Dell P2422H. Sản phẩm có kích cỡ hiển thị 23.8 inch, có thiết kế mang hơi hướng thời trang và thanh lịch, với công nghệ ComfortView Plus đem lại trải nghiệm thân thiện với mắt.",
                             Image = "/image/product/moni1.png",
                             Information = "Màn hình: Màn hình phẳng, 23.8 inch, 1920 x 1080 Pixels, FHD, 250 nits, IPSXuất xứ: Trung QuốcThương hiệu: DellTần số quét: 60 HzCổng kết nối: 4 USB 3.2 Gen 1, 1 VGA, 1 DisplayPort 1.2, 1 HDMI 1.4, 1 USB 3.0Góc nhìn: 178°(Dọc) / 178°(Ngang)",
@@ -561,13 +561,54 @@ namespace Accessories.Data.Migrations
                         {
                             Id = 23,
                             CategoryId = 3,
-                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 31, 4, 2, 37, 624, DateTimeKind.Unspecified).AddTicks(8556), new TimeSpan(0, 7, 0, 0, 0)),
+                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 31, 23, 5, 0, 252, DateTimeKind.Unspecified).AddTicks(5014), new TimeSpan(0, 7, 0, 0, 0)),
                             Description = "Nếu bạn đang kiếm tìm một mẫu màn hình 21.5 inch chất lượng tốt để dùng trong gia đình hoặc văn phòng, đừng bỏ qua sự lựa chọn ưu việt như Viewsonic VA2215-H. Sản phẩm được trang bị công nghệ Eyecare bảo vệ mắt, hỗ trợ chế độ tiêu thụ năng lượng thấp, ghi nhận tần số quét 75Hz và sử dụng cổng đầu vào HDMI cùng VGA.",
                             Image = "/image/product/moni2.png",
                             Information = "Màn hình: 21.5 inch, 1920 x 1080 Pixels, FHD, 250 nits, VAXuất xứ: Trung QuốcThương hiệu: ViewsonicTần số quét: 75 HzCổng kết nối: HDMI, VGAGóc nhìn: 178°(Dọc) / 178°(Ngang)",
                             IsActive = true,
                             Name = "Màn hình Viewsonic VA2215-H/22 inch/FHD(1920 x 1080)/75Hz",
                             Price = 2390000,
+                            Unit = "đ"
+                        },
+                        new
+                        {
+                            Id = 24,
+                            CategoryId = 5,
+                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 31, 23, 5, 0, 252, DateTimeKind.Unspecified).AddTicks(5017), new TimeSpan(0, 7, 0, 0, 0)),
+                            Description = "",
+                            Image = "/image/product/kb1.png",
+                            Information = "Model: GT-015DKXuất xứ: Trung QuốcThương hiệu: ZadezLoại: Bàn phím cơ, bàn phím gaming",
+                            IsActive = true,
+                            Name = "Bàn phím cơ không dây Zadez GT-015DK",
+                            Price = 1490000,
+                            Unit = "đ"
+                        },
+                        new
+                        {
+                            Id = 25,
+                            CategoryId = 5,
+                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 31, 23, 5, 0, 252, DateTimeKind.Unspecified).AddTicks(5020), new TimeSpan(0, 7, 0, 0, 0)),
+                            Description = "Nếu bạn muốn có những phút giây chơi game đỉnh cao nhất, bàn phím cơ Corsair K60 RGB Pro SE sẽ là một thành phần không thể thiếu trong dàn PC của bạn. Với switch hàng đầu của Cherry, những thao tác của bạn sẽ luôn được thực thi một cách chính xác nhất.",
+                            Image = "/image/product/kb2.png",
+                            Information = "Model: K60 Pro SEXuất xứ: Trung QuốcThương hiệu: CorsairLoại: Bàn phím cơ, bàn phím gaming",
+                            IsActive = true,
+                            Name = "Bàn phím cơ có dây Corsair K60 Pro SE ",
+                            Price = 2511000,
+                            PriceOrigin = 2790000,
+                            Unit = "đ"
+                        },
+                        new
+                        {
+                            Id = 26,
+                            CategoryId = 5,
+                            CreatedDate = new DateTimeOffset(new DateTime(2022, 10, 31, 23, 5, 0, 252, DateTimeKind.Unspecified).AddTicks(5023), new TimeSpan(0, 7, 0, 0, 0)),
+                            Description = "Bàn phím cơ Corsair K60 Pro Red LED sẽ cải thiện trải nghiệm chơi game của bạn với Viola Switch đến từ Cherry. Ngoài ra, sản phẩm còn sở hữu khung nhôm chắc chắn và đèn nền LED đỏ sống động.",
+                            Image = "/image/product/kb3.png",
+                            Information = "Model: K60 ProXuất xứ: Trung QuốcThương hiệu: CorsairLoại: Bàn phím cơ, bàn phím gaming",
+                            IsActive = true,
+                            Name = "Bàn phím cơ có dây Corsair K60 PRO ",
+                            Price = 2050000,
+                            PriceOrigin = 2490000,
                             Unit = "đ"
                         });
                 });

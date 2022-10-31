@@ -468,7 +468,58 @@ namespace Accessories.Data.Context
                     "Góc nhìn: 178°(Dọc) / 178°(Ngang)",
                      Description = "Nếu bạn đang kiếm tìm một mẫu màn hình 21.5 inch chất lượng tốt để dùng trong gia đình hoặc văn phòng, đừng bỏ qua sự lựa chọn ưu việt như Viewsonic VA2215-H. Sản phẩm được trang bị công nghệ Eyecare bảo vệ mắt, hỗ trợ chế độ tiêu thụ năng lượng thấp, ghi nhận tần số quét 75Hz và sử dụng cổng đầu vào HDMI cùng VGA.",
                      IsActive = true
-                 }
+                 },
+                 new ProductEntity
+                 {
+                     Id = 24,
+                     Name = "Bàn phím cơ không dây Zadez GT-015DK",
+                     Price = 1490000,
+                     PriceOrigin = null,
+                     Unit = "đ",
+                     CreatedDate = DateTimeOffset.Now,
+                     CategoryId = 5,
+                     Image = "/image/product/kb1.png",
+                     Information = "Model: GT-015DK" +
+                    "Xuất xứ: Trung Quốc" +
+                    "Thương hiệu: Zadez" +
+                    "Loại: Bàn phím cơ, bàn phím gaming",
+                     Description = "",
+                     IsActive = true
+                 },
+                  new ProductEntity
+                  {
+                      Id = 25,
+                      Name = "Bàn phím cơ có dây Corsair K60 Pro SE ",
+                      Price = 2511000,
+                      PriceOrigin = 2790000,
+                      Unit = "đ",
+                      CreatedDate = DateTimeOffset.Now,
+                      CategoryId = 5,
+                      Image = "/image/product/kb2.png",
+                      Information = "Model: K60 Pro SE" +
+                    "Xuất xứ: Trung Quốc" +
+                    "Thương hiệu: Corsair" +
+                    "Loại: Bàn phím cơ, bàn phím gaming",
+                      Description = "Nếu bạn muốn có những phút giây chơi game đỉnh cao nhất, bàn phím cơ Corsair K60 RGB Pro SE sẽ là một thành phần không thể thiếu trong dàn PC của bạn. Với switch hàng đầu của Cherry, những thao tác của bạn sẽ luôn được thực thi một cách chính xác nhất.",
+                      IsActive = true
+                  },
+                  new ProductEntity
+                  {
+                      Id = 26,
+                      Name = "Bàn phím cơ có dây Corsair K60 PRO ",
+                      Price = 2050000,
+                      PriceOrigin = 2490000,
+                      Unit = "đ",
+                      CreatedDate = DateTimeOffset.Now,
+                      CategoryId = 5,
+                      Image = "/image/product/kb3.png",
+                      Information = "Model: K60 Pro" +
+                    "Xuất xứ: Trung Quốc" +
+                    "Thương hiệu: Corsair" +
+                    "Loại: Bàn phím cơ, bàn phím gaming",
+                      Description = "Bàn phím cơ Corsair K60 Pro Red LED sẽ cải thiện trải nghiệm chơi game của bạn với Viola Switch đến từ Cherry. Ngoài ra, sản phẩm còn sở hữu khung nhôm chắc chắn và đèn nền LED đỏ sống động.",
+                      IsActive = true
+                  }
             );
         }
         public DbSet<BillEntity> Bills { get; set; }
