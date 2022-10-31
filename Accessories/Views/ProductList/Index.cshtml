@@ -1,7 +1,5 @@
 ﻿@using System.Globalization;
 @using Accessories.Infrastructure.ViewModels;
-@using PagedList.Mvc;
-@model PagedList.IPagedList<ProductViewModel>
 <!DOCTYPE html>
 <html>
 <head>
@@ -55,10 +53,7 @@
 									<figcaption class="discover-caption" style="min-height:215px;">
 										<p class="discover-title" style="min-height:72px;">@item.Name</p>
 										<div class="price-div">
-											<p class="sale-price">@(item.Price.ToString("N0", new CultureInfo("is-IS")) + item.Unit)</p><p class="" style="text-decoration:line-through;color:black;">@(item.PriceOrigin != null ? item.PriceOrigin.Value.ToString("N0", new CultureInfo("is-IS")) + "đ" : "")</p>
-											<div class="stars">
-											</div>
-
+											<p class="sale-price">@(item.Price.ToString("N0", new CultureInfo("is-IS")) + item.Unit)</p><p class="" style="text-decoration:line-through;color:black;margin-left:15px;">@(item.PriceOrigin != null ? item.PriceOrigin.ToString("N0", new CultureInfo("is-IS")) + "đ" : "")</p>
 										</div>
 										
 									</figcaption>
@@ -76,9 +71,6 @@
 	</main>
 	<br />
 	<br />
-	<div class="col-md-6 col-lg-6 col-xs-6 col-sm-6 text-right">
-        Trang: @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) / @Model.PageCount
-    </div>
 	<script src="~/js/productlist/app.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>

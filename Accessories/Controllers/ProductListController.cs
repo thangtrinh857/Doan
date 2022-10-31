@@ -13,27 +13,21 @@ namespace Accessories.Controllers
         {
             _productService = productService;
         }
-        public async Task<IActionResult> Index(int? page)
+        public async Task<IActionResult> Index()
         {
-            if (page == null) page = 1; 
-            int pageSize = 8;
-            int pageNumber = (page ?? 1);
             var products = await _productService.GetAllProductsAsync();
-            return View(products.ToPagedList(pageNumber, pageSize));
+            return View(products);
         }
         [HttpGet]
-        public async Task<IActionResult> GetListProductsByCategoryId(int id, int? page)
+        public async Task<IActionResult> GetListProductsByCategoryId(int id)
         {
             //var user =await _userManager.GetUserAsync(User);
             //if(user == null)
             //{
             //    return Redirect("Identity/Account/Login");
             //}    
-            if (page == null) page = 1;
-            int pageSize = 8;
-            int pageNumber = (page ?? 1);
             var products = await _productService.GetProductsByCategoryIdAsync(id);
-            return View("Index", products.ToPagedList(pageNumber, pageSize));
+            return View("Index", products);
         }
     }
 }
