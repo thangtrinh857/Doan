@@ -139,3 +139,20 @@ C:\Users\TrinhDat\Documents\Doan (6)\Doan\Accessories.Infrastructure\obj\Debug\n
 C:\Users\TrinhDat\Documents\Doan (6)\Doan\Accessories.Infrastructure\obj\Debug\net6.0\Accessories.Infrastructure.pdb
 C:\Users\TrinhDat\Documents\Doan (6)\Doan\Accessories.Infrastructure\obj\Debug\net6.0\Accessories.Infrastructure.genruntimeconfig.cache
 C:\Users\TrinhDat\Documents\Doan (6)\Doan\Accessories.Infrastructure\obj\Debug\net6.0\ref\Accessories.Infrastructure.dll
+C:\Users\Admin\Source\Repos\Doan\Accessories.Infrastructure\bin\Debug\net6.0\Accessories.Infrastructure.deps.json
+C:\Users\Admin\Source\Repos\Doan\Accessories.Infrastructure\bin\Debug\net6.0\Accessories.Infrastructure.runtimeconfig.json
+C:\Users\Admin\Source\Repos\Doan\Accessories.Infrastructure\bin\Debug\net6.0\Accessories.Infrastructure.dll
+C:\Users\Admin\Source\Repos\Doan\Accessories.Infrastructure\bin\Debug\net6.0\Accessories.Infrastructure.pdb
+C:\Users\Admin\Source\Repos\Doan\Accessories.Infrastructure\bin\Debug\net6.0\Accessories.Domain.dll
+C:\Users\Admin\Source\Repos\Doan\Accessories.Infrastructure\bin\Debug\net6.0\Accessories.Domain.pdb
+C:\Users\Admin\Source\Repos\Doan\Accessories.Infrastructure\obj\Debug\net6.0\Accessories.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Admin\Source\Repos\Doan\Accessories.Infrastructure\obj\Debug\net6.0\Accessories.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Source\Repos\Doan\Accessories.Infrastructure\obj\Debug\net6.0\Accessories.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Admin\Source\Repos\Doan\Accessories.Infrastructure\obj\Debug\net6.0\Accessories.Infrastructure.AssemblyInfo.cs
+C:\Users\Admin\Source\Repos\Doan\Accessories.Infrastructure\obj\Debug\net6.0\Accessories.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Source\Repos\Doan\Accessories.Infrastructure\obj\Debug\net6.0\Accessories.Infrastructure.csproj.CopyComplete
+C:\Users\Admin\Source\Repos\Doan\Accessories.Infrastructure\obj\Debug\net6.0\Accessories.Infrastructure.dll
+C:\Users\Admin\Source\Repos\Doan\Accessories.Infrastructure\obj\Debug\net6.0\refint\Accessories.Infrastructure.dll
+C:\Users\Admin\Source\Repos\Doan\Accessories.Infrastructure\obj\Debug\net6.0\Accessories.Infrastructure.pdb
+C:\Users\Admin\Source\Repos\Doan\Accessories.Infrastructure\obj\Debug\net6.0\Accessories.Infrastructure.genruntimeconfig.cache
+C:\Users\Admin\Source\Repos\Doan\Accessories.Infrastructure\obj\Debug\net6.0\ref\Accessories.Infrastructure.dll

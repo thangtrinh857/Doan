@@ -19,21 +19,30 @@ namespace Accessories.ServicesAgent.Services.BillCommand
         {
         }
 
-        public async Task<bool> CreateBillAsync(int total, string responseApi,string userId)
+        public async Task<bool> CreateBillAsync(int total, string? responseApi,string userId)
         {
             var context = _dbContextFactory.CreateDbContext();
-            var bill = new BillEntity();
-            bill.Total = total;
-            bill.CreatedBy = userId;
-            bill.CreatedDate = DateTime.Now;
-            bill.UpdatedDate = DateTime.Now;
-            bill.UpdatedBy = userId;
-            bill.IsActive = true;
-            bill.ResponseAPI = responseApi;
-            var result = context.Bills.Add(bill);
-            if (result == null) return false;
-            await context.SaveChangesAsync();
-            return true;
+            var transaction = context.Database.BeginTransaction();
+            try
+            {
+                var bill = new BillEntity();
+                bill.Total = total;
+                bill.CreatedBy = userId;
+                bill.CreatedDate = DateTime.Now;
+                bill.UpdatedDate = DateTime.Now;
+                bill.UpdatedBy = userId;
+                bill.IsActive = true;
+                bill.ResponseAPI = responseApi;
+                var result = context.Bills.Add(bill);
+                await context.SaveChangesAsync();
+                transaction.Commit();
+                return true;
+            }
+            catch(Exception ex)
+            {
+                await transaction.RollbackAsync();   
+                return false;
+            }
         }
     }
 }

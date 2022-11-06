@@ -166,3 +166,24 @@ C:\Users\TrinhDat\Documents\Doan (6)\Doan\Accessories.ServicesAgent\obj\Debug\ne
 C:\Users\TrinhDat\Documents\Doan (6)\Doan\Accessories.ServicesAgent\obj\Debug\net6.0\Accessories.ServicesAgent.pdb
 C:\Users\TrinhDat\Documents\Doan (6)\Doan\Accessories.ServicesAgent\obj\Debug\net6.0\Accessories.ServicesAgent.genruntimeconfig.cache
 C:\Users\TrinhDat\Documents\Doan (6)\Doan\Accessories.ServicesAgent\obj\Debug\net6.0\ref\Accessories.ServicesAgent.dll
+C:\Users\Admin\Source\Repos\Doan\Accessories.ServicesAgent\bin\Debug\net6.0\Accessories.ServicesAgent.deps.json
+C:\Users\Admin\Source\Repos\Doan\Accessories.ServicesAgent\bin\Debug\net6.0\Accessories.ServicesAgent.runtimeconfig.json
+C:\Users\Admin\Source\Repos\Doan\Accessories.ServicesAgent\bin\Debug\net6.0\Accessories.ServicesAgent.dll
+C:\Users\Admin\Source\Repos\Doan\Accessories.ServicesAgent\bin\Debug\net6.0\Accessories.ServicesAgent.pdb
+C:\Users\Admin\Source\Repos\Doan\Accessories.ServicesAgent\bin\Debug\net6.0\Accessories.Data.dll
+C:\Users\Admin\Source\Repos\Doan\Accessories.ServicesAgent\bin\Debug\net6.0\Accessories.Domain.dll
+C:\Users\Admin\Source\Repos\Doan\Accessories.ServicesAgent\bin\Debug\net6.0\Accessories.Infrastructure.dll
+C:\Users\Admin\Source\Repos\Doan\Accessories.ServicesAgent\bin\Debug\net6.0\Accessories.Data.pdb
+C:\Users\Admin\Source\Repos\Doan\Accessories.ServicesAgent\bin\Debug\net6.0\Accessories.Domain.pdb
+C:\Users\Admin\Source\Repos\Doan\Accessories.ServicesAgent\bin\Debug\net6.0\Accessories.Infrastructure.pdb
+C:\Users\Admin\Source\Repos\Doan\Accessories.ServicesAgent\obj\Debug\net6.0\Accessories.ServicesAgent.csproj.AssemblyReference.cache
+C:\Users\Admin\Source\Repos\Doan\Accessories.ServicesAgent\obj\Debug\net6.0\Accessories.ServicesAgent.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Source\Repos\Doan\Accessories.ServicesAgent\obj\Debug\net6.0\Accessories.ServicesAgent.AssemblyInfoInputs.cache
+C:\Users\Admin\Source\Repos\Doan\Accessories.ServicesAgent\obj\Debug\net6.0\Accessories.ServicesAgent.AssemblyInfo.cs
+C:\Users\Admin\Source\Repos\Doan\Accessories.ServicesAgent\obj\Debug\net6.0\Accessories.ServicesAgent.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Source\Repos\Doan\Accessories.ServicesAgent\obj\Debug\net6.0\Accessories.ServicesAgent.csproj.CopyComplete
+C:\Users\Admin\Source\Repos\Doan\Accessories.ServicesAgent\obj\Debug\net6.0\Accessories.ServicesAgent.dll
+C:\Users\Admin\Source\Repos\Doan\Accessories.ServicesAgent\obj\Debug\net6.0\refint\Accessories.ServicesAgent.dll
+C:\Users\Admin\Source\Repos\Doan\Accessories.ServicesAgent\obj\Debug\net6.0\Accessories.ServicesAgent.pdb
+C:\Users\Admin\Source\Repos\Doan\Accessories.ServicesAgent\obj\Debug\net6.0\Accessories.ServicesAgent.genruntimeconfig.cache
+C:\Users\Admin\Source\Repos\Doan\Accessories.ServicesAgent\obj\Debug\net6.0\ref\Accessories.ServicesAgent.dll

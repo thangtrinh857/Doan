@@ -2537,19 +2537,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\TrinhDat\\.nuget\\packages\\": {}
+    "C:\\Users\\Admin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\TrinhDat\\Documents\\Doan (6)\\Doan\\Accessories.Domain\\Accessories.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\Source\\Repos\\Doan\\Accessories.Domain\\Accessories.Domain.csproj",
       "projectName": "Accessories.Domain",
-      "projectPath": "C:\\Users\\TrinhDat\\Documents\\Doan (6)\\Doan\\Accessories.Domain\\Accessories.Domain.csproj",
-      "packagesPath": "C:\\Users\\TrinhDat\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\TrinhDat\\Documents\\Doan (6)\\Doan\\Accessories.Domain\\obj\\",
+      "projectPath": "C:\\Users\\Admin\\Source\\Repos\\Doan\\Accessories.Domain\\Accessories.Domain.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Admin\\Source\\Repos\\Doan\\Accessories.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\TrinhDat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

@@ -93,7 +93,7 @@ namespace Accessories.Controllers
         [HttpPost]
         public async Task<IActionResult> CreateBill(int total, string userId)
         {
-            var result = await _billService.CreateBillAsync(total, "", userId);
+            var result = await _billService.CreateBillAsync(total, null, userId);
             if (!result) return Json(MessageConst.Message_Notice_Add_Fail);
             var cartProducts = await _cartProductService.GetCartProductsByUserIdAsync(userId);
             _cartProductService.ChangeStatusPaidProductByCart(cartProducts);
